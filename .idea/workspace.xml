@@ -1,0 +1,1822 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c0654240-547b-4656-8853-5b7df77b29c5" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/css/images/block_address.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/css/images/block_blockquote.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/css/images/block_div.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/css/images/block_h1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/css/images/block_h2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/css/images/block_h3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/css/images/block_h4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/css/images/block_h5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/css/images/block_h6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/css/images/block_p.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/css/images/block_pre.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/css/images/fck_anchor.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/css/images/fck_flashlogo.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/css/images/fck_hiddenfield.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/css/images/fck_pagebreak.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/css/images/fck_plugin.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/dialog/common/images/locked.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/dialog/common/images/reset.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/dialog/common/images/unlocked.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/dialog/fck_about/logo_fckeditor.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/dialog/fck_about/logo_fredck.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/dialog/fck_about/sponsors/spellchecker_net.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/dialog/fck_template/images/template1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/dialog/fck_template/images/template2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/dialog/fck_template/images/template3.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/filemanager/browser/default/images/ButtonArrow.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/filemanager/browser/default/images/Folder.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/filemanager/browser/default/images/Folder32.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/filemanager/browser/default/images/FolderOpened.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/filemanager/browser/default/images/FolderOpened32.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/filemanager/browser/default/images/FolderUp.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/filemanager/browser/default/images/icons/32/ai.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/filemanager/browser/default/images/icons/32/avi.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/filemanager/browser/default/images/icons/32/bmp.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/filemanager/browser/default/images/icons/32/cs.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/filemanager/browser/default/images/icons/32/default.icon.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/filemanager/browser/default/images/icons/32/dll.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/filemanager/browser/default/images/icons/32/doc.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/filemanager/browser/default/images/icons/32/exe.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/filemanager/browser/default/images/icons/32/fla.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/filemanager/browser/default/images/icons/32/gif.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/filemanager/browser/default/images/icons/32/htm.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/filemanager/browser/default/images/icons/32/html.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/filemanager/browser/default/images/icons/32/jpg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/filemanager/browser/default/images/icons/32/js.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/filemanager/browser/default/images/icons/32/mdb.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/filemanager/browser/default/images/icons/32/mp3.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/filemanager/browser/default/images/icons/32/pdf.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/filemanager/browser/default/images/icons/32/png.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/filemanager/browser/default/images/icons/32/ppt.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/filemanager/browser/default/images/icons/32/rdp.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/filemanager/browser/default/images/icons/32/swf.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/filemanager/browser/default/images/icons/32/swt.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/filemanager/browser/default/images/icons/32/txt.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/filemanager/browser/default/images/icons/32/vsd.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/filemanager/browser/default/images/icons/32/xls.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/filemanager/browser/default/images/icons/32/xml.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/filemanager/browser/default/images/icons/32/zip.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/filemanager/browser/default/images/icons/ai.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/filemanager/browser/default/images/icons/avi.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/filemanager/browser/default/images/icons/bmp.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/filemanager/browser/default/images/icons/cs.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/filemanager/browser/default/images/icons/default.icon.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/filemanager/browser/default/images/icons/dll.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/filemanager/browser/default/images/icons/doc.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/filemanager/browser/default/images/icons/exe.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/filemanager/browser/default/images/icons/fla.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/filemanager/browser/default/images/icons/gif.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/filemanager/browser/default/images/icons/htm.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/filemanager/browser/default/images/icons/html.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/filemanager/browser/default/images/icons/jpg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/filemanager/browser/default/images/icons/js.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/filemanager/browser/default/images/icons/mdb.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/filemanager/browser/default/images/icons/mp3.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/filemanager/browser/default/images/icons/pdf.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/filemanager/browser/default/images/icons/png.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/filemanager/browser/default/images/icons/ppt.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/filemanager/browser/default/images/icons/rdp.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/filemanager/browser/default/images/icons/swf.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/filemanager/browser/default/images/icons/swt.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/filemanager/browser/default/images/icons/txt.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/filemanager/browser/default/images/icons/vsd.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/filemanager/browser/default/images/icons/xls.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/filemanager/browser/default/images/icons/xml.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/filemanager/browser/default/images/icons/zip.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/filemanager/browser/default/images/spacer.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/images/anchor.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/images/arrow_ltr.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/images/arrow_rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/images/smiley/msn/angel_smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/images/smiley/msn/angry_smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/images/smiley/msn/broken_heart.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/images/smiley/msn/cake.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/images/smiley/msn/confused_smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/images/smiley/msn/cry_smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/images/smiley/msn/devil_smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/images/smiley/msn/embaressed_smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/images/smiley/msn/envelope.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/images/smiley/msn/heart.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/images/smiley/msn/kiss.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/images/smiley/msn/lightbulb.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/images/smiley/msn/omg_smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/images/smiley/msn/regular_smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/images/smiley/msn/sad_smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/images/smiley/msn/shades_smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/images/smiley/msn/teeth_smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/images/smiley/msn/thumbs_down.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/images/smiley/msn/thumbs_up.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/images/smiley/msn/tounge_smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/images/smiley/msn/whatchutalkingabout_smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/images/smiley/msn/wink_smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/images/spacer.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/skins/default/fck_strip.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/skins/default/images/dialog.sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/skins/default/images/dialog.sides.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/skins/default/images/dialog.sides.rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/skins/default/images/sprites.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/skins/default/images/sprites.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/skins/default/images/toolbar.arrowright.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/skins/default/images/toolbar.buttonarrow.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/skins/default/images/toolbar.collapse.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/skins/default/images/toolbar.end.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/skins/default/images/toolbar.expand.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/skins/default/images/toolbar.separator.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/skins/default/images/toolbar.start.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/images/ajax_loader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/images/area_link.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/images/arrow.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/images/arrow_left.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/images/arrow_right.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/images/bg_repx.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/images/book_open.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/images/btn_close.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/images/btn_drop.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/images/btn_maximize.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/images/btn_minimize.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/images/button_bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/images/charts/MSColumn3D.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/images/charts/MSLine.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/images/charts/ScrollColumn2D.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/images/charts/bar.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/images/charts/column.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/images/charts/column3d.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/images/charts/line.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/images/charts/pie3d.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/images/charts/pipe.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/images/close.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/images/color_selecter.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/images/confirm.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/images/ecshop_logo.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/images/empty.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/images/filecheck.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/images/icon_account.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/images/icon_add.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/images/icon_copy.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/images/icon_docs.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/images/icon_drop.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/images/icon_edit.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/images/icon_js.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/images/icon_output.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/images/icon_priv.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/images/icon_search.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/images/icon_send_bonus.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/images/icon_title.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/images/icon_trash.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/images/icon_view.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/images/information.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/images/loader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/images/login.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/images/login_line.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/images/menu_arrow.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/images/menu_minus.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/images/menu_plus.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/images/no.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/images/notice.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/images/online.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/images/online.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/images/picflag.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/images/picnoflag.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/images/sort_asc.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/images/sort_desc.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/images/stepnum.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/images/th_bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/images/top_loader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/images/warning.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/images/warning_small.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/images/yes.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/04fb225ea46bd1346f330400eedb7ef2.jpg_small.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/10edbe1528c2eef0feb5a956410f5b3b.jpg_small.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/16ad561a77804f7c76b03462d852f5ef.jpg_small.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/176ef2fe9f642f292cd1f03fa12ad814.jpg_small.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/196b173f15685a2019ab3396cd1851a4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/1c8f6c1c8192d7fa5d3cc7f30d7db09c.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/1ce6ffadfcf5e45d7fbd86d46d0e90db.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/1d2dfbead590510046a6522551db8139.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/1dbc94fa0d60cba3990b89ccb01f82c2.jpg_small.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/1dbc94fa0d60cba3990b89ccb01f82c2.jpg_tiny.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/209abd835cd2ce2208f2dc42ba10efb4.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/21151da3bdefc6d9a7120c991fe59800.jpg_small.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/26247430b09daa1b441b46008bfb6e6e.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/2656c79dff5e988bc20d707d1a73a583.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/271b2785f67f6119332213367516a426.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/29269def49a5d57a24490b69b3312260.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/2dd23ee4eab519f1ab3492306039d888.jpg_small.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/33e9d8a94c644cd87ca97f7ced8024af.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/354b80528d2fbeefbab33c563532517e.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/365_7d5e08127b8d6799209674ecffbfc624.jpg_small.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/3f81874d594894d19150843c42fb1f8e.jpg_small.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/4148eb0114cca80333da1f6924856bba.jpg_small.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/4881e7d174693f1196e669b86643ddd8.jpg_small.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/49612054bdba0511da6eeb3a474abdee.jpg_small.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/4_5233a92224c35d12c2329f903b248247.jpg_small.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/4_7b5239c3f153ae4b67ff760f54408a5b.jpg_small.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/4_7b5239c3f153ae4b67ff760f54408a5b.jpg_tiny.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/4_cb2f7fb1e4fbe7e07f282c9d227b2776.jpg_small.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/52f831e8e55240c3f9d529976b88f8f0.jpg_small.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/5591c0054e33b3d86fbdadb536bb50a5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/57ec6dae05bcb152e946401f1327c17a.jpg_small.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/5c169228f0f4d8ad2cae5b132c2b269c.jpg_small.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/606a56dfbd9509033358ad8beb8ac631.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/60ade3674d042f47b1bce40ae42df2c8.jpg_small.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/65662b58848da87812ba371c7ff6c1ad.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/675e3c273601596996c7d9f56340c7ff.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/6d9d3912f417bb1cd5c77264e35a7431.jpeg_small.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/6e61a1c953e5bc8c5f1ffdac36862245.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/6f8ff741b6c12a2d6f9cce86eb6cf1ad.jpg_small.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/70cd400bc29f748ebde074e04f1ad081.jpeg_small.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/71f3651a995ef7a8d8bcc00dfe1fa018.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/75eb906e1b7a2f568f38517c3b338b76.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/7dbaaa6f5324cd4b7a3531dfc5ca810b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/7e6c4529c180781a4918728c59106a0d.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/7f7c874c8f3a4f3835c8fe0348b96600.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/822d3f8d9c9330f074a2eb993a92d5c5.jpg_small.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/84de815edad64024ae2e2c45979dc77e.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/84fcb7c4a35bd01af150ca5c0e068374.jpg_small.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/89a6d6466b00ae32d3c826b9ec639084.jpg_small.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/8cc68700c9e3fc1f6f01d4d065544558.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/911ebbce6dcce91a5855f025eb9d8df7.jpg_small.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/97caa4b287891a56f9434af1a5b71c82.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/984600f5e9d1a07163cbe01e7500ad11.jpg_small.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/9c5dee77a6ecdafd9e152fed8c6a4e90.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/a0ac8c6d2d3dc1470d5876923182a8e2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/a490e4e7242f80d4dcf4d7fa55f2b1d5.jpg_small.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/ac1d6b368d9a8b048b974186c8d467a9.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/allbg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/avatar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/b16a7e3f6731b29fbb6bd236d4c9d300.jpg_small.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/b175883eba95e793affb1b1ebbbf85a5.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/b3fa422271ee0e974af458a049ca7e77.jpg_small.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/bd32bd9949a93f96eeb7bf7fdc619361.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/c1360b427b816b5c7d6014b9704d4955 (1).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/c1cb7ee7bc9b9e4a13bb2d7cc488818b.jpg_small.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/c1fb24ddebc8e21251b6d43130320c6a.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/c2d7e0d98aab6f4f4f3c8639fe4b4722.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/c820846e7f95b467a4c5f86140b26c28.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/cart-empty-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/close.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/code.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/credit_smile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/d3f4b551af9621eca9dce6b742c66540.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/ddfcab24bd812c466788eeba587f4057.jpg_small.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/default_store_logo.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/e102c3d38990428473e4bc9961263ede_small.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/e2dfe57add8fff66ed0964b1effd39b9.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/e50b5d398e3b890f08e14defbc71a94d.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/e81345cbc3d8a7e11f9a0e09df68221d.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/e9c053b2f4273024dab81dce35bdedec.jpg_small.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/ea36f7ea0aff6af0a50674b1619f7702.jpg_small.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/ea64cc34f663159a68fde6872718541c.jpg_small.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/ed3755ac3f250e8a7be3c14343c67832.jpg_small.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/edbbe33a9dd3ca37861f4045e34edd5c.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/error.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/fdde88fceb45f66e35d9da05b23e3e40.jpg_small.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/group_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/hbg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/ico.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/img01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/img02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/img03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/img04.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/index.guanggao.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/index_bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/index_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/left.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/left.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/login_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/module_filter_line.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/nc_home_index.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/nc_home_index.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/nc_nav.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/nc_nav_shadow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/nc_search_btn.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/nc_sortbar.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/nc_topbar.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/ncus_public.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/ncus_repeat_x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/public.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/right.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/rmb.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/shoufa.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/step_chart.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/temp.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/text.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/tip-yellowsimple_arrows.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/web-1-11_f3acb5954fbdeef69591fd5a84ac3adb.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/web-1-13_53bfbfc958cb55a435545033bd075bf3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/web-1-18_4c91b4889516f10059e6ccf921542323.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/web-2-21_82132e2a55300f4e3a32be07af077d63.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/web-2-28_9f2f7dcad3049df7450cecd179e142d8.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/web-3-31_ebd488bcb4e1e97798cc0528135fbdd6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/web-3-38_ff9bd2d724f7138cec1b1937000f4feb.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/web-4-41_aa1184ab1026c95ec8cc3c6f8c282287.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/web-4-48_cce6e8b8852046a712028b85f99bfe20.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Verify/bgs/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Verify/bgs/2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Verify/bgs/3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Verify/bgs/4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Verify/bgs/5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Verify/bgs/6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Verify/bgs/7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Verify/bgs/8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Verify/ttfs/1.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Verify/ttfs/2.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Verify/ttfs/3.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Verify/ttfs/4.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Verify/ttfs/5.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Verify/ttfs/6.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Verify/zhttfs/1.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Uploads/2016-12-01/583f8035f0a2c.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Uploads/2016-12-01/583f8142bae81.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Uploads/2016-12-01/583f814d9fe10.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Uploads/2016-12-01/583f81548b7ac.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Uploads/2016-12-01/583f81fc68ac8.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Uploads/2016-12-01/583f82b7964fb.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Uploads/2016-12-01/583f8375d777a.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Uploads/2016-12-01/583f83b57787a.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Uploads/2016-12-02/5840cf7de63ea.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Uploads/2016-12-07/5847fd75efb57.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Uploads/2016-12-07/5847fe3b084e8.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Uploads/2016-12-09/584a11332f7dd.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Uploads/2016-12-10/'.thumb_'.584bd335db1a2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Uploads/2016-12-10/.thumb_.584bd39c128c4.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Uploads/2016-12-10/584b70a49d48c.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Uploads/2016-12-10/584b7171a0090.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Uploads/2016-12-10/584b738599641.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Uploads/2016-12-10/584bcfe49a4ae.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Uploads/2016-12-10/584bd00c0729c.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Uploads/2016-12-10/584bd0724fe6e.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Uploads/2016-12-10/584bd09e72934.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Uploads/2016-12-10/584bd0d9315e1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Uploads/2016-12-10/584bd129056e5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Uploads/2016-12-10/584bd154be90d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Uploads/2016-12-10/584bd196256a6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Uploads/2016-12-10/584bd1d728b4a.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Uploads/2016-12-10/584bd24f916ec.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Uploads/2016-12-10/584bd270491d2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Uploads/2016-12-10/584bd2e6a816e.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Uploads/2016-12-10/584bd31cec895.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Uploads/2016-12-10/584bd335db1a2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Uploads/2016-12-10/584bd39c128c4.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.htaccess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/shop.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Common/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Conf/config.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Controller/AttributeController.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Controller/BaseController.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Controller/BrandController.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Controller/CategoryController.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Controller/GoodsController.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Controller/GoodsTypeController.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Controller/IndexController.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Controller/LoginController.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Model/AdminModel.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Model/AttributeModel.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Model/BrandModel.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Model/CategoryModel.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Model/GoodsModel.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Model/GoodsTypeModel.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/css/behaviors/disablehandles.htc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/css/behaviors/showtableborders.htc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/css/fck_editorarea.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/css/fck_internal.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/css/fck_showtableborders_gecko.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/dialog/common/fck_dialog_common.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/dialog/common/fck_dialog_common.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/dialog/fck_UpFileBtn.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/dialog/fck_UpFileBtn/fck_UpFileBtn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/dialog/fck_about.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/dialog/fck_anchor.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/dialog/fck_button.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/dialog/fck_checkbox.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/dialog/fck_colorselector.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/dialog/fck_docprops.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/dialog/fck_docprops/fck_document_preview.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/dialog/fck_flash.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/dialog/fck_flash/fck_flash.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/dialog/fck_flash/fck_flash_preview.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/dialog/fck_form.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/dialog/fck_hiddenfield.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/dialog/fck_image.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/dialog/fck_image/fck_image.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/dialog/fck_image/fck_image_preview.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/dialog/fck_link.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/dialog/fck_link/fck_link.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/dialog/fck_listprop.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/dialog/fck_paste.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/dialog/fck_radiobutton.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/dialog/fck_replace.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/dialog/fck_select.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/dialog/fck_select/fck_select.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/dialog/fck_smiley.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/dialog/fck_source.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/dialog/fck_specialchar.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/dialog/fck_spellerpages.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/dialog/fck_spellerpages/spellerpages/blank.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/dialog/fck_spellerpages/spellerpages/controlWindow.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/dialog/fck_spellerpages/spellerpages/controls.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/dialog/fck_spellerpages/spellerpages/server-scripts/spellchecker.cfm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/dialog/fck_spellerpages/spellerpages/server-scripts/spellchecker.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/dialog/fck_spellerpages/spellerpages/server-scripts/spellchecker.pl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/dialog/fck_spellerpages/spellerpages/spellChecker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/dialog/fck_spellerpages/spellerpages/spellchecker.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/dialog/fck_spellerpages/spellerpages/spellerStyle.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/dialog/fck_spellerpages/spellerpages/wordWindow.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/dialog/fck_table.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/dialog/fck_tablecell.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/dialog/fck_template.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/dialog/fck_textarea.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/dialog/fck_textfield.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/dtd/fck_dtd_test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/dtd/fck_xhtml10strict.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/dtd/fck_xhtml10transitional.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/fckdebug.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/fckdialog.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/fckeditor.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/fckeditor.original.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/filemanager/browser/default/browser.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/filemanager/browser/default/browser.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/filemanager/browser/default/frm.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/filemanager/browser/default/frmactualfolder.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/filemanager/browser/default/frmcreatefolder.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/filemanager/browser/default/frmfolders.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/filemanager/browser/default/frmresourceslist.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/filemanager/browser/default/frmresourcetype.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/filemanager/browser/default/frmupload.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/filemanager/browser/default/js/common.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/filemanager/browser/default/js/fckxml.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/filemanager/connectors/php/.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/filemanager/connectors/php/_more.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/filemanager/connectors/php/basexml.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/filemanager/connectors/php/commands.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/filemanager/connectors/php/config.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/filemanager/connectors/php/connector.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/filemanager/connectors/php/io.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/filemanager/connectors/php/phpcompat.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/filemanager/connectors/php/upload.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/filemanager/connectors/php/upload_more.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/filemanager/connectors/php/util.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/js/fckadobeair.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/js/fckeditorcode_gecko.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/js/fckeditorcode_ie.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/lang/en.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/lang/zh-cn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/lang/zh.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/skins/default/fck_dialog.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/skins/default/fck_dialog_ie6.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/editor/skins/default/fck_editor.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/fckconfig.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/fckeditor.cfc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/fckeditor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/fckeditor.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/fckeditor_php4.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/fckeditor_php5.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/fckpackager.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/fckstyles.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/fcktemplates.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/fckeditor/license.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/js/colorselector.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/js/colorselector_topic.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/js/common.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/js/global.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/js/listtable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/js/md5.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/js/selectbox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/js/selectzone.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/js/tab.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/js/todolist.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/js/topbar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/js/transport.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/js/utils.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/js/validator.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/styles/general.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Public/styles/main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/View/Attribute/attribute_add.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/View/Attribute/attribute_edit.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/View/Attribute/attribute_index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/View/Brand/brand_add.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/View/Brand/brand_edit.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/View/Brand/brand_index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/View/Category/cat_add.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/View/Category/cat_edit.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/View/Category/cat_index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/View/Goods/goods_add.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/View/Goods/goods_edit.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/View/Goods/goods_index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/View/GoodsType/type_add.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/View/GoodsType/type_edit.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/View/GoodsType/type_index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/View/Index/drag.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/View/Index/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/View/Index/main.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/View/Index/menu.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/View/Index/top.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/View/Login/login.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Common/Common/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Common/Conf/config.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Common/Conf/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Common/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Home/Common/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Home/Conf/config.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Home/Conf/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Home/Controller/BaseController.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Home/Controller/GoodsController.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Home/Controller/IndexController.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Home/Controller/ListController.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Home/Model/CategoryModel.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Home/Model/GoodsModel.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Home/View/Goods/goods.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Home/View/Index/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Home/View/List/list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Home/View/public/header.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/01347a907ea3b33a822e4505076c5963.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/0dfec61edd66f450033aa87c28a760f4.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/0fcfdbb52b8f2e36ce82d61be2db9265.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/2ea9108623069f9af4643fdbc85446c9.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/4bb4e4348b2956c17e76b8e9bfd23ae1.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/5f62cf3ecb66a47dcb1a9b7512abfb3d.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/6715c248676760be6f301e39abf37ea3.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/685eb64a84bd80ce6670a95a7a30a659.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/6c9ab13bc4f3f01e16e7d8f34cb762b1.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/81aae3ff9f4b7a349e66956e77f92bd0.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/85056c1785e06cd7447028055dc5e43b.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/85ccb53b04da278fd27edcc1d620c244.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/9565800db338b186b90e85da70dcb484.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/b0f0b709690a72033d17719e8059053c.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/b2c29b30bc18bdfd2105034bdc7f61bb.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/b71ec61a33b751284e371fb5a05f504d.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/bd853f6ba0e46426813ab3345360a108.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/bdb24232b8dcb412d439a202b1caa9a5.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/c335a6f5b5cec23880de4eb7031ea015.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/f7d706ad86c1ad2300b11ad854befd30.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/fbdf667668bd8d8e2f3e613591bf802c.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Home/05fc0c36848cf96632ce42320b4e2576.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Home/103ad514d34e98125d7e96e257e08639.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Home/8d937eb967916a6c963cd31890b9c56c.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Runtime/Cache/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Runtime/Data/_fields/shopcz.cz_admin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Runtime/Data/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Runtime/Logs/Admin/16_11_29.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Runtime/Logs/Admin/16_11_30.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Runtime/Logs/Admin/16_12_01.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Runtime/Logs/Admin/16_12_02.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Runtime/Logs/Admin/16_12_03.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Runtime/Logs/Admin/16_12_04.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Runtime/Logs/Admin/16_12_05.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Runtime/Logs/Admin/16_12_07.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Runtime/Logs/Admin/16_12_08.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Runtime/Logs/Admin/16_12_09.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Runtime/Logs/Admin/16_12_10.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Runtime/Logs/Admin/16_12_11.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Runtime/Logs/Admin/16_12_12.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Runtime/Logs/Admin/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Runtime/Logs/Home/16_11_29.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Runtime/Logs/Home/16_12_08.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Runtime/Logs/Home/16_12_09.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Runtime/Logs/Home/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Runtime/Logs/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Runtime/Temp/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Runtime/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/css/base.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/css/global.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/css/login-register.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/css/shop_common.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/css/shop_common.css.bak" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/css/shop_form.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/css/shop_goodPic.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/css/shop_goods.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/css/shop_gouwuche.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/css/shop_header.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/css/shop_header.css.bak" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/css/shop_home.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/css/shop_list.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/css/shop_manager.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/css/shop_shdz_835.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/home_index.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/jquery.KinSlideshow.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/jquery.accordion.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/jquery.cookie.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/jquery.lazyload.mini.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/jquery.ui.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/jquery.validation.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/layout.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/js/163css.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/js/focus.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/js/jquery-1.11.2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/js/jquery.goodnums.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/js/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/js/lib.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/js/shop_goodPic_base.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/js/shop_goods.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/js/shop_goods_tab.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/js/shop_gouwuche.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/js/shop_home_tab.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/js/shop_list.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/js/topNav.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Common/build.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Common/functions.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Conf/Mode/common.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Conf/Mode/sae.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Conf/convention.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Conf/convention_sae.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Conf/debug.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Lang/en-us.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Lang/pt-br.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Lang/zh-cn.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Lang/zh-tw.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Behavior/AgentCheckBehavior.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Behavior/BorisBehavior.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Behavior/BrowserCheckBehavior.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Behavior/BuildLiteBehavior.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Behavior/CheckActionRouteBehavior.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Behavior/CheckLangBehavior.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Behavior/ChromeShowPageTraceBehavior.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Behavior/ContentReplaceBehavior.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Behavior/CronRunBehavior.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Behavior/FireShowPageTraceBehavior.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Behavior/ParseTemplateBehavior.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Behavior/ReadHtmlCacheBehavior.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Behavior/RobotCheckBehavior.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Behavior/ShowPageTraceBehavior.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Behavior/ShowRuntimeBehavior.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Behavior/TokenBuildBehavior.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Behavior/UpgradeNoticeBehavior.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Behavior/WriteHtmlCacheBehavior.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Org/Net/Http.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Org/Net/IpLocation.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Org/Util/ArrayList.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Org/Util/CodeSwitch.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Org/Util/Date.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Org/Util/Rbac.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Org/Util/Stack.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Org/Util/String.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/App.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Auth.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Behavior.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Build.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Cache.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Cache/Driver/Apachenote.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Cache/Driver/Apc.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Cache/Driver/Db.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Cache/Driver/Eaccelerator.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Cache/Driver/File.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Cache/Driver/Memcache.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Cache/Driver/Memcached.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Cache/Driver/Memcachesae.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Cache/Driver/Shmop.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Cache/Driver/Sqlite.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Cache/Driver/Wincache.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Cache/Driver/Xcache.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Controller.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Controller/HproseController.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Controller/JsonRpcController.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Controller/RestController.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Controller/RpcController.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Controller/YarController.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Crypt.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Crypt/Driver/Base64.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Crypt/Driver/Crypt.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Crypt/Driver/Des.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Crypt/Driver/Think.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Crypt/Driver/Xxtea.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Db.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Db/Driver/Ibase.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Db/Driver/Mongo.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Db/Driver/Mssql.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Db/Driver/Mysqli.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Db/Driver/Oracle.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Db/Driver/Pdo.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Db/Driver/Pgsql.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Db/Driver/Sqlite.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Db/Driver/Sqlsrv.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Dispatcher.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Exception.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Hook.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Image.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Image/Driver/GIF.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Image/Driver/Gd.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Image/Driver/Imagick.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Log.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Log/Driver/File.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Log/Driver/Sae.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Model.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Model/AdvModel.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Model/MongoModel.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Model/RelationModel.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Model/ViewModel.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Page.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Route.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Session/Driver/Db.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Storage.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Storage/Driver/File.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Storage/Driver/Sae.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Template.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Template/Driver/Ease.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Template/Driver/Lite.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Template/Driver/Mobile.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Template/Driver/Smart.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Template/Driver/Smarty.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Template/TagLib.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Template/TagLib/Cx.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Template/TagLib/Html.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Think.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Upload.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Upload/Driver/Bcs.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Upload/Driver/Bcs/bcs.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Upload/Driver/Bcs/mimetypes.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Upload/Driver/Bcs/requestcore.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Upload/Driver/Ftp.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Upload/Driver/Local.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Upload/Driver/Qiniu.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Upload/Driver/Qiniu/QiniuStorage.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Upload/Driver/Sae.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Upload/Driver/Upyun.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Verify.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/View.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Boris/Boris.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Boris/CLIOptionsHandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Boris/ColoredInspector.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Boris/Config.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Boris/DumpInspector.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Boris/EvalWorker.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Boris/ExportInspector.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Boris/Inspector.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Boris/ReadlineClient.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Boris/ShallowParser.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/EaseTemplate/template.core.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/EaseTemplate/template.ease.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Hprose/HproseClassManager.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Hprose/HproseClient.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Hprose/HproseCommon.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Hprose/HproseFormatter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Hprose/HproseHttpClient.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Hprose/HproseHttpServer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Hprose/HproseIO.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Hprose/HproseIOStream.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Hprose/HproseReader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Hprose/HproseTags.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Hprose/HproseWriter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/README.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/SmartTemplate/class.smarttemplate.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/SmartTemplate/class.smarttemplatedebugger.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/SmartTemplate/class.smarttemplateparser.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/Smarty.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/SmartyBC.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/debug.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/block.textformat.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/function.counter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/function.cycle.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/function.fetch.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/function.html_checkboxes.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/function.html_image.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/function.html_options.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/function.html_radios.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/function.html_select_date.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/function.html_select_time.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/function.html_table.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/function.mailto.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/function.math.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/modifier.capitalize.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/modifier.date_format.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/modifier.debug_print_var.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/modifier.escape.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/modifier.regex_replace.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/modifier.replace.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/modifier.spacify.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/modifier.truncate.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/modifiercompiler.cat.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/modifiercompiler.count_characters.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/modifiercompiler.count_paragraphs.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/modifiercompiler.count_sentences.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/modifiercompiler.count_words.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/modifiercompiler.default.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/modifiercompiler.escape.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/modifiercompiler.from_charset.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/modifiercompiler.indent.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/modifiercompiler.lower.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/modifiercompiler.noprint.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/modifiercompiler.string_format.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/modifiercompiler.strip.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/modifiercompiler.strip_tags.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/modifiercompiler.to_charset.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/modifiercompiler.unescape.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/modifiercompiler.upper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/modifiercompiler.wordwrap.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/outputfilter.trimwhitespace.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/shared.escape_special_chars.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/shared.literal_compiler_param.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/shared.make_timestamp.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/shared.mb_str_replace.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/shared.mb_unicode.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/shared.mb_wordwrap.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/plugins/variablefilter.htmlspecialchars.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_cacheresource.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_cacheresource_custom.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_cacheresource_keyvaluestore.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_config_source.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_cacheresource_file.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_append.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_assign.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_block.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_break.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_call.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_capture.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_config_load.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_continue.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_debug.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_eval.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_extends.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_for.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_foreach.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_function.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_if.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_include.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_include_php.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_insert.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_ldelim.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_nocache.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_private_block_plugin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_private_function_plugin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_private_modifier.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_private_object_block_function.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_private_object_function.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_private_print_expression.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_private_registered_block.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_private_registered_function.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_private_special_variable.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_rdelim.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_section.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_setfilter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compile_while.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_compilebase.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_config.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_config_file_compiler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_configfilelexer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_configfileparser.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_data.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_debug.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_filter_handler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_function_call_handler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_get_include_path.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_nocache_insert.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_parsetree.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_resource_eval.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_resource_extends.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_resource_file.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_resource_php.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_resource_registered.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_resource_stream.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_resource_string.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_smartytemplatecompiler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_templatebase.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_templatecompilerbase.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_templatelexer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_templateparser.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_utility.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_internal_write_file.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_resource.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_resource_custom.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_resource_recompiled.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_resource_uncompiled.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_security.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/TemplateLite/class.compiler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/TemplateLite/class.config.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/TemplateLite/class.template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/TemplateLite/internal/compile.compile_config.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/TemplateLite/internal/compile.compile_custom_block.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/TemplateLite/internal/compile.compile_custom_function.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/TemplateLite/internal/compile.compile_if.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/TemplateLite/internal/compile.generate_compiler_debug_output.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/TemplateLite/internal/compile.include.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/TemplateLite/internal/compile.parse_is_expr.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/TemplateLite/internal/compile.section_start.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/TemplateLite/internal/debug.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/TemplateLite/internal/template.build_dir.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/TemplateLite/internal/template.config_loader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/TemplateLite/internal/template.destroy_dir.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/TemplateLite/internal/template.fetch_compile_include.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/TemplateLite/internal/template.generate_debug_output.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/jsonRPC/jsonRPCClient.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/jsonRPC/jsonRPCServer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpRPC/bigint.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpRPC/compat.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpRPC/dhparams.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpRPC/dhparams/1024.dhp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpRPC/dhparams/128.dhp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpRPC/dhparams/1536.dhp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpRPC/dhparams/160.dhp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpRPC/dhparams/192.dhp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpRPC/dhparams/2048.dhp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpRPC/dhparams/256.dhp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpRPC/dhparams/3072.dhp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpRPC/dhparams/4096.dhp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpRPC/dhparams/512.dhp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpRPC/dhparams/768.dhp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpRPC/dhparams/96.dhp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpRPC/pecl/xxtea/CREDITS" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpRPC/pecl/xxtea/INSTALL" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpRPC/pecl/xxtea/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpRPC/pecl/xxtea/README" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpRPC/pecl/xxtea/config.m4" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpRPC/pecl/xxtea/config.w32" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpRPC/pecl/xxtea/php_xxtea.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpRPC/pecl/xxtea/php_xxtea.dsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpRPC/pecl/xxtea/php_xxtea.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpRPC/pecl/xxtea/php_xxtea.sln" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpRPC/pecl/xxtea/php_xxtea.vcproj" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpRPC/pecl/xxtea/test/test.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpRPC/pecl/xxtea/xxtea.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpRPC/pecl/xxtea/xxtea.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpRPC/phprpc_client.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpRPC/phprpc_date.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpRPC/phprpc_server.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/phpRPC/xxtea.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/spyc/COPYING" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/spyc/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/spyc/Spyc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/spyc/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/spyc/examples/yaml-dump.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/spyc/examples/yaml-load.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/spyc/php4/5to4.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/spyc/php4/spyc.php4" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/spyc/php4/test.php4" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/spyc/spyc.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/spyc/tests/DumpTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/spyc/tests/IndentTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/spyc/tests/ParseTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/spyc/tests/RoundTripTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/spyc/tests/comments.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/spyc/tests/failing1.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/spyc/tests/indent_1.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/spyc/tests/quotes.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Mode/Api/App.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Mode/Api/Controller.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Mode/Api/Dispatcher.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Mode/Api/functions.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Mode/Sae/convention.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Mode/api.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Mode/common.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Mode/sae.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/README.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/ThinkPHP.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Tpl/default_index.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Tpl/dispatch_jump.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Tpl/page_trace.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Tpl/think_exception.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.php" />
+    </list>
+    <ignored path="shop.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="shop" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="BrandController.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/BrandController.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1178">
+              <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IndexController.class.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/IndexController.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GoodsController.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/GoodsController.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1083">
+              <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseController.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/Home/Controller/BaseController.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+              <folding>
+                <element signature="e#6#84#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseController.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/BaseController.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginController.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/LoginController.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="646">
+              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="menu.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/Admin/View/Index/menu.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1045">
+              <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="top.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/Admin/View/Index/top.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2166">
+              <caret line="114" column="7" selection-start-line="114" selection-start-column="7" selection-end-line="114" selection-end-column="7" />
+              <folding>
+                <element signature="n#style#0;n#p#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdminModel.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/Admin/Model/AdminModel.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="513">
+              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Application/Admin/Conf/config.php" />
+        <option value="$PROJECT_DIR$/Application/Admin/Model/BrandModel.class.php" />
+        <option value="$PROJECT_DIR$/Application/Admin/View/Brand/brand_add.html" />
+        <option value="$PROJECT_DIR$/Application/Admin/View/Brand/brand_index.html" />
+        <option value="$PROJECT_DIR$/Application/Admin/View/Brand/brand_edit.html" />
+        <option value="$PROJECT_DIR$/Application/Admin/View/Category/cat_add.html" />
+        <option value="$PROJECT_DIR$/Application/Admin/View/Category/cat_index.html" />
+        <option value="$PROJECT_DIR$/Application/Admin/Model/CategoryModel.class.php" />
+        <option value="$PROJECT_DIR$/Application/Admin/View/Category/cat_edit.html" />
+        <option value="$PROJECT_DIR$/Application/Admin/Controller/CategoryController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Admin/Controller/TypeController.php" />
+        <option value="$PROJECT_DIR$/Application/Admin/Controller/TypeController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Admin/Model/GoodsTypeModel.php" />
+        <option value="$PROJECT_DIR$/Application/Admin/Model/GoodsTypeModel.class.php" />
+        <option value="$PROJECT_DIR$/Application/Admin/View/GoodsType/type_add.html" />
+        <option value="$PROJECT_DIR$/Application/Admin/View/GoodsType/type_edit.html" />
+        <option value="$PROJECT_DIR$/Application/Admin/Controller/GoodsTypeController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Admin/View/GoodsType/type_index.html" />
+        <option value="$PROJECT_DIR$/Application/Admin/View/Attribute/attribute_edit.html" />
+        <option value="$PROJECT_DIR$/Application/Admin/View/Attribute/attribute_index.html" />
+        <option value="$PROJECT_DIR$/Application/Admin/View/Attribute/attribute_add.html" />
+        <option value="$PROJECT_DIR$/Application/Admin/View/Index/menu.html" />
+        <option value="$PROJECT_DIR$/Application/Admin/View/Goods/goods_edit.html" />
+        <option value="$PROJECT_DIR$/Application/Admin/Controller/AttributeController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Admin/Model/AttributeModel.class.php" />
+        <option value="$PROJECT_DIR$/Application/Admin/View/Goods/goods_add.html" />
+        <option value="$PROJECT_DIR$/Application/Admin/Model/GoodsModel.class.php" />
+        <option value="$PROJECT_DIR$/Application/Home/Model/AttributeModel.class.php" />
+        <option value="$PROJECT_DIR$/Application/Home/Conf/config.php" />
+        <option value="$PROJECT_DIR$/Application/Admin/View/Goods/goods_index.html" />
+        <option value="$PROJECT_DIR$/Application/Home/Model/GoodsModel.class.php" />
+        <option value="$PROJECT_DIR$/Application/Home/Controller/GoodsController.php" />
+        <option value="$PROJECT_DIR$/Public/public/header.html" />
+        <option value="$PROJECT_DIR$/Application/Home/View/Index/index.html" />
+        <option value="$PROJECT_DIR$/Application/Home/View/Goods/goods.html" />
+        <option value="$PROJECT_DIR$/Application/Home/Controller/GoodsController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Home/Controller/IndexController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Home/View/public/header.html" />
+        <option value="$PROJECT_DIR$/Application/Home/Model/CategoryModel.class.php" />
+        <option value="$PROJECT_DIR$/Application/Home/Controller/ListController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Home/View/List/list.html" />
+        <option value="$PROJECT_DIR$/Application/Home/Controller/BaseController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Admin/index.html" />
+        <option value="$PROJECT_DIR$/Application/Admin/View/Index/index.html" />
+        <option value="$PROJECT_DIR$/Application/Admin/Controller/GoodsController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Admin/Model/AdminModel.class.php" />
+        <option value="$PROJECT_DIR$/Application/Admin/View/Index/top.html" />
+        <option value="$PROJECT_DIR$/Application/Admin/Controller/LoginController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Admin/Controller/BrandController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Admin/Controller/BaseController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Admin/Controller/IndexController.class.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpDebugGeneral" hide_empty_superglobals="false" />
+  <component name="PhpServers">
+    <servers>
+      <server host="localhost" id="74b5136c-6cce-41fb-84f4-7977857b2d07" name="localhost" port="8" />
+    </servers>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="PhpXdebugProxy" ide_key="phpStorm" host="localhost" port="8" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="width" value="1378" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ecshop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\appserv\www\shop\Application\Home\View\List" />
+      <recent name="D:\appserv\www\shop\Application\Home\View\Goods" />
+      <recent name="D:\appserv\www\shop\Application\Home\View" />
+      <recent name="D:\appserv\www\shop\Public" />
+      <recent name="D:\appserv\www\shop\Public\js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\appserv\www\shop\Application\Home\View" />
+      <recent name="D:\appserv\www\shop\Application\Home\View\Index" />
+      <recent name="D:\appserv\www\shop\Application\Admin\View\test" />
+    </key>
+  </component>
+  <component name="RunManager" selected="PHP Web Application.localhost">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" browser="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" server_name="localhost">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <configuration default="false" name="localhost" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" browser="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" server_name="localhost" start_url="/shop/index.php/admin/attribute/attributeIndex">
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="PHP Web Application.localhost" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c0654240-547b-4656-8853-5b7df77b29c5" name="Default" comment="" />
+      <created>1478519183686</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1478519183686</updated>
+      <workItem from="1478519185089" duration="39186000" />
+      <workItem from="1478861154920" duration="13623000" />
+      <workItem from="1478931201128" duration="26480000" />
+      <workItem from="1479040823296" duration="5612000" />
+      <workItem from="1479086151078" duration="28626000" />
+      <workItem from="1479170689226" duration="24816000" />
+      <workItem from="1479257681950" duration="2076000" />
+      <workItem from="1479261774732" duration="36039000" />
+      <workItem from="1479438414271" duration="12634000" />
+      <workItem from="1479519002306" duration="14918000" />
+      <workItem from="1479556630181" duration="424000" />
+      <workItem from="1479561915420" duration="15799000" />
+      <workItem from="1479709524828" duration="6320000" />
+      <workItem from="1479774904365" duration="16044000" />
+      <workItem from="1479862721482" duration="10676000" />
+      <workItem from="1479882481424" duration="4380000" />
+      <workItem from="1479947318093" duration="3962000" />
+      <workItem from="1480039044867" duration="2323000" />
+      <workItem from="1480122506945" duration="8761000" />
+      <workItem from="1480209989132" duration="11620000" />
+      <workItem from="1480296975463" duration="11767000" />
+      <workItem from="1480385808358" duration="7563000" />
+      <workItem from="1480466711997" duration="9310000" />
+      <workItem from="1480476161629" duration="24020000" />
+      <workItem from="1480644480961" duration="5123000" />
+      <workItem from="1480728329521" duration="15834000" />
+      <workItem from="1480815395573" duration="17231000" />
+      <workItem from="1480988432780" duration="18084000" />
+      <workItem from="1481117757999" duration="12000" />
+      <workItem from="1481160041996" duration="6496000" />
+      <workItem from="1481244828719" duration="13063000" />
+      <workItem from="1481333018443" duration="12271000" />
+      <workItem from="1481425503923" duration="2991000" />
+      <workItem from="1481506205532" duration="2155000" />
+      <workItem from="1481595449435" duration="50000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="430289000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="0" width="1378" height="744" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17602427" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19312602" sideWeight="0.50292826" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295082" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.120272316" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.533123" sideWeight="0.49707174" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33387887" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19312602" sideWeight="0.50292826" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962063" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.533123" sideWeight="0.49707174" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.120272316" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33387887" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Application/Admin/Controller/BrandController.class.php</url>
+          <line>12</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Application/Admin/Controller/BrandController.class.php</url>
+          <line>40</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Application/Admin/Controller/BrandController.class.php</url>
+          <line>105</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="12" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Category/cat_index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="35" column="83" selection-start-line="35" selection-start-column="83" selection-end-line="35" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/CategoryController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="999">
+          <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Brand/brand_add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="36" column="39" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/View/GoodsType/type_edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="21" column="71" selection-start-line="21" selection-start-column="71" selection-end-line="21" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Model/GoodsTypeModel.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/View/GoodsType/type_index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="36" column="74" selection-start-line="36" selection-start-column="74" selection-end-line="36" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/View/GoodsType/type_add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11">
+          <caret line="18" column="56" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/GoodsTypeController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="85" column="60" selection-start-line="85" selection-start-column="60" selection-end-line="85" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Attribute/attribute_edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Attribute/attribute_add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1349">
+          <caret line="71" column="51" selection-start-line="71" selection-start-column="51" selection-end-line="71" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Attribute/attribute_index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="85" column="60" selection-start-line="85" selection-start-column="60" selection-end-line="85" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/js/jquery-1.11.2.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Model/BrandModel.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="13" column="63" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Goods/goods_add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9139">
+          <caret line="481" column="53" selection-start-line="481" selection-start-column="53" selection-end-line="481" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Model/GoodsModel.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/AttributeController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="70" column="37" selection-start-line="70" selection-start-column="37" selection-end-line="70" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Goods/goods_edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="675" column="62" selection-start-line="675" selection-start-column="62" selection-end-line="675" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Model/AttributeModel.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="49" column="59" selection-start-line="49" selection-start-column="59" selection-end-line="49" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/Model/AttributeModel.class.php" />
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Conf/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/Conf/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Goods/goods_index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="87" column="74" selection-start-line="87" selection-start-column="74" selection-end-line="87" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/Model/GoodsModel.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="61" selection-start-line="15" selection-start-column="61" selection-end-line="15" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Goods/goods.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/public/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="134" column="48" selection-start-line="134" selection-start-column="48" selection-end-line="134" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/List/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/IndexController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/ListController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Model/CategoryModel.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="40" column="23" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/Model/CategoryModel.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/index.html" />
+    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/GoodsController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Runtime/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Index/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Index/drag.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Uploads/2016-12-10/584b738599641.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Index/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="54" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Index/menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1045">
+          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Model/AdminModel.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Index/top.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2166">
+          <caret line="114" column="7" selection-start-line="114" selection-start-column="7" selection-end-line="114" selection-end-column="7" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/LoginController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Uploads/2016-12-10/'.thumb_'.584bd335db1a2.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Uploads/2016-12-10/584b70a49d48c.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/BrandController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1178">
+          <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/BaseController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/GoodsController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1083">
+          <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/BaseController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding>
+            <element signature="e#6#84#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/IndexController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
