@@ -9,7 +9,7 @@
 	<script type="text/javascript" src="<?php echo (ADMIN_PUBLIC); ?>/js/selectzone.js"></script>
 	<script type="text/javascript" src="<?php echo (ADMIN_PUBLIC); ?>/js/colorselector.js"></script>
 	<script type="text/javascript" src="<?php echo (ADMIN_PUBLIC); ?>/js/calendar.php?lang="></script>
-	<script type="text/javascript" src="/shop/Public/js/jquery-1.11.2.min.js"></script>
+	<script type="text/javascript" src="/shop/ecshop/Public/js/jquery-1.11.2.min.js"></script>
 </head>
 <body>
 <h1>
@@ -32,7 +32,7 @@
 
     <!-- tab body -->
     <div id="tabbody-div">
-      <form enctype="multipart/form-data" action="/shop/index.php/Admin/Goods/goodsAdd" method="post" name="theForm">
+      <form enctype="multipart/form-data" action="/shop/ecshop/index.php/Admin/Goods/goodsAdd" method="post" name="theForm">
         <input type="hidden" name="MAX_FILE_SIZE" value="2097152">
 		 
 		 <!-- 通用信息 -->
@@ -529,7 +529,7 @@
 		var type_id = this.value;
 		$.ajax({
 			'type':"GET",
-			'url':'/shop/index.php/Admin/Attribute/getAttrs',
+			'url':'/shop/ecshop/index.php/Admin/Attribute/getAttrs',
 			'data': 'type_id='+type_id,//记得带等于号
 			'dataType' : 'html',
 			'success':function (msg) {

@@ -1,0 +1,604 @@
+[ 2016-12-14T11:53:07+08:00 ] ::1 /shop/ecshop/index.php/Admin/Goods/goodsedit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.032930s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014922s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015410s ]
+NOTIC: [8] Undefined index: admin D:\appserv\www\shop\ecshop\Application\Admin\Controller\BaseController.class.php 第 22 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000201s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000648s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.122005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.122501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010030s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010477s ]
+
+[ 2016-12-14T11:53:07+08:00 ] ::1 /shop/ecshop/index.php/Admin/Goods/goodedit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.032934s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015451s ]
+NOTIC: [8] Undefined index: admin D:\appserv\www\shop\ecshop\Application\Admin\Controller\BaseController.class.php 第 22 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000202s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000665s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018566s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019193s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001123s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001575s ]
+
+[ 2016-12-14T11:53:09+08:00 ] ::1 /shop/ecshop/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000103s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001740s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001915s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000453s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000973s ]
+NOTIC: [8] Undefined variable: random D:\appserv\www\shop\ecshop\Application\Runtime\Cache\Admin\0dfec61edd66f450033aa87c28a760f4.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.139743s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.140141s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000859s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001282s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.081880s ]
+INFO: [ app_end ] --END-- [ RunTime:0.082533s ]
+
+[ 2016-12-14T11:53:09+08:00 ] ::1 /shop/ecshop/index.php/Admin/Login/verifyCode/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001884s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002436s ]
+
+[ 2016-12-14T11:53:10+08:00 ] ::1 /shop/ecshop/index.php/Admin/Login/verifyCode/0.6383207289595043
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000097s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001456s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002028s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001716s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002220s ]
+
+[ 2016-12-14T11:53:26+08:00 ] ::1 /shop/ecshop/index.php/Admin/Login/verifyCode/0.8133845277575813
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001493s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002042s ]
+
+[ 2016-12-14T11:53:27+08:00 ] ::1 /shop/ecshop/index.php/Admin/Login/verifyCode/0.951716851140014
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000102s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001898s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002151s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001326s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001686s ]
+
+[ 2016-12-14T11:53:31+08:00 ] ::1 /shop/ecshop/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001940s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_admin` [ RunTime:0.247366s ]
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+SQL: SELECT * FROM `cz_admin` WHERE `admin_name` = 'admin' AND `password` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.018999s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000209s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000691s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019211s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019676s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001105s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001573s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001411s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001986s ]
+
+[ 2016-12-14T11:53:33+08:00 ] ::1 /shop/ecshop/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000101s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002074s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000207s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000658s ]
+NOTIC: [8] Undefined variable: shop_url D:\appserv\www\shop\ecshop\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 16 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056045s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056581s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000999s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001512s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001493s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001974s ]
+
+[ 2016-12-14T11:53:33+08:00 ] ::1 /shop/ecshop/index.php/Admin/Index/top1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004326s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000207s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000647s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057941s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058467s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001197s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001696s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001825s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002283s ]
+
+[ 2016-12-14T11:53:34+08:00 ] ::1 /shop/ecshop/index.php/Admin/Index/menu1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001641s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003765s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_role` [ RunTime:0.885947s ]
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+SQL: SELECT * FROM `cz_role` WHERE `role_id` = '1' LIMIT 1   [ RunTime:0.000729s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000336s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001675s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070119s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070617s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001163s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001702s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003175s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003704s ]
+
+[ 2016-12-14T11:53:34+08:00 ] ::1 /shop/ecshop/index.php/Admin/Index/drag1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000442s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001815s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000433s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044363s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044687s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000778s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001054s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001326s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001604s ]
+
+[ 2016-12-14T11:53:35+08:00 ] ::1 /shop/ecshop/index.php/Admin/Index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001792s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001866s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000203s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000749s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.411611s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.412131s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000967s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001453s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001659s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002170s ]
+
+[ 2016-12-14T11:58:21+08:00 ] ::1 /shop/ecshop/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000100s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007145s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007836s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000207s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000698s ]
+NOTIC: [8] Undefined variable: shop_url D:\appserv\www\shop\ecshop\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 16 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040311s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040902s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015460s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001682s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002322s ]
+
+[ 2016-12-14T11:58:22+08:00 ] ::1 /shop/ecshop/index.php/Admin/Index/menu1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006971s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002653s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_role` [ RunTime:0.003588s ]
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+SQL: SELECT * FROM `cz_role` WHERE `role_id` = '1' LIMIT 1   [ RunTime:0.000885s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000333s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000854s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023659s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024134s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001131s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001650s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001849s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002666s ]
+
+[ 2016-12-14T11:58:22+08:00 ] ::1 /shop/ecshop/index.php/Admin/Index/top1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001897s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000230s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000719s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019122s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019649s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001295s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001777s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001535s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001984s ]
+
+[ 2016-12-14T11:58:22+08:00 ] ::1 /shop/ecshop/index.php/Admin/Index/drag1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000132s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010578s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002220s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000220s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000712s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020234s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020787s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001226s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001725s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001760s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002287s ]
+
+[ 2016-12-14T11:58:22+08:00 ] ::1 /shop/ecshop/index.php/Admin/Index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000103s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010702s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001894s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002448s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000218s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000739s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022024s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022527s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001308s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001810s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001912s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002527s ]
+
+[ 2016-12-14T11:59:16+08:00 ] ::1 /shop/ecshop/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002107s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000303s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000785s ]
+NOTIC: [8] Undefined variable: shop_url D:\appserv\www\shop\ecshop\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 16 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018110s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018481s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000936s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001313s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001800s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002256s ]
+
+[ 2016-12-14T11:59:16+08:00 ] ::1 /shop/ecshop/index.php/Admin/Index/top1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000120s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001604s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002662s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000243s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000755s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033220s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033823s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004345s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004771s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004354s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005296s ]
+
+[ 2016-12-14T11:59:17+08:00 ] ::1 /shop/ecshop/index.php/Admin/Index/menu1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001920s ]
+INFO: [ app_init ] --END-- [ RunTime:0.020343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004939s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_role` [ RunTime:0.004033s ]
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+SQL: SELECT * FROM `cz_role` WHERE `role_id` = '1' LIMIT 1   [ RunTime:0.000780s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000339s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000846s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024636s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025150s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001537s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002165s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002566s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003175s ]
+
+[ 2016-12-14T11:59:17+08:00 ] ::1 /shop/ecshop/index.php/Admin/Index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000097s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009493s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016056s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000339s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001232s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020676s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021283s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000996s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001537s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001483s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001975s ]
+
+[ 2016-12-14T11:59:17+08:00 ] ::1 /shop/ecshop/index.php/Admin/Index/drag1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000103s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001807s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.024241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024773s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000221s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000856s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022823s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023285s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000891s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001315s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002166s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002632s ]
+
+[ 2016-12-14T17:34:36+08:00 ] ::1 /shop/ecshop/index.php/Admin/Goods/goodsAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000923s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001215s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_goods_type` [ RunTime:0.070776s ]
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+SQL: SELECT * FROM `cz_goods_type`  [ RunTime:0.001434s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.001268s ]
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000644s ]
+SQL: SHOW COLUMNS FROM `cz_brand` [ RunTime:0.038208s ]
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+SQL: SELECT * FROM `cz_brand`  [ RunTime:0.015104s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000470s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000770s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.114252s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.114740s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000978s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001267s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001816s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002231s ]
+
+[ 2016-12-14T17:34:38+08:00 ] ::1 /shop/ecshop/index.php/Admin/Goods/goodsIndex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001549s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_goods` [ RunTime:0.027417s ]
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+SQL: SELECT * FROM `cz_goods`  [ RunTime:0.000784s ]
+SQL: SHOW COLUMNS FROM `cz_brand` [ RunTime:0.001551s ]
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+SQL: SELECT * FROM `cz_brand`  [ RunTime:0.000427s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.018465s ]
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000546s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000181s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000404s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068482s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068803s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000729s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000946s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001214s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001515s ]
+
+[ 2016-12-14T17:34:40+08:00 ] ::1 /shop/ecshop/index.php/Admin/Goods/goodsAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000970s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001631s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_goods_type` [ RunTime:0.001073s ]
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+SQL: SELECT * FROM `cz_goods_type`  [ RunTime:0.000364s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.001258s ]
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000609s ]
+SQL: SHOW COLUMNS FROM `cz_brand` [ RunTime:0.001242s ]
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+SQL: SELECT * FROM `cz_brand`  [ RunTime:0.000402s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000637s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001132s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032067s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032303s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000947s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001250s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001482s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001904s ]
+

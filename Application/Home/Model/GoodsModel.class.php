@@ -16,4 +16,9 @@ class GoodsModel extends Model{
         return $this->where($condition)->order('goods_id desc')->limit(4)->select();
     }
 
+    public function getClothes(){
+        $condition['type_id'] = 26;
+        return $this->where($condition)->select();
+    }
+
 }

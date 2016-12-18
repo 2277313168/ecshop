@@ -11,20 +11,22 @@ use Think\Model;
 
 class CategoryModel extends Model{
 
-    public function treeArray($arr,$pid){
+    public function tree($arr, $pid)
+    {
         $res = array();
-        foreach ($arr as $v){
-            if($v['parent_id'] == $pid){
-                $v['child'] = $this->treeArray($arr,$v['cat_id']);
+        foreach ($arr as $v) {
+            if ($v['parent_id'] == $pid) {
+                $v['child'] = $this->tree($arr, $v['cat_id']);
                 $res[] = $v;
             }
         }
         return $res;
     }
 
-    public function catTreeArray(){
+    public function catTree()
+    {
         $catList = $this->select();
-        return $this->treeArray($catList,$pid=0);
+        return $this->tree($catList, $pid = 0);
     }
 
 

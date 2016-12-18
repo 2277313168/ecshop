@@ -10,6 +10,11 @@ class IndexController extends BaseController {
         $this->assign('bestGoods',$bestGoods);
         $this->assign('flag',true);
 
+
+        $clothesList = D('goods')->getClothes();
+        $this->assign('clothesList',$clothesList);
+
+
         $this->display("Index/index");
     }
 

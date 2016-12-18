@@ -46,11 +46,11 @@
 				<li class="explode" key="02_cat_and_goods" name="menu"> 商品管理        
 					<ul>
 						 
-						  <li class="menu-item"><a href="/shop/index.php/Admin/Category/catIndex" target="main-frame">商品分类</a></li>
-						  <li class="menu-item"><a href="/shop/index.php/Admin/Brand/brandIndex" target="main-frame">商品品牌</a></li>
-						  <li class="menu-item"><a href="/shop/index.php/Admin/GoodsType/typeIndex" target="main-frame">商品类型</a></li>
-						  <li class="menu-item"><a href="/shop/index.php/Admin/Goods/goodsAdd" target="main-frame">添加新商品</a></li>
-						  <li class="menu-item"><a href="/shop/index.php/Admin/Goods/goodsIndex" target="main-frame">商品列表</a></li>
+						  <li class="menu-item"><a href="/shop/ecshop/index.php/Admin/Category/catIndex" target="main-frame">商品分类</a></li>
+						  <li class="menu-item"><a href="/shop/ecshop/index.php/Admin/Brand/brandIndex" target="main-frame">商品品牌</a></li>
+						  <li class="menu-item"><a href="/shop/ecshop/index.php/Admin/GoodsType/typeIndex" target="main-frame">商品类型</a></li>
+						  <li class="menu-item"><a href="/shop/ecshop/index.php/Admin/Goods/goodsAdd" target="main-frame">添加新商品</a></li>
+						  <li class="menu-item"><a href="/shop/ecshop/index.php/Admin/Goods/goodsIndex" target="main-frame">商品列表</a></li>
 					</ul>
 				</li>
 

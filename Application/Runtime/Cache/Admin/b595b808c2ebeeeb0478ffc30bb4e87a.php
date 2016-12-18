@@ -5,11 +5,11 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
 <frameset rows="51,*" framespacing="0" border="0">
-  <frame src="/shop/index.php/Admin/Index/top1" id="header-frame" name="header-frame" frameborder="no" scrolling="no">
+  <frame src="/shop/ecshop/index.php/Admin/Index/top1" id="header-frame" name="header-frame" frameborder="no" scrolling="no">
   <frameset cols="180, 10, *" framespacing="0" border="0" id="frame-body">
-    <frame src="/shop/index.php/Admin/Index/menu1" id="menu-frame" name="menu-frame" frameborder="no" scrolling="yes">
-    <frame src="/shop/index.php/Admin/Index/drag1" id="drag-frame" name="drag-frame" frameborder="no" scrolling="no">
-    <frame src="/shop/index.php/Admin/Index/main" id="main-frame" name="main-frame" frameborder="no" scrolling="yes">
+    <frame src="/shop/ecshop/index.php/Admin/Index/menu1" id="menu-frame" name="menu-frame" frameborder="no" scrolling="yes">
+    <frame src="/shop/ecshop/index.php/Admin/Index/drag1" id="drag-frame" name="drag-frame" frameborder="no" scrolling="no">
+    <frame src="/shop/ecshop/index.php/Admin/Index/main" id="main-frame" name="main-frame" frameborder="no" scrolling="yes">
   </frameset>
 </frameset>
   <frameset rows="0, 0" framespacing="0" border="0">

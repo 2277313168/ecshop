@@ -1,0 +1,30 @@
+[ 2016-12-15T14:36:45+08:00 ] ::1 /shop/ecshop/index.php/Home/order/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000142s ]
+INFO: [ app_init ] --END-- [ RunTime:0.033216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013338s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.037117s ]
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.040962s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000475s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000838s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.217448s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.217715s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.013716s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013931s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.014021s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014244s ]
+

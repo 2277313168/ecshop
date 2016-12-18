@@ -24,8 +24,8 @@ define('APP_PATH','./Application/');
 // 绑定Admin模块到当前入口文件
 //define('BIND_MODULE','Admin');
 
-define('SITE_URL','http://localhost:8/shop');
-define('ADMIN_PUBLIC','http://localhost:8/shop/Application/Admin/Public');
+define('SITE_URL','http://localhost:8/shop/ecshop');
+define('ADMIN_PUBLIC','http://localhost:8/shop/ecshop/Application/Admin/Public');
 
 
 

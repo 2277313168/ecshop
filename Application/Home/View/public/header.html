@@ -114,55 +114,97 @@
     <!-- Header Menu -->
     <div class="shop_hd_menu">
         <!-- 所有商品菜单 -->
-        <div <if condition="$flag eq true"> class="shop_hd_menu_all_category shop_hd_menu_hover" <else /> class="shop_hd_menu_all_category" id="shop_hd_menu_all_category"  </if> >
+        <div
+        <if condition="$flag eq true"> class="shop_hd_menu_all_category shop_hd_menu_hover"
+            <else/>
+            class="shop_hd_menu_all_category" id="shop_hd_menu_all_category"
+        </if>
+        >
         <!--<div class="shop_hd_menu_all_category shop_hd_menu_hover">-->
-            <!-- 首页去掉 id="shop_hd_menu_all_category" 加上clsss shop_hd_menu_hover -->
-            <div class="shop_hd_menu_all_category_title"><h2 title="所有商品分类"><a href="javascript:void(0);">所有商品分类</a>
-            </h2><i></i></div>
-            <div id="shop_hd_menu_all_category_hd" class="shop_hd_menu_all_category_hd">
-                <ul class="shop_hd_menu_all_category_hd_menu clearfix">
-                    <!-- 单个菜单项 -->
-                    <volist name="catList" id="vo" key="k">
-                        <if condition="$k lt 8">
-                            <li id="cat_1" class="">
-                                <h3><a href="__MODULE__/List/listIndex/id/{$vo.cat_id}" title="男女服装">{$vo.cat_name}</a>
-                                </h3>
-                                <div id="cat_1_menu" class="cat_menu clearfix" style="">
-                                    <volist name="vo.child" id="vo1">
-                                        <dl class="clearfix">
-                                            <dt><a href=__MODULE__/List/listIndex/id/{$vo1.cat_id}">{$vo1.cat_name}</a>
-                                            </dt>
-                                            <dd>
-                                                <volist name="vo1.child" id="vo2">
-                                                    <a href="__MODULE__/List/listIndex/id/{$vo2.cat_id}">{$vo2.cat_name}</a>
-                                                </volist>
-                                            </dd>
-                                        </dl>
-                                    </volist>
+        <!-- 首页去掉 id="shop_hd_menu_all_category" 加上clsss shop_hd_menu_hover -->
+        <!--<div class="shop_hd_menu_all_category_title"><h2 title="所有商品分类"><a href="javascript:void(0);">所有商品分类</a>-->
+        <!--</h2><i></i></div>-->
+        <!--<div id="shop_hd_menu_all_category_hd" class="shop_hd_menu_all_category_hd">-->
+            <!--<ul class="shop_hd_menu_all_category_hd_menu clearfix">-->
+                <!--&lt;!&ndash; 单个菜单项 &ndash;&gt;-->
+                <!--<volist name="catList" id="vo" key="k">-->
+                    <!--<if condition="$k lt 8">-->
+                        <!--<li id="cat_1" class="">-->
+                            <!--<h3><a href="__MODULE__/List/listIndex/id/{$vo.cat_id}" title="男女服装">{$vo.cat_name}</a>-->
+                            <!--</h3>-->
+                            <!--<div id="cat_1_menu" class="cat_menu clearfix" style="">-->
+                                <!--<volist name="vo.child" id="vo1">-->
+                                    <!--<dl class="clearfix">-->
+                                        <!--<dt><a href=__MODULE__/List/listIndex/id/{$vo1.cat_id}">{$vo1.cat_name}</a>-->
+                                        <!--</dt>-->
+                                        <!--<dd>-->
+                                            <!--<volist name="vo1.child" id="vo2">-->
+                                                <!--<a href="__MODULE__/List/listIndex/id/{$vo2.cat_id}">{$vo2.cat_name}</a>-->
+                                            <!--</volist>-->
+                                        <!--</dd>-->
+                                    <!--</dl>-->
+                                <!--</volist>-->
 
-                                </div>
-                            </li>
-                        </if>
-                    </volist>
-                    <li class="more"><a href="">查看更多分类</a></li>
-                </ul>
-            </div>
-        </div>
-        <!-- 所有商品菜单 END -->
+                            <!--</div>-->
+                        <!--</li>-->
+                    <!--</if>-->
+                <!--</volist>-->
+                <!--<li class="more"><a href="">查看更多分类</a></li>-->
+            <!--</ul>-->
+        <!--</div>-->
+    <!--</div>-->
 
-        <!-- 普通导航菜单 -->
-        <ul class="shop_hd_menu_nav">
-            <li class="current_link"><a href=""><span>首页</span></a></li>
-            <li class="link"><a href=""><span>团购</span></a></li>
-            <li class="link"><a href=""><span>品牌</span></a></li>
-            <li class="link"><a href=""><span>优惠卷</span></a></li>
-            <li class="link"><a href=""><span>积分中心</span></a></li>
-            <li class="link"><a href=""><span>运动专场</span></a></li>
-            <li class="link"><a href=""><span>微商城</span></a></li>
+
+
+
+
+    <div class="shop_hd_menu_all_category_title"><h2 title="所有商品分类"><a href="javascript:void(0);">所有商品分类</a>
+    </h2><i></i></div>
+    <div id="shop_hd_menu_all_category_hd" class="shop_hd_menu_all_category_hd">
+        <ul class="shop_hd_menu_all_category_hd_menu clearfix">
+            <!-- 单个菜单项 -->
+            <volist name="catList" id="vo" key="k">
+                <if condition="$k lt 8">
+                    <li id="cat_1" class="">
+                        <h3><a href="__MODULE__/List/listIndex/id/{$vo.cat_id}" title="男女服装">{$vo.cat_name}</a>
+                        </h3>
+                        <div id="cat_1_menu" class="cat_menu clearfix" style="">
+                            <volist name="vo.child" id="vo1">
+                                <dl class="clearfix">
+                                    <dt><a href=__MODULE__/List/listIndex/id/{$vo1.cat_id}">{$vo1.cat_name}</a>
+                                    </dt>
+                                    <dd>
+                                        <volist name="vo1.child" id="vo2">
+                                            <a href="__MODULE__/List/listIndex/id/{$vo2.cat_id}">{$vo2.cat_name}</a>
+                                        </volist>
+                                    </dd>
+                                </dl>
+                            </volist>
+
+                        </div>
+                    </li>
+                </if>
+            </volist>
+            <li class="more"><a href="">查看更多分类</a></li>
         </ul>
-        <!-- 普通导航菜单 End -->
     </div>
-    <!-- Header Menu End -->
+</div>
+
+    <!-- 所有商品菜单 END -->
+
+    <!-- 普通导航菜单 -->
+    <ul class="shop_hd_menu_nav">
+        <li class="current_link"><a href=""><span>首页</span></a></li>
+        <li class="link"><a href=""><span>团购</span></a></li>
+        <li class="link"><a href=""><span>品牌</span></a></li>
+        <li class="link"><a href=""><span>优惠卷</span></a></li>
+        <li class="link"><a href=""><span>积分中心</span></a></li>
+        <li class="link"><a href=""><span>运动专场</span></a></li>
+        <li class="link"><a href=""><span>微商城</span></a></li>
+    </ul>
+    <!-- 普通导航菜单 End -->
+</div>
+<!-- Header Menu End -->
 
 
 </div>

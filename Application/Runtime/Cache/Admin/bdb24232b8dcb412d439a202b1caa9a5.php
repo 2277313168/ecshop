@@ -107,7 +107,7 @@
 		<div id="send_info" style="padding: 5px 10px 0 0; clear:right;text-align: right; color: #FF9900;width:40%;float: right;">
 			<p style="float: left">当前用户：<?php echo ($_SESSION['admin']['admin_name']); ?></p>
 			<a href="index.php?act=clear_cache" target="main-frame" class="fix-submenu">清除缓存</a>
-			<a href="/shop/index.php/Admin/login/logout" target="_top" class="fix-submenu">退出</a>
+			<a href="/shop/ecshop/index.php/Admin/login/logout" target="_top" class="fix-submenu">退出</a>
 		</div>
 	</div>
 </div>

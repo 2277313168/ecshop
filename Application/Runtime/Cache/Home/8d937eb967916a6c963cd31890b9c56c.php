@@ -4,14 +4,14 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
     <title>商品详细页面</title>
-    <link rel="stylesheet" href="/shop/Public/css/base.css" type="text/css"/>
-    <link rel="stylesheet" href="/shop/Public/css/shop_common.css" type="text/css"/>
-    <link rel="stylesheet" href="/shop/Public/css/shop_header.css" type="text/css"/>
-    <link rel="stylesheet" href="/shop/Public/css/shop_list.css" type="text/css"/>
-    <link rel="stylesheet" href="/shop/Public/css/shop_goods.css" type="text/css"/>
-    <script type="text/javascript" src="/shop/Public/js/jquery.js"></script>
-    <script type="text/javascript" src="/shop/Public/js/topNav.js"></script>
-    <script type="text/javascript" src="/shop/Public/js/shop_goods.js"></script>
+    <link rel="stylesheet" href="/shop/ecshop/Public/css/base.css" type="text/css"/>
+    <link rel="stylesheet" href="/shop/ecshop/Public/css/shop_common.css" type="text/css"/>
+    <link rel="stylesheet" href="/shop/ecshop/Public/css/shop_header.css" type="text/css"/>
+    <link rel="stylesheet" href="/shop/ecshop/Public/css/shop_list.css" type="text/css"/>
+    <link rel="stylesheet" href="/shop/ecshop/Public/css/shop_goods.css" type="text/css"/>
+    <script type="text/javascript" src="/shop/ecshop/Public/js/jquery.js"></script>
+    <script type="text/javascript" src="/shop/ecshop/Public/js/topNav.js"></script>
+    <script type="text/javascript" src="/shop/ecshop/Public/js/shop_goods.js"></script>
 </head>
 <body>
 <!-- Header  -wll-2013/03/24 -->
@@ -97,7 +97,7 @@
 
     <!-- TopHeader Center -->
     <div class="shop_hd_header">
-        <div class="shop_hd_header_logo"><h1 class="logo"><a href="/"><img src="/shop/Public/images/logo.png"
+        <div class="shop_hd_header_logo"><h1 class="logo"><a href="/"><img src="/shop/ecshop/Public/images/logo.png"
                                                                            alt="ShopCZ"/></a><span>ShopCZ</span></h1>
         </div>
         <div class="shop_hd_header_search">
@@ -131,47 +131,88 @@
     <!-- Header Menu -->
     <div class="shop_hd_menu">
         <!-- 所有商品菜单 -->
-        <div <?php if($flag == true): ?>class="shop_hd_menu_all_category shop_hd_menu_hover" <?php else: ?> class="shop_hd_menu_all_category" id="shop_hd_menu_all_category"<?php endif; ?> >
+        <div
+        <?php if($flag == true): ?>class="shop_hd_menu_all_category shop_hd_menu_hover"
+            <?php else: ?>
+            class="shop_hd_menu_all_category" id="shop_hd_menu_all_category"<?php endif; ?>
+        >
         <!--<div class="shop_hd_menu_all_category shop_hd_menu_hover">-->
-            <!-- 首页去掉 id="shop_hd_menu_all_category" 加上clsss shop_hd_menu_hover -->
-            <div class="shop_hd_menu_all_category_title"><h2 title="所有商品分类"><a href="javascript:void(0);">所有商品分类</a>
-            </h2><i></i></div>
-            <div id="shop_hd_menu_all_category_hd" class="shop_hd_menu_all_category_hd">
-                <ul class="shop_hd_menu_all_category_hd_menu clearfix">
-                    <!-- 单个菜单项 -->
-                    <?php if(is_array($catList)): $k = 0; $__LIST__ = $catList;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($k % 2 );++$k; if($k < 8): ?><li id="cat_1" class="">
-                                <h3><a href="/shop/index.php/Home/List/listIndex/<?php echo ($vo["cat_id"]); ?>" title="男女服装"><?php echo ($vo["cat_name"]); ?></a>
-                                </h3>
-                                <div id="cat_1_menu" class="cat_menu clearfix" style="">
-                                    <?php if(is_array($vo["child"])): $i = 0; $__LIST__ = $vo["child"];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo1): $mod = ($i % 2 );++$i;?><dl class="clearfix">
-                                            <dt><a href=/shop/index.php/Home/List/listIndex/<?php echo ($vo1["cat_id"]); ?>"><?php echo ($vo1["cat_name"]); ?></a>
-                                            </dt>
-                                            <dd>
-                                                <?php if(is_array($vo1["child"])): $i = 0; $__LIST__ = $vo1["child"];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo2): $mod = ($i % 2 );++$i;?><a href="/shop/index.php/Home/List/listIndex/<?php echo ($vo2["cat_id"]); ?>"><?php echo ($vo2["cat_name"]); ?></a><?php endforeach; endif; else: echo "" ;endif; ?>
-                                            </dd>
-                                        </dl><?php endforeach; endif; else: echo "" ;endif; ?>
+        <!-- 首页去掉 id="shop_hd_menu_all_category" 加上clsss shop_hd_menu_hover -->
+        <!--<div class="shop_hd_menu_all_category_title"><h2 title="所有商品分类"><a href="javascript:void(0);">所有商品分类</a>-->
+        <!--</h2><i></i></div>-->
+        <!--<div id="shop_hd_menu_all_category_hd" class="shop_hd_menu_all_category_hd">-->
+            <!--<ul class="shop_hd_menu_all_category_hd_menu clearfix">-->
+                <!--&lt;!&ndash; 单个菜单项 &ndash;&gt;-->
+                <!--<?php if(is_array($catList)): $k = 0; $__LIST__ = $catList;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($k % 2 );++$k;?>-->
+                    <!--<?php if($k < 8): ?>-->
+                        <!--<li id="cat_1" class="">-->
+                            <!--<h3><a href="/shop/ecshop/index.php/Home/List/listIndex/id/<?php echo ($vo["cat_id"]); ?>" title="男女服装"><?php echo ($vo["cat_name"]); ?></a>-->
+                            <!--</h3>-->
+                            <!--<div id="cat_1_menu" class="cat_menu clearfix" style="">-->
+                                <!--<?php if(is_array($vo["child"])): $i = 0; $__LIST__ = $vo["child"];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo1): $mod = ($i % 2 );++$i;?>-->
+                                    <!--<dl class="clearfix">-->
+                                        <!--<dt><a href=/shop/ecshop/index.php/Home/List/listIndex/id/<?php echo ($vo1["cat_id"]); ?>"><?php echo ($vo1["cat_name"]); ?></a>-->
+                                        <!--</dt>-->
+                                        <!--<dd>-->
+                                            <!--<?php if(is_array($vo1["child"])): $i = 0; $__LIST__ = $vo1["child"];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo2): $mod = ($i % 2 );++$i;?>-->
+                                                <!--<a href="/shop/ecshop/index.php/Home/List/listIndex/id/<?php echo ($vo2["cat_id"]); ?>"><?php echo ($vo2["cat_name"]); ?></a>-->
+                                            <!--<?php endforeach; endif; else: echo "" ;endif; ?>-->
+                                        <!--</dd>-->
+                                    <!--</dl>-->
+                                <!--<?php endforeach; endif; else: echo "" ;endif; ?>-->
 
-                                </div>
-                            </li><?php endif; endforeach; endif; else: echo "" ;endif; ?>
-                    <li class="more"><a href="">查看更多分类</a></li>
-                </ul>
-            </div>
-        </div>
-        <!-- 所有商品菜单 END -->
+                            <!--</div>-->
+                        <!--</li>-->
+                    <!--<?php endif; ?>-->
+                <!--<?php endforeach; endif; else: echo "" ;endif; ?>-->
+                <!--<li class="more"><a href="">查看更多分类</a></li>-->
+            <!--</ul>-->
+        <!--</div>-->
+    <!--</div>-->
 
-        <!-- 普通导航菜单 -->
-        <ul class="shop_hd_menu_nav">
-            <li class="current_link"><a href=""><span>首页</span></a></li>
-            <li class="link"><a href=""><span>团购</span></a></li>
-            <li class="link"><a href=""><span>品牌</span></a></li>
-            <li class="link"><a href=""><span>优惠卷</span></a></li>
-            <li class="link"><a href=""><span>积分中心</span></a></li>
-            <li class="link"><a href=""><span>运动专场</span></a></li>
-            <li class="link"><a href=""><span>微商城</span></a></li>
+
+
+
+
+    <div class="shop_hd_menu_all_category_title"><h2 title="所有商品分类"><a href="javascript:void(0);">所有商品分类</a>
+    </h2><i></i></div>
+    <div id="shop_hd_menu_all_category_hd" class="shop_hd_menu_all_category_hd">
+        <ul class="shop_hd_menu_all_category_hd_menu clearfix">
+            <!-- 单个菜单项 -->
+            <?php if(is_array($catList)): $k = 0; $__LIST__ = $catList;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($k % 2 );++$k; if($k < 8): ?><li id="cat_1" class="">
+                        <h3><a href="/shop/ecshop/index.php/Home/List/listIndex/id/<?php echo ($vo["cat_id"]); ?>" title="男女服装"><?php echo ($vo["cat_name"]); ?></a>
+                        </h3>
+                        <div id="cat_1_menu" class="cat_menu clearfix" style="">
+                            <?php if(is_array($vo["child"])): $i = 0; $__LIST__ = $vo["child"];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo1): $mod = ($i % 2 );++$i;?><dl class="clearfix">
+                                    <dt><a href=/shop/ecshop/index.php/Home/List/listIndex/id/<?php echo ($vo1["cat_id"]); ?>"><?php echo ($vo1["cat_name"]); ?></a>
+                                    </dt>
+                                    <dd>
+                                        <?php if(is_array($vo1["child"])): $i = 0; $__LIST__ = $vo1["child"];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo2): $mod = ($i % 2 );++$i;?><a href="/shop/ecshop/index.php/Home/List/listIndex/id/<?php echo ($vo2["cat_id"]); ?>"><?php echo ($vo2["cat_name"]); ?></a><?php endforeach; endif; else: echo "" ;endif; ?>
+                                    </dd>
+                                </dl><?php endforeach; endif; else: echo "" ;endif; ?>
+
+                        </div>
+                    </li><?php endif; endforeach; endif; else: echo "" ;endif; ?>
+            <li class="more"><a href="">查看更多分类</a></li>
         </ul>
-        <!-- 普通导航菜单 End -->
     </div>
-    <!-- Header Menu End -->
+</div>
+
+    <!-- 所有商品菜单 END -->
+
+    <!-- 普通导航菜单 -->
+    <ul class="shop_hd_menu_nav">
+        <li class="current_link"><a href=""><span>首页</span></a></li>
+        <li class="link"><a href=""><span>团购</span></a></li>
+        <li class="link"><a href=""><span>品牌</span></a></li>
+        <li class="link"><a href=""><span>优惠卷</span></a></li>
+        <li class="link"><a href=""><span>积分中心</span></a></li>
+        <li class="link"><a href=""><span>运动专场</span></a></li>
+        <li class="link"><a href=""><span>微商城</span></a></li>
+    </ul>
+    <!-- 普通导航菜单 End -->
+</div>
+<!-- Header Menu End -->
 
 
 </div>
@@ -198,38 +239,38 @@
     <div class="shop_goods_show">
         <div class="shop_goods_show_left">
             <!-- 京东商品展示 -->
-            <link rel="stylesheet" href="/shop/Public/css/shop_goodPic.css" type="text/css"/>
-            <script type="text/javascript" src="/shop/Public/js/shop_goodPic_base.js"></script>
-            <script type="text/javascript" src="/shop/Public/js/lib.js"></script>
-            <script type="text/javascript" src="/shop/Public/js/163css.js"></script>
+            <link rel="stylesheet" href="/shop/ecshop/Public/css/shop_goodPic.css" type="text/css"/>
+            <script type="text/javascript" src="/shop/ecshop/Public/js/shop_goodPic_base.js"></script>
+            <script type="text/javascript" src="/shop/ecshop/Public/js/lib.js"></script>
+            <script type="text/javascript" src="/shop/ecshop/Public/js/163css.js"></script>
             <div id="preview">
                 <div class=jqzoom id="spec-n1" onClick="window.open('/')"><IMG height="350"
-                                                                               src="/shop/Uploads/<?php echo ($goods["goods_img"]); ?>"
-                                                                               jqimg="/shop/Public/images/img04.jpg"
+                                                                               src="/shop/ecshop/Uploads/<?php echo ($goods["goods_img"]); ?>"
+                                                                               jqimg="/shop/ecshop/Public/images/img04.jpg"
                                                                                width="350">
                 </div>
                 <div id="spec-n5">
                     <div class=control id="spec-left">
-                        <img src="/shop/Public/images/left.gif"/>
+                        <img src="/shop/ecshop/Public/images/left.gif"/>
                     </div>
                     <div id="spec-list">
                         <ul class="list-h">
-                            <li><img src="/shop/Public/images/img01.jpg"></li>
-                            <li><img src="/shop/Public/images/img02.jpg"></li>
-                            <li><img src="/shop/Public/images/img03.jpg"></li>
-                            <li><img src="/shop/Uploads/<?php echo ($goods["goods_img"]); ?>"></li>
-                            <li><img src="/shop/Public/images/img01.jpg"></li>
-                            <li><img src="/shop/Public/images/img02.jpg"></li>
-                            <li><img src="/shop/Public/images/img03.jpg"></li>
-                            <li><img src="/shop/Public/images/img04.jpg"></li>
-                            <li><img src="/shop/Public/images/img01.jpg"></li>
-                            <li><img src="/shop/Public/images/img02.jpg"></li>
-                            <li><img src="/shop/Public/images/img03.jpg"></li>
-                            <li><img src="/shop/Public/images/img04.jpg"></li>
+                            <li><img src="/shop/ecshop/Public/images/img01.jpg"></li>
+                            <li><img src="/shop/ecshop/Public/images/img02.jpg"></li>
+                            <li><img src="/shop/ecshop/Public/images/img03.jpg"></li>
+                            <li><img src="/shop/ecshop/Uploads/<?php echo ($goods["goods_img"]); ?>"></li>
+                            <li><img src="/shop/ecshop/Public/images/img01.jpg"></li>
+                            <li><img src="/shop/ecshop/Public/images/img02.jpg"></li>
+                            <li><img src="/shop/ecshop/Public/images/img03.jpg"></li>
+                            <li><img src="/shop/ecshop/Public/images/img04.jpg"></li>
+                            <li><img src="/shop/ecshop/Public/images/img01.jpg"></li>
+                            <li><img src="/shop/ecshop/Public/images/img02.jpg"></li>
+                            <li><img src="/shop/ecshop/Public/images/img03.jpg"></li>
+                            <li><img src="/shop/ecshop/Public/images/img04.jpg"></li>
                         </ul>
                     </div>
                     <div class=control id="spec-right">
-                        <img src="/shop/Public/images/right.gif"/>
+                        <img src="/shop/ecshop/Public/images/right.gif"/>
                     </div>
 
                 </div>
@@ -352,7 +393,7 @@
                     <li class="clearfix">
                         <div class="goods_name"><a href="">Gap经典弹力纯色长袖T恤|000891347|原价149元</a></div>
                         <div class="goods_pic"><span class="goods_price">¥ 279.00 </span><a href=""><img
-                                src="/shop/Public/images/89a6d6466b00ae32d3c826b9ec639084.jpg_small.jpg"/></a></div>
+                                src="/shop/ecshop/Public/images/89a6d6466b00ae32d3c826b9ec639084.jpg_small.jpg"/></a></div>
                         <div class="goods_xiaoliang">
                             <span class="goods_xiaoliang_link"><a href="">去看看</a></span>
                             <span class="goods_xiaoliang_nums">已销售<strong>99</strong>笔</span>
@@ -362,7 +403,7 @@
                     <li class="clearfix">
                         <div class="goods_name"><a href="">Gap经典弹力纯色长袖T恤|000891347|原价149元</a></div>
                         <div class="goods_pic"><span class="goods_price">¥ 279.00 </span><a href=""><img
-                                src="/shop/Public/images/89a6d6466b00ae32d3c826b9ec639084.jpg_small.jpg"/></a></div>
+                                src="/shop/ecshop/Public/images/89a6d6466b00ae32d3c826b9ec639084.jpg_small.jpg"/></a></div>
                         <div class="goods_xiaoliang">
                             <span class="goods_xiaoliang_link"><a href="">去看看</a></span>
                             <span class="goods_xiaoliang_nums">已销售<strong>99</strong>笔</span>
@@ -372,7 +413,7 @@
                     <li class="clearfix">
                         <div class="goods_name"><a href="">Gap经典弹力纯色长袖T恤|000891347|原价149元</a></div>
                         <div class="goods_pic"><span class="goods_price">¥ 279.00 </span><a href=""><img
-                                src="/shop/Public/images/89a6d6466b00ae32d3c826b9ec639084.jpg_small.jpg"/></a></div>
+                                src="/shop/ecshop/Public/images/89a6d6466b00ae32d3c826b9ec639084.jpg_small.jpg"/></a></div>
                         <div class="goods_xiaoliang">
                             <span class="goods_xiaoliang_link"><a href="">去看看</a></span>
                             <span class="goods_xiaoliang_nums">已销售<strong>99</strong>笔</span>
@@ -394,7 +435,7 @@
                     <li class="clearfix">
                         <div class="goods_name"><a href="">Gap经典弹力纯色长袖T恤|000891347|原价149元</a></div>
                         <div class="goods_pic"><span class="goods_price">¥ 279.00 </span><a href=""><img
-                                src="/shop/Public/images/89a6d6466b00ae32d3c826b9ec639084.jpg_small.jpg"/></a></div>
+                                src="/shop/ecshop/Public/images/89a6d6466b00ae32d3c826b9ec639084.jpg_small.jpg"/></a></div>
                         <div class="goods_xiaoliang">
                             <span class="goods_xiaoliang_link"><a href="">去看看</a></span>
                             <span class="goods_xiaoliang_nums">已销售<strong>99</strong>笔</span>
@@ -404,7 +445,7 @@
                     <li class="clearfix">
                         <div class="goods_name"><a href="">Gap经典弹力纯色长袖T恤|000891347|原价149元</a></div>
                         <div class="goods_pic"><span class="goods_price">¥ 279.00 </span><a href=""><img
-                                src="/shop/Public/images/89a6d6466b00ae32d3c826b9ec639084.jpg_small.jpg"/></a></div>
+                                src="/shop/ecshop/Public/images/89a6d6466b00ae32d3c826b9ec639084.jpg_small.jpg"/></a></div>
                         <div class="goods_xiaoliang">
                             <span class="goods_xiaoliang_link"><a href="">去看看</a></span>
                             <span class="goods_xiaoliang_nums">已销售<strong>99</strong>笔</span>
@@ -414,7 +455,7 @@
                     <li class="clearfix">
                         <div class="goods_name"><a href="">Gap经典弹力纯色长袖T恤|000891347|原价149元</a></div>
                         <div class="goods_pic"><span class="goods_price">¥ 279.00 </span><a href=""><img
-                                src="/shop/Public/images/89a6d6466b00ae32d3c826b9ec639084.jpg_small.jpg"/></a></div>
+                                src="/shop/ecshop/Public/images/89a6d6466b00ae32d3c826b9ec639084.jpg_small.jpg"/></a></div>
                         <div class="goods_xiaoliang">
                             <span class="goods_xiaoliang_link"><a href="">去看看</a></span>
                             <span class="goods_xiaoliang_nums">已销售<strong>99</strong>笔</span>
@@ -430,7 +471,7 @@
     <!-- Goods Left End -->
 
     <!-- 商品详情 -->
-    <script type="text/javascript" src="/shop/Public/js/shop_goods_tab.js"></script>
+    <script type="text/javascript" src="/shop/ecshop/Public/js/shop_goods_tab.js"></script>
     <div class="shop_goods_bd_xiangqing clearfix">
         <div class="shop_goods_bd_xiangqing_tab">
             <ul>
