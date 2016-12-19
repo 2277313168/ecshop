@@ -4,7 +4,11 @@
         <div class="shop_hd_topNav_all">
             <!-- Header TopNav Left -->
             <div class="shop_hd_topNav_all_left">
-                <p>您好，欢迎来到<b><a href="/">ShopCZ商城</a></b>[<a href="">登录</a>][<a href="">注册</a>]</p>
+                <if condition="cookieCheck()">      <!--cookieCheck()在Home/Common的function.php中-->
+                <p>{$Think.session.userName}您好，欢迎来到<b><a href="/">ShopCZ商城</a></b> [<a href="__MODULE__/User/logout">退出</a>]</p>
+                <else />
+                    <p>    [<a href="__MODULE__/User/login">登录</a>][<a href="__MODULE__/User/register">注册</a>]</p>
+                </if>
             </div>
             <!-- Header TopNav Left End -->
 

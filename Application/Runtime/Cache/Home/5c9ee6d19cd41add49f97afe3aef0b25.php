@@ -73,10 +73,10 @@
 				<h3>用户登录</h3>
 			</div>
 			<div class="form-bd">
-				<form action="" method="POST">
+				<form action="/shop/ecshop/index.php/Home/User/login" method="POST">
 					<dl>
 						<dt>用户名</dt>
-						<dd><input type="text" name="user" class="text" /></dd>
+						<dd><input type="text" name="userName" class="text" /></dd>
 					</dl>
 					<dl>
 						<dt>密&nbsp;&nbsp;&nbsp;&nbsp;码</dt>
@@ -84,7 +84,7 @@
 					</dl>
 					<dl>
 						<dt>验证码</dt>
-						<dd><input type="text" name="code" class="text" size="10" style="width:58px;"> <img src="/shop/ecshop/Public/images/code.png" alt="" align="absmiddle" style="position:relative;top:-2px;"/> <a href="" style="color:#999;">看不清，换一张</a></dd>
+						<dd><input type="text" name="code" class="text" size="10" style="width:58px;"> <img width="90px" height="50px" src="/shop/ecshop/index.php/Home/User/createCode" alt="" align="absmiddle" style="position:relative;top:-2px;"/> <a href="" style="color:#999;">看不清，换一张</a></dd>
 					</dl>
 					<dl>
 						<dt>&nbsp;</dt>
@@ -93,7 +93,7 @@
 				</form>
 				<dl>
 					<dt>&nbsp;</dt>
-					<dd> 还不是本站会员？立即 <a href="" class="register">注册</a></dd>
+					<dd> 还不是本站会员？立即 <a href="/shop/ecshop/index.php/Home/User/register" class="register">注册</a></dd>
 				</dl>
 				<dl class="other">
 					<dt>&nbsp;</dt>

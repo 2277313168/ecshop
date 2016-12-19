@@ -19,10 +19,10 @@
 				<h3>用户注册</h3>
 			</div>
 			<div class="form-bd">
-				<form action="" method="POST">
+				<form action="/shop/ecshop/index.php/Home/User/register" method="POST">
 					<dl>
 						<dt>用户名</dt>
-						<dd><input type="text" name="user" class="text" /></dd>
+						<dd><input type="text" name="userName" class="text" /></dd>
 					</dl>
 					<dl>
 						<dt>密码</dt>
@@ -38,7 +38,7 @@
 					</dl>
 					<dl>
 						<dt>验证码</dt>
-						<dd><input type="text" name="code" class="text" size="10" style="width:58px;"> <img src="/shop/ecshop/Public/images/code.png" alt="" align="absmiddle" style="position:relative;top:-2px;"/> <a href="" style="color:#999;">看不清，换一张</a></dd>
+						<dd><input type="text" name="code" class="text" size="10" style="width:58px;"> <img src="/shop/ecshop/index.php/Home/User/createCode"  width="100px" height="60px" alt="" align="absmiddle" style="position:relative;top:-2px;"/> <a href="" style="color:#999;">看不清，换一张</a></dd>
 					</dl>
 					<dl>
 						<dt>&nbsp;</dt>
@@ -65,7 +65,7 @@
 			
 			<div class="if">
 				<h2>如果您是本站用户</h2>
-				<p>我已经注册过账号，立即 <a href="" class="register">登录</a> 或是 <a href="" class="findpwd">找回密码？</a></p>
+				<p>我已经注册过账号，立即 <a href="/shop/ecshop/index.php/Home/User/login" class="register">登录</a> 或是 <a href="" class="findpwd">找回密码？</a></p>
 			</div>
 		</div>
 	</div>

@@ -24,16 +24,19 @@ class LoginController extends Controller
                 $this->error('验证码错误', U('Login/login'), 1);
             }
 
-            if (D('admin')->checkAdmin($name, $psw)) {
-                $this->success('登陆成功', U('Index/index'), 1);
-            } else {
-                $this->error('用户名或密码错误', U('Login/login'), 1);
+            $condition['admin_name'] = $name;
+            $admin = M('admin')->where($condition)->find();
+            if(!empty($admin)){
+                if($admin['password'] == md5($psw) ){
+                    session('admin',$admin);
+                    $this->success('登陆成功',U('Index/index'),1);
+                    return;
+                }
             }
-            return;
-        } else {
-            $this->display('Login/login');
+            $this->error('用户名或密码错误',U('Login/login'),1);
             return;
         }
+        $this->display('Login/login');
     }
 
 
@@ -52,7 +55,7 @@ class LoginController extends Controller
     }
 
     public function logout(){
-        session('[destroy]');
+        session('admin',null);
         $this->success('注销成功',U('Login/login'),1);
     }
 

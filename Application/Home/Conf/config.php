@@ -9,4 +9,5 @@ return array(
     'DB_PORT'               =>  '3306',        // 端口
     'DB_PREFIX'             =>  'cz_',    // 数据库表前缀
     'DB_CHARSET'            =>  'utf8',      // 数据库编码默认采用utf8
+    'SALT'            => '@$#%43532Argfr',
 );

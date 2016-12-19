@@ -21,7 +21,10 @@
         <div class="shop_hd_topNav_all">
             <!-- Header TopNav Left -->
             <div class="shop_hd_topNav_all_left">
-                <p>您好，欢迎来到<b><a href="/">ShopCZ商城</a></b>[<a href="">登录</a>][<a href="">注册</a>]</p>
+                <?php if(cookieCheck()): ?><!--cookieCheck()在Home/Common的function.php中-->
+                <p><?php echo (session('userName')); ?>您好，欢迎来到<b><a href="/">ShopCZ商城</a></b> [<a href="/shop/ecshop/index.php/Home/User/logout">退出</a>]</p>
+                <?php else: ?>
+                    <p>    [<a href="/shop/ecshop/index.php/Home/User/login">登录</a>][<a href="/shop/ecshop/index.php/Home/User/register">注册</a>]</p><?php endif; ?>
             </div>
             <!-- Header TopNav Left End -->
 
