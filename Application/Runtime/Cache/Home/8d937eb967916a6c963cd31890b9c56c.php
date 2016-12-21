@@ -21,7 +21,10 @@
         <div class="shop_hd_topNav_all">
             <!-- Header TopNav Left -->
             <div class="shop_hd_topNav_all_left">
-                <p>您好，欢迎来到<b><a href="/">ShopCZ商城</a></b>[<a href="">登录</a>][<a href="">注册</a>]</p>
+                <?php if(cookieCheck()): ?><!--cookieCheck()在Home/Common的function.php中-->
+                <p><?php echo (session('userName')); ?>您好，欢迎来到<b><a href="/">ShopCZ商城</a></b> [<a href="/shop/ecshop/index.php/Home/User/logout">退出</a>]</p>
+                <?php else: ?>
+                    <p>    [<a href="/shop/ecshop/index.php/Home/User/login">登录</a>][<a href="/shop/ecshop/index.php/Home/User/register">注册</a>]</p><?php endif; ?>
             </div>
             <!-- Header TopNav Left End -->
 
@@ -432,35 +435,15 @@
             <div class="contents clearfix">
                 <ul class="clearfix">
 
-                    <li class="clearfix">
-                        <div class="goods_name"><a href="">Gap经典弹力纯色长袖T恤|000891347|原价149元</a></div>
-                        <div class="goods_pic"><span class="goods_price">¥ 279.00 </span><a href=""><img
-                                src="/shop/ecshop/Public/images/89a6d6466b00ae32d3c826b9ec639084.jpg_small.jpg"/></a></div>
+                    <?php if(is_array($history)): $i = 0; $__LIST__ = $history;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><li class="clearfix">
+                        <div class="goods_name"><a href=""><?php echo ($vo["goods_name"]); ?></a></div>
+                        <div class="goods_pic"><span class="goods_price">¥ <?php echo ($vo["shop_price"]); ?> </span><a href=""><img
+                                src="/shop/ecshop/Uploads/<?php echo ($vo["goods_img"]); ?>"/></a></div>
                         <div class="goods_xiaoliang">
                             <span class="goods_xiaoliang_link"><a href="">去看看</a></span>
                             <span class="goods_xiaoliang_nums">已销售<strong>99</strong>笔</span>
                         </div>
-                    </li>
-
-                    <li class="clearfix">
-                        <div class="goods_name"><a href="">Gap经典弹力纯色长袖T恤|000891347|原价149元</a></div>
-                        <div class="goods_pic"><span class="goods_price">¥ 279.00 </span><a href=""><img
-                                src="/shop/ecshop/Public/images/89a6d6466b00ae32d3c826b9ec639084.jpg_small.jpg"/></a></div>
-                        <div class="goods_xiaoliang">
-                            <span class="goods_xiaoliang_link"><a href="">去看看</a></span>
-                            <span class="goods_xiaoliang_nums">已销售<strong>99</strong>笔</span>
-                        </div>
-                    </li>
-
-                    <li class="clearfix">
-                        <div class="goods_name"><a href="">Gap经典弹力纯色长袖T恤|000891347|原价149元</a></div>
-                        <div class="goods_pic"><span class="goods_price">¥ 279.00 </span><a href=""><img
-                                src="/shop/ecshop/Public/images/89a6d6466b00ae32d3c826b9ec639084.jpg_small.jpg"/></a></div>
-                        <div class="goods_xiaoliang">
-                            <span class="goods_xiaoliang_link"><a href="">去看看</a></span>
-                            <span class="goods_xiaoliang_nums">已销售<strong>99</strong>笔</span>
-                        </div>
-                    </li>
+                    </li><?php endforeach; endif; else: echo "" ;endif; ?>
 
                 </ul>
             </div>

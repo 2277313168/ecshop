@@ -231,35 +231,19 @@
             <div class="contents clearfix">
                 <ul class="clearfix">
 
+                    <volist name="history" id="vo">
+
                     <li class="clearfix">
-                        <div class="goods_name"><a href="">Gap经典弹力纯色长袖T恤|000891347|原价149元</a></div>
-                        <div class="goods_pic"><span class="goods_price">¥ 279.00 </span><a href=""><img
-                                src="__PUBLIC__/images/89a6d6466b00ae32d3c826b9ec639084.jpg_small.jpg"/></a></div>
+                        <div class="goods_name"><a href="">{$vo.goods_name}</a></div>
+                        <div class="goods_pic"><span class="goods_price">¥ {$vo.shop_price} </span><a href=""><img
+                                src="__ROOT__/Uploads/{$vo.goods_img}"/></a></div>
                         <div class="goods_xiaoliang">
                             <span class="goods_xiaoliang_link"><a href="">去看看</a></span>
                             <span class="goods_xiaoliang_nums">已销售<strong>99</strong>笔</span>
                         </div>
                     </li>
 
-                    <li class="clearfix">
-                        <div class="goods_name"><a href="">Gap经典弹力纯色长袖T恤|000891347|原价149元</a></div>
-                        <div class="goods_pic"><span class="goods_price">¥ 279.00 </span><a href=""><img
-                                src="__PUBLIC__/images/89a6d6466b00ae32d3c826b9ec639084.jpg_small.jpg"/></a></div>
-                        <div class="goods_xiaoliang">
-                            <span class="goods_xiaoliang_link"><a href="">去看看</a></span>
-                            <span class="goods_xiaoliang_nums">已销售<strong>99</strong>笔</span>
-                        </div>
-                    </li>
-
-                    <li class="clearfix">
-                        <div class="goods_name"><a href="">Gap经典弹力纯色长袖T恤|000891347|原价149元</a></div>
-                        <div class="goods_pic"><span class="goods_price">¥ 279.00 </span><a href=""><img
-                                src="__PUBLIC__/images/89a6d6466b00ae32d3c826b9ec639084.jpg_small.jpg"/></a></div>
-                        <div class="goods_xiaoliang">
-                            <span class="goods_xiaoliang_link"><a href="">去看看</a></span>
-                            <span class="goods_xiaoliang_nums">已销售<strong>99</strong>笔</span>
-                        </div>
-                    </li>
+                    </volist>
 
                 </ul>
             </div>
