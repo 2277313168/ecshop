@@ -11,7 +11,8 @@ use Home\Controller;
 class OrderController extends BaseController{
 
     public function order(){
-
+        $cart = session('cart');
+        $this->assign('cart',$cart);
         $this->display('Order/order');
     }
 

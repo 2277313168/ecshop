@@ -34,10 +34,10 @@
 
                     <li>
                         <div class="topNav_menu">
-                            <a href="#" class="topNavHover">我的商城<i></i></a>
+                            <a href="/shop/ecshop/index.php/Home/Index/index" class="topNavHover">我的商城<i></i></a>
                             <div class="topNav_menu_bd" style="display:none;">
                                 <ul>
-                                    <li><a title="已买到的商品" target="_top" href="#">已买到的商品</a></li>
+                                    <li><a title="已买到的商品" target="_top" href="/shop/ecshop/index.php/Home/Order/order">已买到的商品</a></li>
                                     <li><a title="个人主页" target="_top" href="#">个人主页</a></li>
                                     <li><a title="我的好友" target="_top" href="#">我的好友</a></li>
                                 </ul>
@@ -352,7 +352,7 @@
                 </li>
                 <li style="padding:20px 0;">
                     <label>&nbsp;</label>
-                    <span><a href="" class="goods_sub goods_sub_gou">加入购物车</a></span>
+                    <span><a href="/shop/ecshop/index.php/Home/Goods/addToCart/goods_id/<?php echo ($goods["goods_id"]); ?>" class="goods_sub goods_sub_gou">加入购物车</a></span>
                 </li>
             </ul>
         </div>

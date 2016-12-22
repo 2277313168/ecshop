@@ -31,10 +31,10 @@
 
                     <li>
                         <div class="topNav_menu">
-                            <a href="#" class="topNavHover">我的商城<i></i></a>
+                            <a href="/shop/ecshop/index.php/Home/Index/index" class="topNavHover">我的商城<i></i></a>
                             <div class="topNav_menu_bd" style="display:none;">
                                 <ul>
-                                    <li><a title="已买到的商品" target="_top" href="#">已买到的商品</a></li>
+                                    <li><a title="已买到的商品" target="_top" href="/shop/ecshop/index.php/Home/Order/order">已买到的商品</a></li>
                                     <li><a title="个人主页" target="_top" href="#">个人主页</a></li>
                                     <li><a title="我的好友" target="_top" href="#">我的好友</a></li>
                                 </ul>
@@ -272,7 +272,7 @@
 					</thead>
 					<tbody>
 
-						<tr><td colspan="5">
+			<?php if(is_array($cart)): $i = 0; $__LIST__ = $cart;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr><td colspan="5">
 							<table class="good">
 								<thead >
 									<tr><th colspan="6">
@@ -281,57 +281,16 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td class="dingdan_pic"><img src="/shop/ecshop/Public/images/1dbc94fa0d60cba3990b89ccb01f82c2.jpg_tiny.jpg" /></td>
-										<td class="dingdan_title"><span><a href="">李宁 lining 专柜正品 足球鞋 女式运动鞋【演示数据】</a></span><br />鞋码:37 颜色:黑色 </td>
-										<td class="dingdan_danjia">￥<strong>25.00</strong></td>
-										<td class="dingdan_shuliang">1</td>
+										<td class="dingdan_pic"><img src="/shop/ecshop/Uploads/<?php echo ($vo["goods_img"]); ?>" /></td>
+										<td class="dingdan_title"><span><a href=""><?php echo ($vo["goods_name"]); ?></a></span><br />鞋码:37 颜色:黑色 </td>
+										<td class="dingdan_danjia">￥<strong><?php echo ($vo["shop_price"]); ?></strong></td>
+										<td class="dingdan_shuliang"><?php echo ($vo["num"]); ?></td>
 										<td class="dingdan_zongjia">￥<strong>25.00</strong><br />(免运费)</td>
 										<td class="digndan_caozuo"><a href="">等待买家付款</a></td>
 									</tr>
 								</tbody>
 							</table>
-						</td></tr>
-
-						<tr><td colspan="5">
-							<table class="good">
-								<thead >
-									<tr><th colspan="6">
-										<span><strong>订单号码：</strong>2013032905510051</span>
-									</th></tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td class="dingdan_pic"><img src="/shop/ecshop/Public/images/1dbc94fa0d60cba3990b89ccb01f82c2.jpg_tiny.jpg" /></td>
-										<td class="dingdan_title"><span><a href="">李宁 lining 专柜正品 足球鞋 女式运动鞋【演示数据】</a></span><br />鞋码:37 颜色:黑色 </td>
-										<td class="dingdan_danjia">￥<strong>25.00</strong></td>
-										<td class="dingdan_shuliang">1</td>
-										<td class="dingdan_zongjia">￥<strong>25.00</strong><br />(免运费)</td>
-										<td class="digndan_caozuo"><a href="">等待买家付款</a></td>
-									</tr>
-								</tbody>
-							</table>
-						</td></tr>
-
-						<tr><td colspan="5">
-							<table class="good">
-								<thead >
-									<tr><th colspan="6">
-										<span><strong>订单号码：</strong>2013032905510051</span>
-									</th></tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td class="dingdan_pic"><img src="/shop/ecshop/Public/images/1dbc94fa0d60cba3990b89ccb01f82c2.jpg_tiny.jpg" /></td>
-										<td class="dingdan_title"><span><a href="">李宁 lining 专柜正品 足球鞋 女式运动鞋【演示数据】</a></span><br />鞋码:37 颜色:黑色 </td>
-										<td class="dingdan_danjia">￥<strong>25.00</strong></td>
-										<td class="dingdan_shuliang">1</td>
-										<td class="dingdan_zongjia">￥<strong>25.00</strong><br />(免运费)</td>
-										<td class="digndan_caozuo"><a href="">等待买家付款</a></td>
-									</tr>
-								</tbody>
-							</table>
-						</td></tr>
-
+						</td></tr><?php endforeach; endif; else: echo "" ;endif; ?>
 
 					</tbody>
 				</table>

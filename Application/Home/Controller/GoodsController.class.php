@@ -62,4 +62,15 @@ class GoodsController extends BaseController
     }
 
 
+    //添加到购物车
+    public function addToCart(){
+        $id = I('goods_id');
+        $goods = M('goods')->find($id);
+
+        $tool = \Home\Tool\CartToolImpl::getInstance();
+        $tool->add($goods['goods_id'], $goods['goods_name'],$goods['shop_price'],$goods['goods_img']);
+        var_dump(session('cart'));
+//        $tool->clear();
+    }
+
 }
