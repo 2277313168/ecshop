@@ -23,7 +23,7 @@ class IndexController extends BaseController {
         $authIds = $role['role_auth_ids'];
 
         $ac = CONTROLLER_NAME."-".ACTION_NAME;
-        var_dump($ac);
+
 
 //        var_dump($authIds);
 //        $authList = array();

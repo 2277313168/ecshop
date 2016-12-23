@@ -9,7 +9,7 @@
 <body>
 
 <h1>
-<span class="action-span"><a href="/shop/index.php/Admin/GoodsType/typeAdd">新建商品类型</a></span>
+<span class="action-span"><a href="/shop/ecshop/index.php/Admin/GoodsType/typeAdd">新建商品类型</a></span>
 <span class="action-span1"><a href="index.php?act=main">SHOP 管理中心</a> </span><span id="search_id" class="action-span1"> - 商品类型 </span>
 <div style="clear:both"></div>
 </h1>
@@ -33,9 +33,9 @@
 				<td align="right">12</td>
 				<td align="center"><img src="<?php echo (ADMIN_PUBLIC); ?>/images/yes.gif"></td>
 				<td align="center">
-				  <a href="/shop/index.php/Admin/Attribute/attrIndex/id/<?php echo ($vo["type_id"]); ?>" title="属性列表">属性列表</a> |
-				  <a href="/shop/index.php/Admin/GoodsType/typeEdit/id/<?php echo ($vo["type_id"]); ?>" title="编辑">编辑</a> |
-				  <a href="/shop/index.php/Admin/GoodsType/typeDelete/id/<?php echo ($vo["type_id"]); ?>" onclick="listTable.remove(1, '删除商品类型将会清除该类型下的所有属性。\n您确定要删除选定的商品类型吗？')" title="移除">移除</a>
+				  <a href="/shop/ecshop/index.php/Admin/Attribute/attrIndex/id/<?php echo ($vo["type_id"]); ?>" title="属性列表">属性列表</a> |
+				  <a href="/shop/ecshop/index.php/Admin/GoodsType/typeEdit/id/<?php echo ($vo["type_id"]); ?>" title="编辑">编辑</a> |
+				  <a href="/shop/ecshop/index.php/Admin/GoodsType/typeDelete/id/<?php echo ($vo["type_id"]); ?>" onclick="listTable.remove(1, '删除商品类型将会清除该类型下的所有属性。\n您确定要删除选定的商品类型吗？')" title="移除">移除</a>
 				</td>
 			</tr><?php endforeach; endif; else: echo "" ;endif; ?>
 

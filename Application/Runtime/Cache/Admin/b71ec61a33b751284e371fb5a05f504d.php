@@ -123,12 +123,33 @@
           </tr>
         </tbody></table>
 
-        <!-- 详细描述 -->
-        <table width="90%" id="detail-table" style="display: none;">
-          <tbody><tr>
-            <td><input type="hidden" id="goods_desc" name="goods_desc" value="" style="display:none"><input type="hidden" id="goods_desc___Config" value="" style="display:none"><iframe id="goods_desc___Frame" src="<?php echo (ADMIN_PUBLIC); ?>/fckeditor/editor/fckeditor.html?InstanceName=goods_desc&amp;Toolbar=Normal" width="100%" height="320" frameborder="0" scrolling="no" style="margin: 0px; padding: 0px; border: 0px; background-color: transparent; background-image: none; width: 100%; height: 320px;"></iframe></td>
-          </tr>
-        </tbody></table>
+          <!-- 详细描述 -->
+          <table width="90%" id="detail-table" style="display: none;">
+              <tbody><tr>
+                  <td>
+                      <input type="hidden" id="goods_desc" name="goods_desc" value="" style="display:none">
+                      <input type="hidden" id="goods_desc___Config" value="" style="display:none">
+                      <!--<iframe id="goods_desc___Frame" src="<?php echo (ADMIN_PUBLIC); ?>/fckeditor/editor/fckeditor.html?InstanceName=goods_desc&amp;Toolbar=Normal" width="100%" height="320" frameborder="0" scrolling="no" style="margin: 0px; padding: 0px; border: 0px; background-color: transparent; background-image: none; width: 100%; height: 320px;">-->
+
+                      <!--</iframe>-->
+
+                      <script type="text/javascript" charset="utf-8" src="<?php echo (ADMIN_PUBLIC); ?>/ueditor/ueditor.config.js"></script>
+                      <script type="text/javascript" charset="utf-8" src="<?php echo (ADMIN_PUBLIC); ?>/ueditor/ueditor.all.min.js"> </script>
+                      <script type="text/javascript" charset="utf-8" src="<?php echo (ADMIN_PUBLIC); ?>/ueditor/lang/zh-cn/zh-cn.js"></script>
+                      <script id="editor" type="text/plain"  name="goods_desc" style="width:800px;height:200px;"></script>
+                      <script type="text/javascript">
+                      //实例化编辑器
+                      //建议使用工厂方法getEditor创建和引用编辑器实例，如果在某个闭包下引用该编辑器，直接调用UE.getEditor('editor')就能拿到相关的实例
+                      var ue = UE.getEditor('editor');
+
+                      </script>
+
+                      <!--<input type="hidden" name="goods_id" value="<?php echo ($goodsinfo['goods_id']); ?>">-->
+
+                  </td>
+              </tr>
+              </tbody></table>
+
 
         <!-- 其他信息 -->
         <table width="90%" id="mix-table" style="display: none;" align="center">

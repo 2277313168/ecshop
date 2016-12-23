@@ -9,7 +9,7 @@
 <body>
 
 <h1>
-<span class="action-span"><a href="/shop/index.php/Admin/Brand/brandAdd">添加品牌</a></span>
+<span class="action-span"><a href="/shop/ecshop/index.php/Admin/Brand/brandAdd">添加品牌</a></span>
 <span class="action-span1"><a href="index.php?act=main">SHOP 管理中心</a> </span><span id="search_id" class="action-span1"> - 商品品牌 </span>
 <div style="clear:both"></div>
 </h1>
@@ -48,8 +48,8 @@
                 <?php if($vo["is_show"] == 1): ?>src="<?php echo (ADMIN_PUBLIC); ?>/images/yes.gif"
                     <?php else: ?>src="<?php echo (ADMIN_PUBLIC); ?>/images/no.gif"<?php endif; ?>       ></td>
 			<td align="center">
-				<a href="/shop/index.php/Admin/Brand/brandEdit/id/<?php echo ($vo["brand_id"]); ?>" title="编辑">编辑</a> |
-				<a href="/shop/index.php/Admin/Brand/brandDelete/id/<?php echo ($vo["brand_id"]); ?>" onclick="listTable.remove(1, '你确认要删除选定的商品品牌吗？')" title="编辑">移除</a>
+				<a href="/shop/ecshop/index.php/Admin/Brand/brandEdit/id/<?php echo ($vo["brand_id"]); ?>" title="编辑">编辑</a> |
+				<a href="/shop/ecshop/index.php/Admin/Brand/brandDelete/id/<?php echo ($vo["brand_id"]); ?>" onclick="listTable.remove(1, '你确认要删除选定的商品品牌吗？')" title="编辑">移除</a>
 			</td>
 		</tr><?php endforeach; endif; else: echo "" ;endif; ?>
 

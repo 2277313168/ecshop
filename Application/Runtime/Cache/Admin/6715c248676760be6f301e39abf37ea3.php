@@ -9,7 +9,7 @@
 <body>
 
 <h1>
-<span class="action-span"><a href="/shop/index.php/Admin/Category/catAdd">添加分类</a></span>
+<span class="action-span"><a href="/shop/ecshop/index.php/Admin/Category/catAdd">添加分类</a></span>
 <span class="action-span1"><a href="index.php?p=admin&c=index&a=index">SHOP 管理中心</a> </span><span id="search_id" class="action-span1"> - 商品分类 </span>
 <div style="clear:both"></div>
 </h1>
@@ -46,8 +46,8 @@
 					<td width="10%" align="right"><span onclick="listTable.edit(this, 'edit_sort_order', 1)" title="点击修改内容" style=""><?php echo ($vo["sort_order"]); ?></span></td>
 					<td width="24%" align="center">
 						<a href="category.php?act=move&amp;cat_id=1">转移商品</a> |
-						<a href="/shop/index.php/Admin/Category/catEdit/id/<?php echo ($vo["cat_id"]); ?>">编辑</a> |
-						<a href="/shop/index.php/Admin/Category/catDelete/id/<?php echo ($vo["cat_id"]); ?>" onclick="listTable.remove(1, '您确认要删除这条记录吗?')" title="移除">移除</a>
+						<a href="/shop/ecshop/index.php/Admin/Category/catEdit/id/<?php echo ($vo["cat_id"]); ?>">编辑</a> |
+						<a href="/shop/ecshop/index.php/Admin/Category/catDelete/id/<?php echo ($vo["cat_id"]); ?>" onclick="listTable.remove(1, '您确认要删除这条记录吗?')" title="移除">移除</a>
 					</td>
 				</tr><?php endforeach; endif; else: echo "" ;endif; ?>
 	<!--  start 这些代码是显示使用，没有格式化 开发时可删除-->
