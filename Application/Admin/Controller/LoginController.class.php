@@ -24,12 +24,19 @@ class LoginController extends Controller
                 $this->error('验证码错误', U('Login/login'), 1);
             }
 
+
             $condition['admin_name'] = $name;
             $admin = M('admin')->where($condition)->find();
+
+            if($admin['is_use'] == 0){
+                $this->error('该账号已被禁用',U('Login/login'),1);
+            }
+
             if(!empty($admin)){
-                if($admin['password'] == md5($psw) ){
+                if($admin['password'] == md5( I('password'). C('SALT') )  ){ //. C('SALT')
+                    //var_dump($admin);die;
                     session('admin',$admin);
-                    $this->success('登陆成功',U('Index/index'),1);
+                    $this->success('登陆成功',U('Index/index1'),1);
                     return;
                 }
             }

@@ -33,7 +33,7 @@ class GoodsController extends BaseController
     //浏览历史
     public function history($goods)
     {
-//        $history = array();
+
         //有history这个session，则把里头的内容赋值给$history;没有，则新建数组
         $history = session('?history') ? session('history') : array();
 

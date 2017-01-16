@@ -15,7 +15,7 @@
 </h1>
 
 <div class="main-div">
-  <form action="/shop/index.php/Admin/GoodsType/typeEdit" method="post" name="theForm" onsubmit="return validate();">
+  <form action="/shop/ecshop/index.php/Admin/GoodsType/typeEdit" method="post" name="theForm" onsubmit="return validate();">
     <table cellspacing="1" cellpadding="3" width="100%">
       <tbody><tr>
         <td class="label">商品类型名称:</td>

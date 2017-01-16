@@ -16,7 +16,7 @@
 </h1>
 <!-- start add new category form -->
 <div class="main-div">
-  <form action="/shop/index.php/Admin/Category/catEdit" method="post" name="theForm" enctype="multipart/form-data" onsubmit="return validate()">
+  <form action="/shop/ecshop/index.php/Admin/Category/catEdit" method="post" name="theForm" enctype="multipart/form-data" onsubmit="return validate()">
 	 <table width="100%" id="general-table">
 		<tbody>
 			<tr>

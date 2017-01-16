@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>SHOP 管理中心 - 添加分类 </title>
+	<meta name="robots" content="noindex, nofollow">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link href="{$Think.const.ADMIN_PUBLIC}/styles/general.css" rel="stylesheet" type="text/css" />
+	<link href="{$Think.const.ADMIN_PUBLIC}/styles/main.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+<h1>
+	<span class="action-span"><a href="__MODULE__/Category/catIndex">权限列表</a></span>
+	<span class="action-span1"><a href="index.php?act=main">SHOP 管理中心</a> </span><span id="search_id" class="action-span1"> - 添加分类 </span>
+	<div style="clear:both"></div>
+</h1>
+<!-- start add new category form -->
+<div class="main-div">
+	<form action="__MODULE__/Auth/authEdit" method="post" name="theForm" enctype="multipart/form-data" onsubmit="return validate()">
+		<input type="hidden" name="id" value="{$auth['auth_id']}">
+		<table width="100%" id="general-table">
+			<tbody>
+
+			<tr>
+				<td class="label">权限名称:</td>
+				<td><input type="text" name="auth_name" maxlength="20" value="{$auth.auth_name}" size="27"> <font color="red">*</font></td>
+			</tr>
+			<tr>
+				<td class="label">上级分类:</td>
+				<td>
+					<select name="auth_pid">
+						<option value="0">顶级分类</option>
+						<volist name="authList" id="vo">
+							<option value="{$vo.auth_id}" <if condition="$vo['auth_id'] == $auth['auth_pid'] ">selected="selected"</if>  >
+								{$vo.level|str_repeat="&nbsp;&nbsp;" ,### }
+								{$vo.auth_name}</option>
+						</volist>
+					</select>
+				</td>
+			</tr>
+
+			<tr >
+				<td class="label">模块名称:</td>
+				<td><input type="text" name="module_name" value="{$auth.module_name}" size="12"></td>
+			</tr>
+			<tr >
+				<td class="label">控制器名称:</td>
+				<td><input type="text" name="controller_name" value="{$auth['controller_name']}" size="12"></td>
+			</tr>
+
+			<tr >
+				<td class="label">方法名称:</td>
+				<td><input type="text" name="action_name" value="{$auth['action_name']}" size="12"></td>
+			</tr>
+
+			</tbody></table>
+		<div class="button-div">
+			<input type="submit" value=" 确定 ">
+			<input type="reset" value=" 重置 ">
+		</div>
+		<input type="hidden" name="act" value="insert">
+		<input type="hidden" name="old_cat_name" value="">
+	</form>
+</div>
+
+
+
+<div id="footer">
+	版权所有 &copy; 2012-2013 传智播客 - PHP培训 -
+</div>
+
+</div>
+
+</body>
+</html>

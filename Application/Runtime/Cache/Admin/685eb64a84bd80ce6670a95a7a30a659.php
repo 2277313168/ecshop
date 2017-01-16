@@ -3,7 +3,7 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
 	<title></title>
-	<link href="<?php echo (ADMIN_PUBLIC); ?>/tyles/general.css" rel="stylesheet" type="text/css" />
+	<link href="<?php echo (ADMIN_PUBLIC); ?>/styles/general.css" rel="stylesheet" type="text/css" />
 	<link href="<?php echo (ADMIN_PUBLIC); ?>/styles/main.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -14,7 +14,7 @@
 </h1>
 
 <div class="form-div">
-  <form action="" name="searchForm">
+  <form action="/shop/ecshop/index.php/Admin/Goods/goodsIndex" name="searchForm">
     <img src="<?php echo (ADMIN_PUBLIC); ?>/images/icon_search.gif" width="26" height="22" border="0" alt="SEARCH">
         <!-- 分类 -->
     <select name="cat_id">

@@ -1,0 +1,11 @@
+ <link href="{$Think.const.ADMIN_PUBLIC}/datepicker/jquery-ui-1.9.2.custom.min.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" language="javascript" src="{$Think.const.ADMIN_PUBLIC}/datepicker/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="{$Think.const.ADMIN_PUBLIC}/datepicker/jquery-ui-1.9.2.custom.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="{$Think.const.ADMIN_PUBLIC}/datepicker/datepicker_zh-cn.js"></script>
+
+
+<input type="text" id="example" />
+
+
+<script >$("#example").datepicker({ dateFormat: "yy-mm-dd" })</script>

@@ -15,7 +15,7 @@
 </h1>
 
 <div class="main-div">
-  <form action="/shop/index.php/Admin/Attribute/attrAdd" method="post" name="theForm" onsubmit="return validate();">
+  <form action="/shop/ecshop/index.php/Admin/Attribute/attrAdd" method="post" name="theForm" onsubmit="return validate();">
   <table width="100%" id="general-table">
       <tbody><tr>
         <td class="label">属性名称：</td>
@@ -81,8 +81,8 @@
  */
 function radioClicked(n)
 {
-  //document.forms['theForm'].elements["attr_value"].disabled = n > 0 ? false : true;
-document.getElementsByName('attr_value').disabled = n > 0 ? false : true;
+  document.forms['theForm'].elements["attr_value"].disabled = n > 0 ? false : true;
+//document.getElementsByName('attr_value').disabled = n > 0 ? false : true;
 }
 
 

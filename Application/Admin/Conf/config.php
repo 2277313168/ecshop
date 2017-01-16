@@ -13,5 +13,13 @@ return array(
 //    'DB_FIELDS_CACHE'       =>  true,        // 启用字段缓存
 //    'DB_CHARSET'            =>  'utf8',      // 数据库编码默认采用utf8
 
+    'SALT'  => 'DSG@#$#%$!)&',
 
+//================文件上传相关设置=================
+    'maxSize'       =>  3145728,
+    'exts'          => array('jpg', 'gif', 'png', 'jpeg'),
+    'rootPath'     =>  "./Uploads/",
+    'savePath'     => './',
+//==============修改I函数底层过滤使用的函数==============
+    'DEFAULT_FILTER' => 'trim,removeXSS',
 );

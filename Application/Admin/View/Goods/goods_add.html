@@ -104,9 +104,21 @@
             <td id="promote_3"><input type="text" id="promote_1" name="promote_price" value="2750.00" size="20"></td>
           </tr>
           <tr id="promote_4">
+              <link href="{$Think.const.ADMIN_PUBLIC}/datepicker/jquery-ui-1.9.2.custom.min.css" rel="stylesheet" type="text/css" />
+
+              <script type="text/javascript" language="javascript" src="{$Think.const.ADMIN_PUBLIC}/datepicker/jquery-1.7.2.min.js"></script>
+              <script type="text/javascript" charset="utf-8" src="{$Think.const.ADMIN_PUBLIC}/datepicker/jquery-ui-1.9.2.custom.min.js"></script>
+              <script type="text/javascript" charset="utf-8" src="{$Think.const.ADMIN_PUBLIC}/datepicker/datepicker_zh-cn.js"></script>
+
+
+
+
             <td class="label" id="promote_5">促销日期：</td>
             <td id="promote_6">
-              <input name="promote_start_time" type="text" id="promote_start_date" size="12" value="2009-06-01" readonly="readonly"><input name="selbtn1" type="button" id="selbtn1" onclick="return showCalendar('promote_start_date', '%Y-%m-%d', false, false, 'selbtn1');" value="选择" class="button"> - <input name="promote_end_time" type="text" id="promote_end_date" size="12" value="2014-11-30" readonly="readonly"><input name="selbtn2" type="button" id="selbtn2" onclick="return showCalendar('promote_end_date', '%Y-%m-%d', false, false, 'selbtn2');" value="选择" class="button">
+              <input name="promote_start_time" type="text" id="promote_start_date" size="12" value="" > --
+                <!--<input name="selbtn1" type="button" id="selbtn1" onclick="return showCalendar('promote_start_date', '%Y-%m-%d', false, false, 'selbtn1');" value="选择" class="button"> - -->
+                <input name="promote_end_time" type="text" id="promote_end_date" size="12" value="" >
+                <!--<input name="selbtn2" type="button" id="selbtn2" onclick="return showCalendar('promote_end_date', '%Y-%m-%d', false, false, 'selbtn2');" value="选择" class="button">-->
             </td>
           </tr>
           <tr>
@@ -555,20 +567,23 @@
 	$('#sw_type').change(function () {
 		var type_id = this.value;
 		$.ajax({
-			'type':"GET",
-			'url':'__MODULE__/Attribute/getAttrs',
-			'data': 'type_id='+type_id,//记得带等于号
-			'dataType' : 'html',
-			'success':function (msg) {
+			type:"GET",
+			url:'__MODULE__/Attribute/getAttrs',
+			data: 'type_id='+type_id,//记得带等于号
+			dataType : 'html',
+			success:function (msg) {
+               // alert(msg);
 				$('#tbody-goodsAttr').html(msg);
 			}
 		})
 
 	})
 
-
-
 </script>
+
+
+<script >$("#promote_end_date").datepicker({ dateFormat: "yy-mm-dd" })</script>
+<script >$("#promote_start_date").datepicker({ dateFormat: "yy-mm-dd" })</script>
 
 
 

@@ -1,18 +1,6 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <title>SHOP 管理中心 - 品牌管理 </title>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <link href="{$Think.const.ADMIN_PUBLIC}/styles/general.css" rel="stylesheet" type="text/css" />
-    <link href="{$Think.const.ADMIN_PUBLIC}/styles/main.css" rel="stylesheet" type="text/css" />
-</head>
-<body>
+<!--<layout name="Public/headerFooter"/>-->
 
-<h1>
-    <span class="action-span"><a href="__MODULE__/Brand/brandIndex">商品品牌</a></span>
-    <span class="action-span1"><a href="__MODULE__/Index/index">SHOP 管理中心</a> </span><span id="search_id" class="action-span1"> - 添加品牌 </span>
-    <div style="clear:both"></div>
-</h1>
+
 
 <div class="main-div">
     <form method="post" action="__MODULE__/Brand/brandEdit" name="theForm" enctype="multipart/form-data" onsubmit="return validate()">
@@ -28,7 +16,7 @@
             </tr>
             <tr>
                 <td class="label"><a href="javascript:showNotice('warn_brandlogo');" title="点击此处查看提示信息">
-                    <img src="{$Think.const.ADMIN_PUBLIC}/images/notice.gif" width="16" height="16" border="0" alt="点击此处查看提示信息"></a>品牌LOGO</td>
+                    <img src="__ROOT__/Uploads/{$brand.logo}" width="56" height="56" border="0" alt="点击此处查看提示信息"></a>品牌LOGO</td>
                 <td><input type="file" name="logo" id="logo" size="45">    <br><span class="notice-span" style="display:block" id="warn_brandlogo">
         请上传图片，做为品牌的LOGO！        </span>
                 </td>
@@ -63,10 +51,3 @@
     </form>
 </div>
 
-
-<div id="footer">
-    版权所有 &copy; 2012-2013 传智播客 - PHP培训 - </div>
-</div>
-
-</body>
-</html>

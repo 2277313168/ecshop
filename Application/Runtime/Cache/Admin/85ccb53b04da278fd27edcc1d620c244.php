@@ -9,13 +9,18 @@
 <body>
 
 <h1>
-    <span class="action-span"><a href="/shop/index.php/Admin/Brand/brandIndex">商品品牌</a></span>
-    <span class="action-span1"><a href="/shop/index.php/Admin/Index/index">SHOP 管理中心</a> </span><span id="search_id" class="action-span1"> - 添加品牌 </span>
+    <span class="action-span"><a href="/shop/ecshop/index.php/Admin/Brand/brandAdd"><?php echo ($title2); ?></a></span>
+    <span class="action-span1"><a href="/shop/ecshop/index.php/Admin/Index/index">SHOP 管理中心</a> </span><span id="search_id" class="action-span1"> - <?php echo ($title1); ?> </span>
     <div style="clear:both"></div>
 </h1>
 
+<!--头部结束，以下是尾部=============================================================-->
+<!---->
+
+
+
 <div class="main-div">
-    <form method="post" action="/shop/index.php/Admin/Brand/brandEdit" name="theForm" enctype="multipart/form-data" onsubmit="return validate()">
+    <form method="post" action="/shop/ecshop/index.php/Admin/Brand/brandEdit" name="theForm" enctype="multipart/form-data" onsubmit="return validate()">
         <input type="hidden" name="id" value="<?php echo ($brand["brand_id"]); ?>"/>
         <table cellspacing="1" cellpadding="3" width="100%">
             <tbody><tr>
@@ -28,7 +33,7 @@
             </tr>
             <tr>
                 <td class="label"><a href="javascript:showNotice('warn_brandlogo');" title="点击此处查看提示信息">
-                    <img src="<?php echo (ADMIN_PUBLIC); ?>/images/notice.gif" width="16" height="16" border="0" alt="点击此处查看提示信息"></a>品牌LOGO</td>
+                    <img src="/shop/ecshop/Uploads/<?php echo ($brand["logo"]); ?>" width="56" height="56" border="0" alt="点击此处查看提示信息"></a>品牌LOGO</td>
                 <td><input type="file" name="logo" id="logo" size="45">    <br><span class="notice-span" style="display:block" id="warn_brandlogo">
         请上传图片，做为品牌的LOGO！        </span>
                 </td>
@@ -61,6 +66,7 @@
             </tbody></table>
     </form>
 </div>
+
 
 
 <div id="footer">

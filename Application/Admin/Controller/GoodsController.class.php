@@ -14,7 +14,11 @@ class GoodsController extends BaseController
 
     public function goodsIndex()
     {
-        $goodsList = M('goods')->select();
+        $keyword = I('keyword');
+        $condition['goods_name'] = array('like',"%$keyword%");
+
+
+        $goodsList = M('goods')->where($condition)->select();
         $this->assign('goodsList',$goodsList);
         $brandList = M('brand')->select();
         $this->assign('brandList',$brandList);
@@ -50,18 +54,44 @@ class GoodsController extends BaseController
             $data['add_time'] = time();
 
 
-            $upload = new \Think\Upload();// 实例化上传类
-            $upload->maxSize   =     3145728 ;// 设置附件上传大小
-            $upload->exts      =     array('jpg', 'gif', 'png', 'jpeg');// 设置附件上传类型
-            $upload->rootPath  =     './Uploads/'; // 设置附件上传根目录
-            $upload->savePath  =     './'; // 设置附件上传（子）目录
-            // 上传文件
-            $info   =   $upload->uploadOne($_FILES['goods_img']);
-//            $info   =   $upload->upload();
-            if($info) {// 上传错误提示错误信息
-                $data['goods_img']= $info['savepath'].$info['savename'];
 
-            }
+                $upload = new \Think\Upload();// 实例化上传类
+                $upload->maxSize   =    C('maxSize') ;// 设置附件上传大小
+                $upload->exts      =     C('exts');// 设置附件上传类型
+                $upload->rootPath  =     C('rootPath'); // 设置附件上传根目录
+                $upload->savePath  =     C('savePath'); // 设置附件上传（子）目录
+                // 上传文件
+
+
+                $info   =   $upload->upload();
+                if($info) {//上传成功，生成缩略图
+                    //var_dump($info);
+                    $openName = C('rootPath').$info[0]['savepath'].$info[0]['savename']; //savepath,savename而非savePath,saveName
+                    $thumbName = C('rootPath').$info[0]['savepath'].'thumb_'.$info[0]['savename'];
+                    $data['goods_img'] = $openName;
+                    $data['goods_thumb'] = $thumbName;
+
+                    $image = new \Think\Image();
+                    $image->open($openName);
+                    $image->thumb(50, 50)->save($thumbName);// 按照原图的比例生成一个最大为150*150的缩略图并保存为thumb.jpg
+
+                }
+
+
+
+
+//            $upload = new \Think\Upload();// 实例化上传类
+//            $upload->maxSize   =     3145728 ;// 设置附件上传大小
+//            $upload->exts      =     array('jpg', 'gif', 'png', 'jpeg');// 设置附件上传类型
+//            $upload->rootPath  =     './Uploads/'; // 设置附件上传根目录
+//            $upload->savePath  =     './'; // 设置附件上传（子）目录
+//            // 上传文件
+//            $info   =   $upload->uploadOne($_FILES['goods_img']);
+//
+//            if($info) {// 上传错误提示错误信息
+//                $data['goods_img']= $info['savepath'].$info['savename'];
+//
+//            }
 
 
             $goods = D('goods');

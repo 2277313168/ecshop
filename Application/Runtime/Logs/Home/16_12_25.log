@@ -1,0 +1,40 @@
+[ 2016-12-25T11:38:26+08:00 ] ::1 /shop/ecshop/index.php/Admin/Brand/brandDelete/id/75/p/I('get.p')
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001006s ]
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 4 D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Dispatcher.class.php 第 126 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001594s ]
+ERR: 无法加载控制器:Brand
+
+[ 2016-12-25T11:44:19+08:00 ] ::1 /shop/ecshop/index.php/Admin/Brand/brandDelete/id/75/p/I('get.p')
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000858s ]
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 4 D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Dispatcher.class.php 第 126 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001149s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001367s ]
+ERR: 无法加载控制器:Brand
+
+[ 2016-12-25T11:53:58+08:00 ] ::1 /shop/ecshop/index.php/Admin/Brand/brandDelete/id/73/p/I('get.p',1)
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000807s ]
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 6 D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Dispatcher.class.php 第 126 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001297s ]
+ERR: 无法加载控制器:Brand
+
+[ 2016-12-25T15:19:44+08:00 ] ::1 /shop/ecshop/index.php/Admin/Brand/brandDelete/id/67/p/I('get.p',1)
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000848s ]
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 6 D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Dispatcher.class.php 第 126 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001794s ]
+ERR: 无法加载控制器:Brand
+

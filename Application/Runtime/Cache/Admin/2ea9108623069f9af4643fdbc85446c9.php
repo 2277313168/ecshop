@@ -9,7 +9,7 @@
 <body>
 
 <h1>
-<span class="action-span"><a href="/shop/index.php/Admin/Attribute/attrAdd">添加属性</a></span>
+<span class="action-span"><a href="/shop/ecshop/index.php/Admin/Attribute/attrAdd">添加属性</a></span>
 <span class="action-span1"><a href="index.php?act=main">SHOP 管理中心</a> </span><span id="search_id" class="action-span1"> - 商品属性 </span>
 <div style="clear:both"></div>
 </h1>
@@ -48,8 +48,8 @@
 			<td valign="top"><span><?php echo ($vo["attr_value"]); ?></span></td>
 			<td align="right" nowrap="true" valign="top"><span onclick="listTable.edit(this, 'edit_sort_order', 1)">0</span></td>
 			<td align="center" nowrap="true" valign="top">
-				<a href="/shop/index.php/Admin/Attribute/attrEdit/id/<?php echo ($vo["attr_id"]); ?>" title="编辑"><img src="<?php echo (ADMIN_PUBLIC); ?>/images/icon_edit.gif" border="0" height="16" width="16"></a>
-				<a href="/shop/index.php/Admin/Attribute/attrDelete/id/<?php echo ($vo["attr_id"]); ?>" onclick="removeRow(1)" title="移除"><img src="<?php echo (ADMIN_PUBLIC); ?>/images/icon_drop.gif" border="0" height="16" width="16"></a>
+				<a href="/shop/ecshop/index.php/Admin/Attribute/attrEdit/id/<?php echo ($vo["attr_id"]); ?>" title="编辑"><img src="<?php echo (ADMIN_PUBLIC); ?>/images/icon_edit.gif" border="0" height="16" width="16"></a>
+				<a href="/shop/ecshop/index.php/Admin/Attribute/attrDelete/id/<?php echo ($vo["attr_id"]); ?>" onclick="removeRow(1)" title="移除"><img src="<?php echo (ADMIN_PUBLIC); ?>/images/icon_drop.gif" border="0" height="16" width="16"></a>
 			</td>
 		</tr><?php endforeach; endif; else: echo "" ;endif; ?>
 
@@ -76,7 +76,7 @@
 
 <script type="text/javascript">
     function searchAttr(type_id) {
-        window.location.href="/shop/index.php/Admin/Attribute/attrIndex/id/"+type_id ;
+        window.location.href="/shop/ecshop/index.php/Admin/Attribute/attrIndex/id/"+type_id ;
     }
 </script>
 

@@ -32,7 +32,7 @@ body {
         <td><input type="text" name="captcha" class="capital" /></td>
       </tr>
       <tr>
-      <td colspan="2" align="right"><img src="/shop/ecshop/index.php/Admin/Login/verifyCode/<?php echo ($random); ?>" width="145" height="30" alt="CAPTCHA" border="1" onclick= this.src="/shop/ecshop/index.php/Admin/Login/verifyCode/"+Math.random() style="cursor: pointer;" title="看不清？点击更换另一个验证码。" />
+      <td colspan="2" align="right"><img src="/shop/ecshop/index.php/Admin/Login/verifyCode" width="145" height="30" alt="CAPTCHA" border="1" onclick= this.src="/shop/ecshop/index.php/Admin/Login/verifyCode/"+Math.random() style="cursor: pointer;" title="看不清？点击更换另一个验证码。" />
       </td>
       </tr>
       <tr><td colspan="2"><input type="checkbox" value="1" name="remember" id="remember" /><label for="remember">请保存我这次的登录信息</label></td></tr>

@@ -106,6 +106,8 @@ class AttributeController extends BaseController {
     public function getAttrs(){
         $type_id = I('type_id');
         $attrs = D('attribute')->getAttrsForm($type_id);
+        //echo $type_id;
+        //$this->ajaxReturn($type_id,'eval');
         $this->ajaxReturn($attrs,'eval');
     }
 
