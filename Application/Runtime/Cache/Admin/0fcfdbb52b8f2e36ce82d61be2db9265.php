@@ -96,7 +96,7 @@
     });
 </script>
 
-
+<!--
 <script>
     //为表单绑定ajax提交事件
     $("#form1").submit(function () {
@@ -122,3 +122,4 @@
     });
 
 </script>
+-->

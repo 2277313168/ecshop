@@ -68,7 +68,7 @@
 				<tr>
 					<th><input type="checkbox">编号</th>
 					<th>商品名称</th>
-					<th>货号</th>
+					<th>商品描述</th>
 					<th>价格</th>
 					<th>上架</th>
 					<th>精品</th>
@@ -82,8 +82,8 @@
                 <volist name="goodsList" id="vo">
 				<tr>
 					<td><input type="checkbox" name="checkboxes[]" value="32">{$i}</td>
-					<td class="first-cell"><span>{$vo.goods_name}</span></td>
-					<td><span>{$vo.goods_sn}</span></td>
+					<td class="first-cell"><span>{$vo.goods_name}</span> <img src="__ROOT__{$vo.goods_thumb} " width="30" height="30" style="float: right" /></td>
+					<td><span>{$vo.goods_desc}</span></td>
 					<td align="right"><span>{$vo.shop_price}</span></td>
 					<td align="center"><img  <if condition="$vo['is_onsale'] eq 1">   src="{$Think.const.ADMIN_PUBLIC}/images/yes.gif" <else />src="{$Think.const.ADMIN_PUBLIC}/images/no.gif" </if> onclick=""></td>
 					<td align="center"><img <if condition= "$vo['is_best'] eq 1">  src="{$Think.const.ADMIN_PUBLIC}/images/yes.gif" <else />src="{$Think.const.ADMIN_PUBLIC}/images/no.gif" </if>onclick=""></td>
@@ -93,7 +93,7 @@
 					<td align="right"><span onclick="">4</span></td>
 					<td align="center">
 						<a href="../goods.php?id=32" target="_blank" title="查看"><img src="{$Think.const.ADMIN_PUBLIC}/images/icon_view.gif" width="16" height="16" border="0"></a>
-						<a href="goods.php?act=edit&amp;goods_id=32" title="编辑"><img src="{$Think.const.ADMIN_PUBLIC}/images/icon_edit.gif" width="16" height="16" border="0"></a>
+						<a href="__MODULE__/Goods/goodsEdit/id/{$vo['goods_id']}" title="编辑"><img src="{$Think.const.ADMIN_PUBLIC}/images/icon_edit.gif" width="16" height="16" border="0"></a>
 						<a href="goods.php?act=copy&amp;goods_id=32" title="复制"><img src="{$Think.const.ADMIN_PUBLIC}/images/icon_copy.gif" width="16" height="16" border="0"></a>
 						<a href="javascript:;" onclick="listTable.remove(32, '您确实要把该商品放入回收站吗？')" title="回收站"><img src="{$Think.const.ADMIN_PUBLIC}/images/icon_trash.gif" width="16" height="16" border="0"></a>
 						<a href="goods.php?act=product_list&amp;goods_id=32" title="货品列表"><img src="{$Think.const.ADMIN_PUBLIC}/images/icon_docs.gif" width="16" height="16" border="0"></a>          

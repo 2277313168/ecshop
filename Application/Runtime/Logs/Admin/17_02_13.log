@@ -1,0 +1,693 @@
+[ 2017-02-13T09:42:40+08:00 ] ::1 /shop/ecshop/index.php/Admin/Goods/goodedit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000831s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005945s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007323s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000440s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.071095s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071393s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000814s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001057s ]
+
+[ 2017-02-13T09:42:41+08:00 ] ::1 /shop/ecshop/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001540s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001147s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001460s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000323s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027369s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027770s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000598s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000798s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001067s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001295s ]
+
+[ 2017-02-13T09:42:42+08:00 ] ::1 /shop/ecshop/index.php/Admin/Login/verifyCode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001357s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001161s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001402s ]
+
+[ 2017-02-13T09:42:57+08:00 ] ::1 /shop/ecshop/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000806s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001138s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001432s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_admin` [ RunTime:0.093712s ]
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+SQL: SELECT * FROM `cz_admin` WHERE `admin_name` = 'admin' LIMIT 1   [ RunTime:0.017099s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000360s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011777s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001195s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001410s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001136s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001344s ]
+
+[ 2017-02-13T09:42:58+08:00 ] ::1 /shop/ecshop/index.php/Admin/Index/index1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000733s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001212s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000313s ]
+NOTIC: [8] Undefined variable: shop_url D:\appserv\www\shop\ecshop\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 16 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.080093s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.080444s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000844s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001136s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001602s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001971s ]
+
+[ 2017-02-13T09:42:58+08:00 ] ::1 /shop/ecshop/index.php/Admin/Index/top1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000933s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001244s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000360s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042252s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042523s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000889s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001150s ]
+
+[ 2017-02-13T09:42:58+08:00 ] ::1 /shop/ecshop/index.php/Admin/Index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000893s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001130s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000473s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001679s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056154s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056596s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000966s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001387s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001689s ]
+
+[ 2017-02-13T09:42:58+08:00 ] ::1 /shop/ecshop/index.php/Admin/Index/drag1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000992s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001797s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000170s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000481s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038059s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038595s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000965s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001334s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001234s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001534s ]
+
+[ 2017-02-13T09:42:59+08:00 ] ::1 /shop/ecshop/index.php/Admin/Index/menu1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000794s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001105s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.048844s ]
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+SQL: SELECT * FROM `cz_auth`  [ RunTime:0.087090s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000429s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054202s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054534s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000762s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000958s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000959s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001257s ]
+
+[ 2017-02-13T09:43:01+08:00 ] ::1 /shop/ecshop/index.php/Admin/Auth/authIndex.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000953s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001119s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_auth` [ RunTime:0.064275s ]
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+SQL: SELECT * FROM `cz_auth`  [ RunTime:0.012259s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000193s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000573s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041353s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041598s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000712s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000826s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001092s ]
+
+[ 2017-02-13T09:43:03+08:00 ] ::1 /shop/ecshop/index.php/Admin/Role/roleIndex.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000810s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001145s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001395s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_role` [ RunTime:0.058705s ]
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+SQL: SELECT a.*,GROUP_CONCAT(c.auth_name) auth_name FROM cz_role a LEFT JOIN `cz_role_auth` b ON a.role_id = b.role_id LEFT JOIN `cz_auth` c ON b.auth_id = c.auth_id  GROUP BY a.role_id  [ RunTime:0.181982s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000282s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000805s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057119s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057747s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001130s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001691s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001734s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002158s ]
+
+[ 2017-02-13T09:43:05+08:00 ] ::1 /shop/ecshop/index.php/Admin/Admin/adminIndex.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000890s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000873s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001109s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_admin` [ RunTime:0.015468s ]
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+SQL: SELECT a.*,GROUP_CONCAT(c.role_name) role_name FROM cz_admin a LEFT JOIN `cz_admin_role` b ON a.admin_id = b.admin_id LEFT JOIN `cz_role` c ON b.role_id=c.role_id  GROUP BY a.admin_id  [ RunTime:0.047494s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000366s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028430s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028759s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000583s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000796s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000846s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001047s ]
+
+[ 2017-02-13T09:44:29+08:00 ] ::1 /shop/ecshop/index.php/Admin/Goods/goodsIndex.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000752s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001049s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_goods` [ RunTime:0.026857s ]
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+SQL: SELECT * FROM `cz_goods` WHERE `goods_name` LIKE '%%'  [ RunTime:0.010389s ]
+SQL: SHOW COLUMNS FROM `cz_brand` [ RunTime:0.018960s ]
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+SQL: SELECT * FROM `cz_brand`  [ RunTime:0.017866s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.023877s ]
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.018990s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000383s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041730s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042010s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000679s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001260s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001622s ]
+
+[ 2017-02-13T09:45:22+08:00 ] ::1 /shop/ecshop/index.php/Admin/Goods/goodsAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000861s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001673s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_goods_type` [ RunTime:0.014572s ]
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+SQL: SELECT * FROM `cz_goods_type`  [ RunTime:0.015828s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.011422s ]
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.005166s ]
+SQL: SHOW COLUMNS FROM `cz_brand` [ RunTime:0.001062s ]
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+SQL: SELECT * FROM `cz_brand`  [ RunTime:0.000460s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001006s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001432s ]
+NOTIC: [8] Undefined variable: goodsinfo D:\appserv\www\shop\ecshop\Application\Runtime\Cache\Admin\b71ec61a33b751284e371fb5a05f504d.php 第 159 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053520s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053810s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000762s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000973s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001092s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001311s ]
+
+[ 2017-02-13T09:45:25+08:00 ] ::1 /shop/ecshop/index.php/Admin/Goods/goodsIndex.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000888s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001268s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_goods` [ RunTime:0.123624s ]
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+SQL: SELECT * FROM `cz_goods` WHERE `goods_name` LIKE '%%'  [ RunTime:0.000617s ]
+SQL: SHOW COLUMNS FROM `cz_brand` [ RunTime:0.000878s ]
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+SQL: SELECT * FROM `cz_brand`  [ RunTime:0.000427s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.007847s ]
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.011024s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000260s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000690s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029621s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029977s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000915s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001395s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001141s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001365s ]
+
+[ 2017-02-13T09:45:25+08:00 ] ::1 /shop/ecshop/index.php/Admin/Goods/goodsIndex.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000901s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000951s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001177s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_goods` [ RunTime:0.031765s ]
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+SQL: SELECT * FROM `cz_goods` WHERE `goods_name` LIKE '%%'  [ RunTime:0.000800s ]
+SQL: SHOW COLUMNS FROM `cz_brand` [ RunTime:0.038202s ]
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+SQL: SELECT * FROM `cz_brand`  [ RunTime:0.001377s ]
+SQL: SHOW COLUMNS FROM `cz_category` [ RunTime:0.001732s ]
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+SQL: SELECT * FROM `cz_category`  [ RunTime:0.000933s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000270s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000638s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040665s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040933s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000676s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000873s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001307s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001611s ]
+
+[ 2017-02-13T09:45:27+08:00 ] ::1 /shop/ecshop/index.php/Admin/GoodsType/typeIndex.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000961s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001037s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_goods_type` [ RunTime:0.004591s ]
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cz_goods_type` LIMIT 1   [ RunTime:0.000298s ]
+SQL: SELECT * FROM `cz_goods_type` LIMIT 0,5   [ RunTime:0.000635s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000346s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049790s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050060s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000828s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001003s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001203s ]
+
+[ 2017-02-13T09:45:29+08:00 ] ::1 /shop/ecshop/index.php/Admin/Brand/brandIndex.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000792s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001070s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_brand` [ RunTime:0.001244s ]
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cz_brand` WHERE `brand_name` LIKE '%%' LIMIT 1   [ RunTime:0.000493s ]
+SQL: SELECT * FROM `cz_brand` WHERE `brand_name` LIKE '%%' ORDER BY sort_order asc LIMIT 0,5   [ RunTime:0.000607s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000343s ]
+NOTIC: [8] Undefined index: brand_logo D:\appserv\www\shop\ecshop\Application\Runtime\Cache\Admin\9565800db338b186b90e85da70dcb484.php 第 45 行.
+NOTIC: [8] Undefined index: brand_logo D:\appserv\www\shop\ecshop\Application\Runtime\Cache\Admin\9565800db338b186b90e85da70dcb484.php 第 45 行.
+NOTIC: [8] Undefined index: brand_logo D:\appserv\www\shop\ecshop\Application\Runtime\Cache\Admin\9565800db338b186b90e85da70dcb484.php 第 45 行.
+NOTIC: [8] Undefined index: brand_logo D:\appserv\www\shop\ecshop\Application\Runtime\Cache\Admin\9565800db338b186b90e85da70dcb484.php 第 45 行.
+NOTIC: [8] Undefined index: brand_logo D:\appserv\www\shop\ecshop\Application\Runtime\Cache\Admin\9565800db338b186b90e85da70dcb484.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063323s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063642s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000796s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000992s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000957s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001151s ]
+
+[ 2017-02-13T09:45:32+08:00 ] ::1 /shop/ecshop/index.php/Admin/Brand/brandAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001115s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000344s ]
+NOTIC: [8] Undefined variable: title2 D:\appserv\www\shop\ecshop\Application\Runtime\Cache\Admin\0fcfdbb52b8f2e36ce82d61be2db9265.php 第 19 行.
+NOTIC: [8] Undefined variable: title1 D:\appserv\www\shop\ecshop\Application\Runtime\Cache\Admin\0fcfdbb52b8f2e36ce82d61be2db9265.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.090462s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.090821s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000830s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001149s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000993s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001188s ]
+
+[ 2017-02-13T09:45:37+08:00 ] ::1 /shop/ecshop/index.php/Admin/Brand/brandIndex.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000907s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001373s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_brand` [ RunTime:0.020924s ]
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cz_brand` WHERE `brand_name` LIKE '%%' LIMIT 1   [ RunTime:0.000590s ]
+SQL: SELECT * FROM `cz_brand` WHERE `brand_name` LIKE '%%' ORDER BY sort_order asc LIMIT 0,5   [ RunTime:0.000690s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000360s ]
+NOTIC: [8] Undefined index: brand_logo D:\appserv\www\shop\ecshop\Application\Runtime\Cache\Admin\9565800db338b186b90e85da70dcb484.php 第 45 行.
+NOTIC: [8] Undefined index: brand_logo D:\appserv\www\shop\ecshop\Application\Runtime\Cache\Admin\9565800db338b186b90e85da70dcb484.php 第 45 行.
+NOTIC: [8] Undefined index: brand_logo D:\appserv\www\shop\ecshop\Application\Runtime\Cache\Admin\9565800db338b186b90e85da70dcb484.php 第 45 行.
+NOTIC: [8] Undefined index: brand_logo D:\appserv\www\shop\ecshop\Application\Runtime\Cache\Admin\9565800db338b186b90e85da70dcb484.php 第 45 行.
+NOTIC: [8] Undefined index: brand_logo D:\appserv\www\shop\ecshop\Application\Runtime\Cache\Admin\9565800db338b186b90e85da70dcb484.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018487s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018818s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000922s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001202s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000877s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001077s ]
+
+[ 2017-02-13T09:45:44+08:00 ] ::1 /shop/ecshop/index.php/Admin/Brand/brandIndex/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000821s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000945s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_brand` [ RunTime:0.010959s ]
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cz_brand` WHERE `brand_name` LIKE '%%' LIMIT 1   [ RunTime:0.000541s ]
+SQL: SELECT * FROM `cz_brand` WHERE `brand_name` LIKE '%%' ORDER BY sort_order asc LIMIT 5,5   [ RunTime:0.000776s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000160s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000461s ]
+NOTIC: [8] Undefined index: brand_logo D:\appserv\www\shop\ecshop\Application\Runtime\Cache\Admin\9565800db338b186b90e85da70dcb484.php 第 45 行.
+NOTIC: [8] Undefined index: brand_logo D:\appserv\www\shop\ecshop\Application\Runtime\Cache\Admin\9565800db338b186b90e85da70dcb484.php 第 45 行.
+NOTIC: [8] Undefined index: brand_logo D:\appserv\www\shop\ecshop\Application\Runtime\Cache\Admin\9565800db338b186b90e85da70dcb484.php 第 45 行.
+NOTIC: [8] Undefined index: brand_logo D:\appserv\www\shop\ecshop\Application\Runtime\Cache\Admin\9565800db338b186b90e85da70dcb484.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.171437s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.171742s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000907s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001275s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001024s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001312s ]
+
+[ 2017-02-13T09:45:50+08:00 ] ::1 /shop/ecshop/index.php/Admin/Brand/brandEdit/id/60
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000835s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000966s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cz_brand` [ RunTime:0.035381s ]
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+NOTIC: [8] Undefined index: GoodsType D:\appserv\www\shop\ecshop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 213 行.
+SQL: SELECT * FROM `cz_brand` WHERE `brand_id` = '60' LIMIT 1   [ RunTime:0.030645s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000267s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001302s ]
+NOTIC: [8] Undefined variable: title2 D:\appserv\www\shop\ecshop\Application\Runtime\Cache\Admin\85ccb53b04da278fd27edcc1d620c244.php 第 12 行.
+NOTIC: [8] Undefined variable: title1 D:\appserv\www\shop\ecshop\Application\Runtime\Cache\Admin\85ccb53b04da278fd27edcc1d620c244.php 第 13 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030076s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030309s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000756s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000894s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001096s ]
+

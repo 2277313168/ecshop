@@ -506,7 +506,8 @@
             <td>
               <a href="javascript:;" onclick="addImg(this)">[+]</a>
               图片描述 <input type="text" name="img_desc[]" size="20">
-              上传文件 <input type="file" name="goods_img[]">
+              <!--上传文件 <input type="file" name="goods_img[]">-->
+               上传文件 <input type="file" name="goods_img">
               <input type="text" size="40" value="或者输入外部图片链接地址" style="color:#aaa;" onfocus="if (this.value == '或者输入外部图片链接地址'){this.value='http://';this.style.color='#000';}" name="img_file[]">
             </td>
           </tr>

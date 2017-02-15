@@ -37,7 +37,7 @@ class BrandController extends BaseController
 
         $User = M('brand'); // 实例化User对象
         $count = $User->where($condition)->count();// 查询满足要求的总记录数
-        $Page = new \Think\Page($count, 3);// 实例化分页类 传入总记录数和每页显示的记录数(25)
+        $Page = new \Think\Page($count, 5);// 实例化分页类 传入总记录数和每页显示的记录数(25)
         $Page->setConfig('prev', '上一页');
         $Page->setConfig('next', '下一页');
         $show = $Page->show();// 分页显示输出
@@ -58,8 +58,6 @@ class BrandController extends BaseController
 
     public function brandAdd()
     {
-
-
         if (IS_POST) {
             $data['brand_name'] = I('brand_name');
             $data['brand_desc'] = I('brand_desc');
@@ -67,65 +65,26 @@ class BrandController extends BaseController
             $data['sort_order'] = I('sort_order');
             $data['is_show'] = I('is_show');
 
-            /*
-            // if( !$_FILES['logo']['tmp_name']=''){
-            $upload = new \Think\Upload();// 实例化上传类
-            $upload->maxSize = C('maxSize');// 设置附件上传大小
-            $upload->exts = C('exts');// 设置附件上传类型
-            $upload->rootPath = './Uploads/'; // 设置附件上传根目录
-            $upload->savePath = './'; // 设置附件上传（子）目录
-            // 上传文件
-            $info = $upload->upload();
-
-            // $info = $upload->uploadOne($_FILES['logo']);
-
-            //}
-
-//            if (!$info) {// 上传错误提示错误信息，即没有文件上传
-//                $this->error($upload->getError());
-//            }
-            if ($info) {// 上传成功
-                foreach ($info as $file) {
-//                    var_dump($file);
-//                    exit(0);
-                    $data['logo'] = $file['savepath'] . $file['savename'];
-
-
-//                    $image = new \Think\Image();
-//                    $image->open("./Uploads/{$data['logo']}");
-//
-//                    $thPath = "./Uploads/{$file['savepath']}thumb_{$file['savename']}";// 按照原图的比例生成一个最大为150*150的缩略图并保存为thumb.jpg
-//                    $image->thumb(50, 50)->save($thPath);
-
-
-//                }
-//                $data['logo'] = $info['savepath'] . $info['savename'];
-            }*/
-            $res = uploadOne('logo', 'Brand', array(array(200, 200), array(100, 100)));
-
+            $res = uploadOne('logo', 'Brand');
             if($res['status'] == 1){
                 $data['logo'] = $res['images'][0];
-                $data['thumb_logo1'] = $res['images'][1];
-                $data['thumb_logo2'] = $res['images'][2];
+//                $data['thumb_logo1'] = $res['images'][1];
+//                $data['thumb_logo2'] = $res['images'][2];
             }else{
-
-//               $this->error( "图片添加失败" , U('Brand/brandAdd'),TRUE);
+               $this->error( "图片添加失败" , U('Brand/brandAdd'),1);
             }
-
-
-           // $data['logo'] = $res[images][0];
 
 
             $brand = D('brand');
             if (!$brand->create($data)) {
-                $this->error($brand->getError(), U('Brand/brandAdd'), TRUE);
+                $this->error($brand->getError(), U('Brand/brandAdd'),1);
             }
 
 
             if ($brand->add()) {
-                $this->success("添加成功", U('Brand/brandIndex'), TRUE);
+                $this->success("添加成功", U('Brand/brandIndex'),1);
             } else {
-                $this->error("添加失败", U('Brand/brandAdd'), TRUE);
+                $this->error("添加失败", U('Brand/brandAdd'),1);
             }
             return;
         }
@@ -144,23 +103,16 @@ class BrandController extends BaseController
             $data['sort_order'] = I('sort_order');
             $data['is_show'] = I('is_show');
 
-            $upload = new \Think\Upload();// 实例化上传类
-            $upload->maxSize = 3145728;// 设置附件上传大小
-            $upload->exts = array('jpg', 'gif', 'png', 'jpeg');// 设置附件上传类型
-            $upload->rootPath = './Uploads/'; // 设置附件上传根目录
-            $upload->savePath = './'; // 设置附件上传（子）目录
 
-
-            $info = $upload->uploadOne($_FILES['logo']);       // 上传文件
-
-            if ($info) {
-                $data['logo'] = $info['savepath'] . $info['savename'];
-
-                //删除原图片
+            $res = uploadOne('logo', 'Brand');
+            if($res['status'] == 1){
                 $logo = M('brand')->field('logo')->find(I('id'));
-                $path = './Uploads' . $logo['logo'];
-                unlink($path);//删除图片
+                unlink( $logo['logo']);//删除原图片
+
+                $data['logo'] = $res['images'][0];
             }
+
+
 
             $brand = M('brand');
 
@@ -183,6 +135,11 @@ class BrandController extends BaseController
     {
         $id = I('id');
         $p = I('p');
+
+        //删除图片
+       $logo = M('brand')->field('logo')->find($id);
+        unlink($logo['logo']);
+
 
         if (D('brand')->delete($id)) {
             $this->success("删除成功！", U("Brand/brandIndex", "p=$p"), 1);

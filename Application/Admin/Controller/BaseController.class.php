@@ -26,7 +26,7 @@ class BaseController extends Controller{
 
 
         //若为index控制器，则所有管理员都有访问权限
-        if(CONTROLLER_NAME == 'Index'){ //记得加双引号
+        if(CONTROLLER_NAME == 'Index'){ //记得加引号,除体统常量，其它常量都需要加引号
 //            var_dump('index');
 //            var_dump($admin);
 //            $this->display('Index/index');

@@ -2,25 +2,30 @@
 /**
  * Created by PhpStorm.
  * User: zwt
- * Date: 2016/12/18
- * Time: 9:54
+ * Date: 2017/2/9
+ * Time: 11:00
  */
 namespace Home\Model;
-
 use Think\Model;
 
-class UserModel extends Model
-{
+class UserModel extends Model{
 
+    //注册验证
     protected $_validate = array(
-        //用user_name而非userName
-        array('user_name', '1,9', '请输入1-9位长度的用户名！',1,'length'), //默认情况下用正则进行验证
-        array('user_name', '', '用户名称已经存在！', 0, 'unique', 1), // 在新增的时候验证name字段是否唯一
-        array('email', 'email', '请输入正确的邮箱！'),
-        array('password', '3,9', '请输入3-9位长度的密码！',1,'length'),
-        array('repwd', 'password', '确认密码不正确', 0, 'confirm'), // 验证确认密码是否和密码一致
+        array('mustClick','require','必须同意注册协议才能注册！'), //默认情况下用正则进行验证
+        array('user_name','require','用户名必须！'), //默认情况下用正则进行验证
+        array('email','require','邮箱必须！'), //默认情况下用正则进行验证
+        array('password','require','密码必须！'), //默认情况下用正则进行验证
+        array('cpassword','require','确认密码必须！'), //默认情况下用正则进行验证
+        array('checkCode','require','验证码必须！'), //默认情况下用正则进行验证
+        array('email','email','email格式错误'),
 
-//       array('password','checkPwd','密码格式不正确',0,'function'), // 自定义函数验证密码格式
+        array('email','','该邮箱已被注册！',0,'unique',1), // 在新增的时候验证name字段是否唯一
+        array('password','2,20','密码必须是3-20位！',2,'length'), // 当值不为空的时候判断是否在一个范围内
+        array('cpassword','password','确认密码不正确',0,'confirm'), // 验证确认密码是否和密码一致
+        array('password','checkPwd','密码格式不正确',0,'function'), // 自定义函数验证密码格式
     );
+
+
 
 }

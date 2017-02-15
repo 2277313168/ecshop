@@ -64,7 +64,7 @@
 				<tr>
 					<th><input type="checkbox">编号</th>
 					<th>商品名称</th>
-					<th>货号</th>
+					<th>商品描述</th>
 					<th>价格</th>
 					<th>上架</th>
 					<th>精品</th>
@@ -77,8 +77,8 @@
 				<tr></tr>
                 <?php if(is_array($goodsList)): $i = 0; $__LIST__ = $goodsList;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
 					<td><input type="checkbox" name="checkboxes[]" value="32"><?php echo ($i); ?></td>
-					<td class="first-cell"><span><?php echo ($vo["goods_name"]); ?></span></td>
-					<td><span><?php echo ($vo["goods_sn"]); ?></span></td>
+					<td class="first-cell"><span><?php echo ($vo["goods_name"]); ?></span> <img src="/shop/ecshop<?php echo ($vo["goods_thumb"]); ?> " width="30" height="30" style="float: right" /></td>
+					<td><span><?php echo ($vo["goods_desc"]); ?></span></td>
 					<td align="right"><span><?php echo ($vo["shop_price"]); ?></span></td>
 					<td align="center"><img  <?php if($vo['is_onsale'] == 1): ?>src="<?php echo (ADMIN_PUBLIC); ?>/images/yes.gif" <?php else: ?>src="<?php echo (ADMIN_PUBLIC); ?>/images/no.gif"<?php endif; ?> onclick=""></td>
 					<td align="center"><img <?php if($vo['is_best'] == 1): ?>src="<?php echo (ADMIN_PUBLIC); ?>/images/yes.gif" <?php else: ?>src="<?php echo (ADMIN_PUBLIC); ?>/images/no.gif"<?php endif; ?>onclick=""></td>
@@ -88,7 +88,7 @@
 					<td align="right"><span onclick="">4</span></td>
 					<td align="center">
 						<a href="../goods.php?id=32" target="_blank" title="查看"><img src="<?php echo (ADMIN_PUBLIC); ?>/images/icon_view.gif" width="16" height="16" border="0"></a>
-						<a href="goods.php?act=edit&amp;goods_id=32" title="编辑"><img src="<?php echo (ADMIN_PUBLIC); ?>/images/icon_edit.gif" width="16" height="16" border="0"></a>
+						<a href="/shop/ecshop/index.php/Admin/Goods/goodsEdit/id/<?php echo ($vo['goods_id']); ?>" title="编辑"><img src="<?php echo (ADMIN_PUBLIC); ?>/images/icon_edit.gif" width="16" height="16" border="0"></a>
 						<a href="goods.php?act=copy&amp;goods_id=32" title="复制"><img src="<?php echo (ADMIN_PUBLIC); ?>/images/icon_copy.gif" width="16" height="16" border="0"></a>
 						<a href="javascript:;" onclick="listTable.remove(32, '您确实要把该商品放入回收站吗？')" title="回收站"><img src="<?php echo (ADMIN_PUBLIC); ?>/images/icon_trash.gif" width="16" height="16" border="0"></a>
 						<a href="goods.php?act=product_list&amp;goods_id=32" title="货品列表"><img src="<?php echo (ADMIN_PUBLIC); ?>/images/icon_docs.gif" width="16" height="16" border="0"></a>          

@@ -1,0 +1,36 @@
+[ 2017-02-13T20:12:42+08:00 ] ::1 /shop/ecshop/index.php/Home/Register/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001672s ]
+NOTIC: [8192] Function eregi_replace() is deprecated D:\appserv\www\shop\ecshop\Application\Home\Common\function.php 第 23 行.
+
+[ 2017-02-13T20:13:28+08:00 ] ::1 /shop/ecshop/index.php/Home/Register/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000817s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000833s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001051s ]
+NOTIC: [8192] Function eregi_replace() is deprecated D:\appserv\www\shop\ecshop\Application\Home\Common\function.php 第 23 行.
+
+[ 2017-02-13T20:15:11+08:00 ] ::1 /shop/ecshop/index.php/Home/Register/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001716s ]
+NOTIC: [8192] Function eregi_replace() is deprecated D:\appserv\www\shop\ecshop\Application\Home\Common\function.php 第 23 行.
+
+[ 2017-02-13T20:16:16+08:00 ] ::1 /shop/ecshop/index.php/Home/Register/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000930s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000942s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001159s ]
+NOTIC: [8192] Function eregi_replace() is deprecated D:\appserv\www\shop\ecshop\Application\Home\Common\function.php 第 23 行.
+

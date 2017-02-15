@@ -20,12 +20,17 @@ class IndexController extends BaseController {
         $admin= session('admin');
         $adminId = $admin['admin_id'];
 
-        //不用联合5个表，3个表就ok啦
-        //SELECT a.* FROM `cz_auth` a LEFT JOIN `cz_role_auth` b ON a.auth_id = b.auth_id
-        // LEFT JOIN `cz_admin_role` c ON b.role_id = c.role_id where c.admin_id=1;
-        $condition['c.admin_id'] = $adminId;
-       $authMenu =  M('auth')->alias('a')->field('a.*')->group('a.auth_id')->join('LEFT JOIN `cz_role_auth` b ON a.auth_id = b.auth_id 
+        if($adminId == 1){
+            $authMenu = M('auth')->select();
+        }else{
+            //不用联合5个表，3个表就ok啦
+            //SELECT a.* FROM `cz_auth` a LEFT JOIN `cz_role_auth` b ON a.auth_id = b.auth_id
+            // LEFT JOIN `cz_admin_role` c ON b.role_id = c.role_id where c.admin_id=1;
+            $condition['c.admin_id'] = $adminId;
+            $authMenu =  M('auth')->alias('a')->field('a.*')->group('a.auth_id')->join('LEFT JOIN `cz_role_auth` b ON a.auth_id = b.auth_id 
         LEFT JOIN `cz_admin_role` c ON b.role_id = c.role_id ')->where($condition)->select();
+        }
+
 
         $authMenu2 = array();
         foreach ($authMenu as $k => $v){

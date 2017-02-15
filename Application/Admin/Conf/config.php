@@ -16,10 +16,10 @@ return array(
     'SALT'  => 'DSG@#$#%$!)&',
 
 //================文件上传相关设置=================
-    'maxSize'       =>  3145728,
-    'exts'          => array('jpg', 'gif', 'png', 'jpeg'),
-    'rootPath'     =>  "./Uploads/",
-    'savePath'     => './',
+//    'maxSize'       =>  3145728,
+//    'exts'          => array('jpg', 'gif', 'png', 'jpeg'),
+//    'rootPath'     =>  "./Uploads/",
+//    'savePath'     => './',
 //==============修改I函数底层过滤使用的函数==============
     'DEFAULT_FILTER' => 'trim,removeXSS',
 );

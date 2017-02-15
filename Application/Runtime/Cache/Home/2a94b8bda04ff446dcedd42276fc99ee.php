@@ -1,1108 +1,801 @@
-<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
-    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
-    <title>ShopCZ-首页</title>
-    <link rel="stylesheet" href="/shop/ecshop/Public/css/base.css" type="text/css"/>
-    <link rel="stylesheet" href="/shop/ecshop/Public/css/shop_common.css" type="text/css"/>
-    <link rel="stylesheet" href="/shop/ecshop/Public/css/shop_header.css" type="text/css"/>
-    <link rel="stylesheet" href="/shop/ecshop/Public/css/shop_home.css" type="text/css"/>
-    <script type="text/javascript" src="/shop/ecshop/Public/js/jquery.js"></script>
-    <script type="text/javascript" src="/shop/ecshop/Public/js/topNav.js"></script>
-    <script type="text/javascript" src="/shop/ecshop/Public/js/focus.js"></script>
-    <script type="text/javascript" src="/shop/ecshop/Public/js/shop_home_tab.js"></script>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title><?php echo ($page_title); ?></title>
+    <meta name="keywords" content="<?php echo ($page_keywords); ?>" />
+    <meta name="description" content="<?php echo ($page_description); ?>" />
+    <link rel="stylesheet" href="<?php echo (HOME_PUBLIC); ?>/style/base.css" type="text/css">
+    <link rel="stylesheet" href="<?php echo (HOME_PUBLIC); ?>/style/global.css" type="text/css">
+    <link rel="stylesheet" href="<?php echo (HOME_PUBLIC); ?>/style/header.css" type="text/css">
+
+
+    <link rel="stylesheet" href="<?php echo (HOME_PUBLIC); ?>/style/index.css" type="text/css">
+
+    <link rel="stylesheet" href="<?php echo (HOME_PUBLIC); ?>/style/bottomnav.css" type="text/css">
+    <link rel="stylesheet" href="<?php echo (HOME_PUBLIC); ?>/style/footer.css" type="text/css">
+    <script type="text/javascript" src="<?php echo (HOME_PUBLIC); ?>/js/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="<?php echo (HOME_PUBLIC); ?>/js/header.js"></script>
+    <?php foreach ($page_js as $k => $v): ?>
+    <script type="text/javascript" src="<?php echo (HOME_PUBLIC); ?>/js/<?php echo ($v); ?>.js"></script>
+    <?php endforeach; ?>
 </head>
 <body>
-<!-- Header  -wll-2013/03/24 -->
-<div class="shop_hd">
-    <!-- Header TopNav -->
-    <div class="shop_hd_topNav">
-        <div class="shop_hd_topNav_all">
-            <!-- Header TopNav Left -->
-            <div class="shop_hd_topNav_all_left">
-                <?php if(cookieCheck()): ?><!--cookieCheck()在Home/Common的function.php中-->
-                <p><?php echo (session('userName')); ?>您好，欢迎来到<b><a href="/">ShopCZ商城</a></b> [<a href="/shop/ecshop/index.php/Home/User/logout">退出</a>]</p>
-                <?php else: ?>
-                    <p>    [<a href="/shop/ecshop/index.php/Home/User/login">登录</a>][<a href="/shop/ecshop/index.php/Home/User/register">注册</a>]</p><?php endif; ?>
-            </div>
-            <!-- Header TopNav Left End -->
+<!-- 顶部导航 start -->
+<div class="topnav">
+    <div class="topnav_bd w1210 bc">
+        <div class="topnav_left">
 
-            <!-- Header TopNav Right -->
-            <div class="shop_hd_topNav_all_right">
-                <ul class="topNav_quick_menu">
-
-                    <li>
-                        <div class="topNav_menu">
-                            <a href="#" class="topNavHover">我的商城<i></i></a>
-                            <div class="topNav_menu_bd" style="display:none;">
-                                <ul>
-                                    <li><a title="已买到的商品" target="_top" href="#">已买到的商品</a></li>
-                                    <li><a title="个人主页" target="_top" href="#">个人主页</a></li>
-                                    <li><a title="我的好友" target="_top" href="#">我的好友</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="topNav_menu">
-                            <a href="#" class="topNavHover">卖家中心<i></i></a>
-                            <div class="topNav_menu_bd" style="display:none;">
-                                <ul>
-                                    <li><a title="已售出的商品" target="_top" href="#">已售出的商品</a></li>
-                                    <li><a title="销售中的商品" target="_top" href="#">销售中的商品</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </li>
-
-                    <li>
-                        <div class="topNav_menu">
-                            <a href="#" class="topNavHover">购物车<b>0</b>种商品<i></i></a>
-                            <div class="topNav_menu_bd" style="display:none;">
-                                <!--
-                                <ul>
-                                  <li><a title="已售出的商品" target="_top" href="#">已售出的商品</a></li>
-                                  <li><a title="销售中的商品" target="_top" href="#">销售中的商品</a></li>
-                                </ul>
-                                -->
-                                <p>还没有商品，赶快去挑选！</p>
-                            </div>
-                        </div>
-                    </li>
-
-                    <li>
-                        <div class="topNav_menu">
-                            <a href="#" class="topNavHover">我的收藏<i></i></a>
-                            <div class="topNav_menu_bd" style="display:none;">
-                                <ul>
-                                    <li><a title="收藏的商品" target="_top" href="#">收藏的商品</a></li>
-                                    <li><a title="收藏的店铺" target="_top" href="#">收藏的店铺</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </li>
-
-                    <li>
-                        <div class="topNav_menu">
-                            <a href="#">站内消息</a>
-                        </div>
-                    </li>
-
-                </ul>
-            </div>
-            <!-- Header TopNav Right End -->
         </div>
-        <div class="clear"></div>
-    </div>
-    <div class="clear"></div>
-    <!-- Header TopNav End -->
+        <div class="topnav_right fr">
+            <ul>
+                <li id="logInfo"></li>
 
-    <!-- TopHeader Center -->
-    <div class="shop_hd_header">
-        <div class="shop_hd_header_logo"><h1 class="logo"><a href="/"><img src="/shop/ecshop/Public/images/logo.png"
-                                                                           alt="ShopCZ"/></a><span>ShopCZ</span></h1>
-        </div>
-        <div class="shop_hd_header_search">
-            <ul class="shop_hd_header_search_tab">
-                <li id="search" class="current">商品</li>
-                <li id="shop_search">店铺</li>
+                <li class="line">|</li>
+                <li>我的订单</li>
+                <li class="line">|</li>
+                <li>客户服务</li>
+
             </ul>
-            <div class="clear"></div>
-            <div class="search_form">
-                <form method="post" action="index.php">
-                    <div class="search_formstyle">
-                        <input type="text" class="search_form_text" name="search_content" value="搜索其实很简单！"/>
-                        <input type="submit" class="search_form_sub" name="secrch_submit" value="" title="搜索"/>
-                    </div>
-                </form>
-            </div>
-            <div class="clear"></div>
-            <div class="search_tag">
-                <a href="">李宁</a>
-                <a href="">耐克</a>
-                <a href="">Kappa</a>
-                <a href="">双肩包</a>
-                <a href="">手提包</a>
-            </div>
-
         </div>
-    </div>
-    <div class="clear"></div>
-    <!-- TopHeader Center End -->
-
-    <!-- Header Menu -->
-    <div class="shop_hd_menu">
-        <!-- 所有商品菜单 -->
-        <div
-        <?php if($flag == true): ?>class="shop_hd_menu_all_category shop_hd_menu_hover"
-            <?php else: ?>
-            class="shop_hd_menu_all_category" id="shop_hd_menu_all_category"<?php endif; ?>
-        >
-        <!--<div class="shop_hd_menu_all_category shop_hd_menu_hover">-->
-        <!-- 首页去掉 id="shop_hd_menu_all_category" 加上clsss shop_hd_menu_hover -->
-        <!--<div class="shop_hd_menu_all_category_title"><h2 title="所有商品分类"><a href="javascript:void(0);">所有商品分类</a>-->
-        <!--</h2><i></i></div>-->
-        <!--<div id="shop_hd_menu_all_category_hd" class="shop_hd_menu_all_category_hd">-->
-            <!--<ul class="shop_hd_menu_all_category_hd_menu clearfix">-->
-                <!--&lt;!&ndash; 单个菜单项 &ndash;&gt;-->
-                <!--<?php if(is_array($catList)): $k = 0; $__LIST__ = $catList;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($k % 2 );++$k;?>-->
-                    <!--<?php if($k < 8): ?>-->
-                        <!--<li id="cat_1" class="">-->
-                            <!--<h3><a href="/shop/ecshop/index.php/Home/List/listIndex/id/<?php echo ($vo["cat_id"]); ?>" title="男女服装"><?php echo ($vo["cat_name"]); ?></a>-->
-                            <!--</h3>-->
-                            <!--<div id="cat_1_menu" class="cat_menu clearfix" style="">-->
-                                <!--<?php if(is_array($vo["child"])): $i = 0; $__LIST__ = $vo["child"];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo1): $mod = ($i % 2 );++$i;?>-->
-                                    <!--<dl class="clearfix">-->
-                                        <!--<dt><a href=/shop/ecshop/index.php/Home/List/listIndex/id/<?php echo ($vo1["cat_id"]); ?>"><?php echo ($vo1["cat_name"]); ?></a>-->
-                                        <!--</dt>-->
-                                        <!--<dd>-->
-                                            <!--<?php if(is_array($vo1["child"])): $i = 0; $__LIST__ = $vo1["child"];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo2): $mod = ($i % 2 );++$i;?>-->
-                                                <!--<a href="/shop/ecshop/index.php/Home/List/listIndex/id/<?php echo ($vo2["cat_id"]); ?>"><?php echo ($vo2["cat_name"]); ?></a>-->
-                                            <!--<?php endforeach; endif; else: echo "" ;endif; ?>-->
-                                        <!--</dd>-->
-                                    <!--</dl>-->
-                                <!--<?php endforeach; endif; else: echo "" ;endif; ?>-->
-
-                            <!--</div>-->
-                        <!--</li>-->
-                    <!--<?php endif; ?>-->
-                <!--<?php endforeach; endif; else: echo "" ;endif; ?>-->
-                <!--<li class="more"><a href="">查看更多分类</a></li>-->
-            <!--</ul>-->
-        <!--</div>-->
-    <!--</div>-->
-
-
-
-
-
-    <div class="shop_hd_menu_all_category_title"><h2 title="所有商品分类"><a href="javascript:void(0);">所有商品分类</a>
-    </h2><i></i></div>
-    <div id="shop_hd_menu_all_category_hd" class="shop_hd_menu_all_category_hd">
-        <ul class="shop_hd_menu_all_category_hd_menu clearfix">
-            <!-- 单个菜单项 -->
-            <?php if(is_array($catList)): $k = 0; $__LIST__ = $catList;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($k % 2 );++$k; if($k < 8): ?><li id="cat_1" class="">
-                        <h3><a href="/shop/ecshop/index.php/Home/List/listIndex/id/<?php echo ($vo["cat_id"]); ?>" title="男女服装"><?php echo ($vo["cat_name"]); ?></a>
-                        </h3>
-                        <div id="cat_1_menu" class="cat_menu clearfix" style="">
-                            <?php if(is_array($vo["child"])): $i = 0; $__LIST__ = $vo["child"];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo1): $mod = ($i % 2 );++$i;?><dl class="clearfix">
-                                    <dt><a href=/shop/ecshop/index.php/Home/List/listIndex/id/<?php echo ($vo1["cat_id"]); ?>"><?php echo ($vo1["cat_name"]); ?></a>
-                                    </dt>
-                                    <dd>
-                                        <?php if(is_array($vo1["child"])): $i = 0; $__LIST__ = $vo1["child"];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo2): $mod = ($i % 2 );++$i;?><a href="/shop/ecshop/index.php/Home/List/listIndex/id/<?php echo ($vo2["cat_id"]); ?>"><?php echo ($vo2["cat_name"]); ?></a><?php endforeach; endif; else: echo "" ;endif; ?>
-                                    </dd>
-                                </dl><?php endforeach; endif; else: echo "" ;endif; ?>
-
-                        </div>
-                    </li><?php endif; endforeach; endif; else: echo "" ;endif; ?>
-            <li class="more"><a href="">查看更多分类</a></li>
-        </ul>
     </div>
 </div>
+<!-- 顶部导航 end -->
+<div style="clear:both;"></div>
 
-    <!-- 所有商品菜单 END -->
+<!-- 头部 start -->
+	<div class="header w1210 bc mt15">
+		<!-- 头部上半部分 start 包括 logo、搜索、用户中心和购物车结算 -->
+		<div class="logo w1210">
+			<h1 class="fl"><a href="index.html"><img src="<?php echo (HOME_PUBLIC); ?>/images/logo.png" alt="京西商城"></a></h1>
+			<!-- 头部搜索 start -->
+			<div class="search fl">
+				<div class="search_form">
+					<div class="form_left fl"></div>
+					<form action="" name="serarch" method="get" class="fl">
+						<input type="text" class="txt" value="请输入商品关键字" /><input type="submit" class="btn" value="搜索" />
+					</form>
+					<div class="form_right fl"></div>
+				</div>
+				
+				<div style="clear:both;"></div>
 
-    <!-- 普通导航菜单 -->
-    <ul class="shop_hd_menu_nav">
-        <li class="current_link"><a href=""><span>首页</span></a></li>
-        <li class="link"><a href=""><span>团购</span></a></li>
-        <li class="link"><a href=""><span>品牌</span></a></li>
-        <li class="link"><a href=""><span>优惠卷</span></a></li>
-        <li class="link"><a href=""><span>积分中心</span></a></li>
-        <li class="link"><a href=""><span>运动专场</span></a></li>
-        <li class="link"><a href=""><span>微商城</span></a></li>
-    </ul>
-    <!-- 普通导航菜单 End -->
-</div>
-<!-- Header Menu End -->
+				<div class="hot_search">
+					<strong>热门搜索:</strong>
+					<a href="">D-Link无线路由</a>
+					<a href="">休闲男鞋</a>
+					<a href="">TCL空调</a>
+					<a href="">耐克篮球鞋</a>
+				</div>
+			</div>
+			<!-- 头部搜索 end -->
 
+			<!-- 用户中心 start-->
+			<div class="user fl">
+				<dl>
+					<dt>
+						<em></em>
+						<a href="">用户中心</a>
+						<b></b>
+					</dt>
+					<dd>
+						<div class="prompt">
+							您好，请<a href="">登录</a>
+						</div>
+						<div class="uclist mt10">
+							<ul class="list1 fl">
+								<li><a href="">用户信息></a></li>
+								<li><a href="">我的订单></a></li>
+								<li><a href="">收货地址></a></li>
+								<li><a href="">我的收藏></a></li>
+							</ul>
 
-</div>
-<div class="clear"></div>
+							<ul class="fl">
+								<li><a href="">我的留言></a></li>
+								<li><a href="">我的红包></a></li>
+								<li><a href="">我的评论></a></li>
+								<li><a href="">资金管理></a></li>
+							</ul>
 
-<!-- Header End -->
+						</div>
+						<div style="clear:both;"></div>
+						<div class="viewlist mt10">
+							<h3>最近浏览的商品：</h3>
+							<ul>
+								<li><a href=""><img src="<?php echo (HOME_PUBLIC); ?>/images/view_list1.jpg" alt="" /></a></li>
+								<li><a href=""><img src="<?php echo (HOME_PUBLIC); ?>/images/view_list2.jpg" alt="" /></a></li>
+								<li><a href=""><img src="<?php echo (HOME_PUBLIC); ?>/images/view_list3.jpg" alt="" /></a></li>
+							</ul>
+						</div>
+					</dd>
+				</dl>
+			</div>
+			<!-- 用户中心 end-->
 
+			<!-- 购物车 start -->
+			<div class="cart fl">
+				<dl>
+					<dt>
+						<a href="">去购物车结算</a>
+						<b></b>
+					</dt>
+					<dd>
+						<div class="prompt">
+							购物车中还没有商品，赶紧选购吧！
+						</div>
+					</dd>
+				</dl>
+			</div>
+			<!-- 购物车 end -->
+		</div>
+		<!-- 头部上半部分 end -->
+		
+		<div style="clear:both;"></div>
 
-<!-- Body -wll-2013/03/24 -->
-<div class="shop_bd clearfix">
-    <!-- 第一块区域  -->
-    <div class="shop_bd_top clearfix">
-        <div class="shop_bd_top_left"></div>
-        <div class="shop_bd_top_center">
-            <!-- 图片切换  begin  -->
-            <div class="xifan_sub_box">
-                <div id="p-select" class="sub_nav">
-                    <div class="sub_no" id="xifan_bd1lfsj">
-                        <ul></ul>
-                    </div>
-                </div>
-                <div id="xifan_bd1lfimg">
-                    <div>
-                        <dl class=""></dl>
-                        <dl class="">
-                            <dt><a href="http://www.zztuku.com" title="" target="_blank"><img
-                                    src="/shop/ecshop/Public/images/e2dfe57add8fff66ed0964b1effd39b9.jpg"
-                                    alt="2011城市主题公园亲子游"></a></dt>
-                            <dd><h2><a href="http://www.zztuku.com" target="_blank">2011城市主题公园亲子游</a></h2></dd>
-                        </dl>
-                        <dl class="">
-                            <dt><a href="http://www.zztuku.com" title="" target="_blank"><img
-                                    src="/shop/ecshop/Public/images/e50b5d398e3b890f08e14defbc71a94d.jpg" alt="潜入城市周边清幽之地"></a>
-                            </dt>
-                            <dd><h2><a href="http://www.zztuku.com" target="_blank">潜入城市周边清幽之地</a></h2></dd>
-                        </dl>
-                        <dl class="">
-                            <dt><a href="http://www.zztuku.com" title="" target="_blank"><img
-                                    src="/shop/ecshop/Public/images/196b173f15685a2019ab3396cd1851a4.jpg" alt="盘点中国最美雪山"></a>
-                            </dt>
-                            <dd><h2><a href="http://www.zztuku.com" target="_blank">盘点中国最美雪山</a></h2></dd>
-                        </dl>
-                        <dl class="">
-                            <dt><a href="http://www.zztuku.com" title="" target="_blank"><img
-                                    src="/shop/ecshop/Public/images/e81345cbc3d8a7e11f9a0e09df68221d.jpg" alt="2011西安世园会攻略"></a>
-                            </dt>
-                            <dd><h2><a href="http://www.zztuku.com" target="_blank">2011西安世园会攻略</a></h2></dd>
-                        </dl>
-                        <dl class="">
-                            <dt><a href="http://www.zztuku.com" title="" target="_blank"><img
-                                    src="/shop/ecshop/Public/images/65662b58848da87812ba371c7ff6c1ad.jpg" alt="五月乐享懒人天堂塞班岛"></a>
-                            </dt>
-                            <dd><h2><a href="http://www.zztuku.com" target="_blank">五月乐享懒人天堂塞班岛</a></h2></dd>
-                        </dl>
+		<!-- 导航条部分 start -->
+		<div class="nav w1210 bc mt10">
+			<!--  商品分类部分 start-->
+			<div class="category fl <?php if($fold) echo 'cat1' ?>"> <!-- 非首页，需要添加cat1类折叠 -->
+				<div class="cat_hd <?php if($fold) echo 'cat_hd' ?> ">  <!-- 注意，首页在此div上只需要添加cat_hd类，非首页，默认收缩分类时添加上off类，鼠标滑过时展开菜单则将off类换成on类 -->
+					<h2>全部商品分类</h2>
+					<em></em>
+				</div>
+				
+				<div class="cat_bd <?php if($fold) echo 'none'; ?>">
 
-                        <dl class="">
-                            <dt><a href="http://www.zztuku.com" title="" target="_blank"><img
-                                    src="/shop/ecshop/Public/images/e50b5d398e3b890f08e14defbc71a94d.jpg" alt="潜入城市周边清幽之地"></a>
-                            </dt>
-                            <dd><h2><a href="http://www.zztuku.com" target="_blank">潜入城市周边清幽之地</a></h2></dd>
-                        </dl>
-                        <dl class="">
-                            <dt><a href="http://www.zztuku.com" title="" target="_blank"><img
-                                    src="/shop/ecshop/Public/images/196b173f15685a2019ab3396cd1851a4.jpg" alt="盘点中国最美雪山"></a>
-                            </dt>
-                            <dd><h2><a href="http://www.zztuku.com" target="_blank">盘点中国最美雪山</a></h2></dd>
-                        </dl>
-                        <dl class="">
-                            <dt><a href="http://www.zztuku.com" title="" target="_blank"><img
-                                    src="/shop/ecshop/Public/images/e81345cbc3d8a7e11f9a0e09df68221d.jpg" alt="2011西安世园会攻略"></a>
-                            </dt>
-                            <dd><h2><a href="http://www.zztuku.com" target="_blank">2011西安世园会攻略</a></h2></dd>
-                        </dl>
-                        <dl class="">
-                            <dt><a href="http://www.zztuku.com" title="" target="_blank"><img
-                                    src="/shop/ecshop/Public/images/65662b58848da87812ba371c7ff6c1ad.jpg" alt="五月乐享懒人天堂塞班岛"></a>
-                            </dt>
-                            <dd><h2><a href="http://www.zztuku.com" target="_blank">五月乐享懒人天堂塞班岛</a></h2></dd>
-                        </dl>
-                    </div>
-                </div>
-            </div>
-            <script type="text/javascript">movec();</script>
-            <!-- 图片切换  end -->
-            <div class="clear"></div>
-            <div class="shop_bd_top_center_hot"><img src="/shop/ecshop/Public/images/index.guanggao.png"/></div>
-        </div>
+					<?php foreach($catTree as $k=>$v ): ?>
+					<?php if($k <8): ?>
+					<div class="cat ">
+						<h3><a href=""><?php echo ($v['cat_name']); ?></a> <b></b></h3>
+						<div class="cat_detail">
+							<?php foreach($v['child'] as $k1=>$v1): ?>
+							<dl class="dl_1st">
+								<dt><a href=""><?php echo ($v1['cat_name']); ?></a></dt>
+								<dd>
+									<?php foreach($v1['child'] as $k2=>$v2 ): ?>
+									<a href=""><?php echo ($v2['cat_name']); ?></a>
+									<?php endforeach; ?>
+								</dd>
+							</dl>
+							<?php endforeach; ?>
 
-        <!-- 右侧 -->
-        <div class="shop_bd_top_right clearfix">
-            <div class="shop_bd_top_right_quickLink">
-                <a href="" class="login" title="会员登录"><i></i>会员登录</a>
-                <a href="" class="register" title="免费注册"><i></i>免费注册</a>
-                <a href="" class="join" title="商家开店"><i></i>帮助中心</a>
-            </div>
-
-            <div class="shop_bd_top_right-style1 nc-home-news">
-                <ul class="tabs-nav">
-                    <li><a href="javascript:void(0);" class="hover">商城广告</a></li>
-                    <li><a href="javascript:void(0);">关于我们</a></li>
-                </ul>
-                <div class="clear"></div>
-                <div class="tabs-panel">
-                    <ul class="list-style01">
-                        <li><a title="如何申请开店" href="article-15.html">如何申请开店</a><span>(2011-01-11)</span></li>
-                        <li><a title="商城商品推荐" href="article-14.html">商城商品推荐</a><span>(2011-01-11)</span></li>
-                        <li><a title="如何发货" href="article-13.html">如何发货</a><span>(2011-01-11)</span></li>
-                        <li><a title="查看售出商品" href="article-12.html">查看售出商品</a><span>(2011-01-11)</span></li>
-                        <li><a title="如何管理店铺" href="article-11.html">如何管理店铺</a><span>(2011-01-11)</span></li>
-                        <li><a title="如何申请开店" href="article-15.html">如何申请开店</a><span>(2011-01-11)</span></li>
-                        <li><a title="商城商品推荐" href="article-14.html">商城商品推荐</a><span>(2011-01-11)</span></li>
-                        <li><a title="如何发货" href="article-13.html">如何发货</a><span>(2011-01-11)</span></li>
-                        <li><a title="查看售出商品" href="article-12.html">查看售出商品</a><span>(2011-01-11)</span></li>
-                        <li><a title="如何管理店铺" href="article-11.html">如何管理店铺</a><span>(2011-01-11)</span></li>
+						</div>
+					</div>
+					<?php endif; ?>
+					<?php endforeach; ?>
 
 
-                    </ul>
-                </div>
-            </div>
+
+				</div>
+
+			</div>
+			<!--  商品分类部分 end--> 
+
+			<div class="navitems fl">
+				<ul class="fl">
+					<li class="current"><a href="">首页</a></li>
+					<li><a href="">电脑频道</a></li>
+					<li><a href="">家用电器</a></li>
+					<li><a href="">品牌大全</a></li>
+					<li><a href="">团购</a></li>
+					<li><a href="">积分商城</a></li>
+					<li><a href="">夺宝奇兵</a></li>
+				</ul>
+				<div class="right_corner fl"></div>
+			</div>
+		</div>
+		<!-- 导航条部分 end -->
+	</div>
+	<!-- 头部 end-->
+	
+	<div style="clear:both;"></div>
 
 
-        </div>
-        <!-- 右侧 End -->
-    </div>
-    <div class="clear"></div>
-    <!-- 第一块区域 End -->
 
-    <!-- 第二块区域 -->
-    <div class="shop_bd_2 clearfix">
-        <!-- 特别推荐 -->
-        <div class="shop_bd_tuijian">
-            <ul class="tuijian_tabs">
-                <li class="hover" onmouseover="easytabs('1', '1');" onfocus="easytabs('1', '1');"
-                    onclick="return false;" id="tuijian_content_btn_1"><a href="javascript:void(0);">特别推荐</a></li>
-                <li onmouseover="easytabs('1', '2');" onfocus="easytabs('1', '2');" onclick="return false;"
-                    id="tuijian_content_btn_2"><a href="javascript:void(0);">热门商品</a></li>
-                <li onmouseover="easytabs('1', '3');" onfocus="easytabs('1', '3');" onclick="return false;"
-                    id="tuijian_content_btn_3"><a href="javascript:void(0);">新品上架</a></li>
-            </ul>
-            <div class="tuijian_content">
-                <div id="tuijian_content_1" class="tuijian_shangpin" style="display: block;">
-                    <ul>
-                        <?php if(is_array($bestGoods)): $i = 0; $__LIST__ = $bestGoods;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><li>
-                                <dl>
-                                    <dt><a href="/shop/ecshop/index.php/Home/Goods/index/id/<?php echo ($vo["goods_id"]); ?>"><img src="/shop/ecshop/Uploads/<?php echo ($vo["goods_img"]); ?>" width="100"
-                                                        height="100"/></a>
-                                    </dt>
-                                    <dd><a href=""><?php echo ($vo["goods_name"]); ?></a></dd>
-                                    <dd> 商城价：<em><?php echo ($vo["shop_price"]); ?></em>元</dd>
-                                </dl>
-                            </li><?php endforeach; endif; else: echo "" ;endif; ?>
-                    </ul>
-                </div>
-
-                <div id="tuijian_content_2" class="tuijian_shangpin">
-                    <ul>
-                        <li>
-                            <dl>
-                                <dt><a href=""><img
-                                        src="/shop/ecshop/Public/images/365_7d5e08127b8d6799209674ecffbfc624.jpg_small.jpg"/></a>
-                                </dt>
-                                <dd><a href="">2222222棉布艺双人沙发垫沙发巾飘窗垫素雅黄花</a></dd>
-                                <dd> 商城价：<em>256.00</em>元</dd>
-                            </dl>
-                        </li>
-                        <li>
-                            <dl>
-                                <dt><a href=""><img
-                                        src="/shop/ecshop/Public/images/365_7d5e08127b8d6799209674ecffbfc624.jpg_small.jpg"/></a>
-                                </dt>
-                                <dd><a href="">外贸田园绗缝全棉布艺双人沙发垫沙发巾飘窗垫素雅黄花</a></dd>
-                                <dd> 商城价：<em>256.00</em>元</dd>
-                            </dl>
-                        </li>
-
-                        <li>
-                            <dl>
-                                <dt><a href=""><img
-                                        src="/shop/ecshop/Public/images/365_7d5e08127b8d6799209674ecffbfc624.jpg_small.jpg"/></a>
-                                </dt>
-                                <dd><a href="">外贸田园绗缝全棉布艺双人沙发垫沙发巾飘窗垫素雅黄花</a></dd>
-                                <dd> 商城价：<em>256.00</em>元</dd>
-                            </dl>
-                        </li>
-
-                        <li>
-                            <dl>
-                                <dt><a href=""><img
-                                        src="/shop/ecshop/Public/images/365_7d5e08127b8d6799209674ecffbfc624.jpg_small.jpg"/></a>
-                                </dt>
-                                <dd><a href="">外贸田园绗缝全棉布艺双人沙发垫沙发巾飘窗垫素雅黄花</a></dd>
-                                <dd> 商城价：<em>256.00</em>元</dd>
-                            </dl>
-                        </li>
-
-                    </ul>
-                </div>
-                <div id="tuijian_content_3" class="tuijian_shangpin tuijian_content">
-                    <ul>
-                        <li>
-                            <dl>
-                                <dt><a href=""><img
-                                        src="/shop/ecshop/Public/images/365_7d5e08127b8d6799209674ecffbfc624.jpg_small.jpg"/></a>
-                                </dt>
-                                <dd><a href="">3333333全棉布艺双人沙发垫沙发巾飘窗垫素雅黄花</a></dd>
-                                <dd> 商城价：<em>256.00</em>元</dd>
-                            </dl>
-                        </li>
-                        <li>
-                            <dl>
-                                <dt><a href=""><img
-                                        src="/shop/ecshop/Public/images/365_7d5e08127b8d6799209674ecffbfc624.jpg_small.jpg"/></a>
-                                </dt>
-                                <dd><a href="">外贸田园绗缝全棉布艺双人沙发垫沙发巾飘窗垫素雅黄花</a></dd>
-                                <dd> 商城价：<em>256.00</em>元</dd>
-                            </dl>
-                        </li>
-
-                        <li>
-                            <dl>
-                                <dt><a href=""><img
-                                        src="/shop/ecshop/Public/images/365_7d5e08127b8d6799209674ecffbfc624.jpg_small.jpg"/></a>
-                                </dt>
-                                <dd><a href="">外贸田园绗缝全棉布艺双人沙发垫沙发巾飘窗垫素雅黄花</a></dd>
-                                <dd> 商城价：<em>256.00</em>元</dd>
-                            </dl>
-                        </li>
-
-                        <li>
-                            <dl>
-                                <dt><a href=""><img
-                                        src="/shop/ecshop/Public/images/365_7d5e08127b8d6799209674ecffbfc624.jpg_small.jpg"/></a>
-                                </dt>
-                                <dd><a href="">外贸田园绗缝全棉布艺双人沙发垫沙发巾飘窗垫素雅黄花</a></dd>
-                                <dd> 商城价：<em>256.00</em>元</dd>
-                            </dl>
-                        </li>
-
-                    </ul>
-                </div>
-
-            </div>
-
-        </div>
-        <!-- 特别推荐 End -->
-
-        <!-- 首发 -->
-        <div class="shop_bd_shoufa"><img src="/shop/ecshop/Public/images/shoufa.jpg"/></div>
-        <!-- 首发 End -->
-
-    </div>
-    <div class="clear"></div>
-    <!-- 第二块区域 End -->
-
-    <!-- 第三块区域 男女服饰 -->
-    <div class="shop_bd_home_block clearfix">
-
-        <!-- 左边 -->
-        <div class="shop_bd_home_block_left">
-            <div class="shop_bd_home_block_left_logo block_nvzhuang_logo"></div>
-            <div class="shop_hd_home_block_left_class clearfix">
-                <dl class="clearfix">
-                    <dt>女装</dt>
-                    <dd>
-                        <a href="">棉衣</a>
-                        <a href="">毛呢大衣</a>
-                        <a href="">风衣</a>
-                        <a href="">打底衫</a>
-                        <a href="">情侣装</a>
-                        <a href="">毛呢短裤</a>
-                        <a href="">牛仔裤</a>
-                        <a href="">加绒打...</a>
-                        <a href="">小脚裤</a>
-                        <a href="">半身裙</a>
-                    </dd>
-                </dl>
-
-                <dl class="clearfix">
-                    <dt>男装</dt>
-                    <dd>
-                        <a href="">羽绒服</a>
-                        <a href="">卫衣</a>
-                        <a href="">长袖T桖</a>
-                        <a href="">长袖衬衫</a>
-                        <a href="">风衣</a>
-                        <a href="">休闲西装</a>
-                        <a href="">棉衣</a>
-                        <a href="">休闲长裤</a>
-                        <a href="">内衣内裤</a>
-                    </dd>
-                </dl>
-
-            </div>
-            <div class="shop_bd_home_block_left_pic">
-                <a href=""><img src="/shop/ecshop/Public/images/web-1-13_53bfbfc958cb55a435545033bd075bf3.png"/></a>
-            </div>
-        </div>
-        <!-- 左边 End -->
-
-        <!-- 中间 -->
-        <div class="shop_bd_home_block_center">
-            <ul class="tabs-nav">
-                <li><a href="javascript:void(0);">男女服饰</a></li>
-            </ul>
-            <div class="tabs-panel">
+<!-- 综合区域 start 包括幻灯展示，商城快报 -->
+<div class="colligate w1210 bc mt10">
+    <!-- 幻灯区域 start -->
+    <div class="slide fl">
+        <div class="area">
+            <div class="slide_items">
                 <ul>
-                    <?php if(is_array($clothesList)): $i = 0; $__LIST__ = $clothesList;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><li>
-                        <dl>
-
-                            <dt><a href="/shop/ecshop/index.php/Home/Goods/index/id/<?php echo ($vo["goods_id"]); ?>"><img src="/shop/ecshop/Uploads/<?php echo ($vo["goods_img"]); ?>"/></a>
-                            </dt>
-                            <dd><a href="/shop/ecshop/index.php/Home/Goods/index/id/<?php echo ($vo["goods_id"]); ?>"><?php echo ($vo["goods_name"]); ?></a></dd>
-                            <dd>商城价：<em><?php echo ($vo["shop_price"]); ?></em>元</dd>
-                        </dl>
-                    </li><?php endforeach; endif; else: echo "" ;endif; ?>
-
-
-                    <li>
-                        <dl>
-                            <dt><a href=""><img src="/shop/ecshop/Public/images/04fb225ea46bd1346f330400eedb7ef2.jpg_small.jpg"/></a>
-                            </dt>
-                            <dd><a href="">正品都市时尚女装假两件优雅针织衫</a></dd>
-                            <dd>商城价：<em>182.00</em>元</dd>
-                        </dl>
-                    </li>
-
+                    <li><a href=""><img src="<?php echo (HOME_PUBLIC); ?>/images/index_slide1.jpg" alt="" /></a></li>
+                    <li><a href=""><img src="<?php echo (HOME_PUBLIC); ?>/images/index_slide2.jpg" alt="" /></a></li>
+                    <li><a href=""><img src="<?php echo (HOME_PUBLIC); ?>/images/index_slide3.jpg" alt="" /></a></li>
+                    <li><a href=""><img src="<?php echo (HOME_PUBLIC); ?>/images/index_slide4.jpg" alt="" /></a></li>
+                    <li><a href=""><img src="<?php echo (HOME_PUBLIC); ?>/images/index_slide5.jpg" alt="" /></a></li>
+                    <li><a href=""><img src="<?php echo (HOME_PUBLIC); ?>/images/index_slide6.jpg" alt="" /></a></li>
+                </ul>
+            </div>
+            <div class="slide_controls">
+                <ul>
+                    <li class="on">1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                    <li>5</li>
+                    <li>6</li>
                 </ul>
             </div>
         </div>
-        <!-- 中间 End -->
+    </div>
+    <!-- 幻灯区域 end-->
 
-        <!-- 右边商品排行 -->
-        <div class="shop_bd_home_block_right">
-            <div class="title"><h3>商品排行</h3></div>
-            <ol class="saletop-list">
-                <li class="top clearfix">
-                    <dl>
-                        <dt class="goods-name">
-                            <a href="">正品都市时尚女装假两件优雅针</a>
-                        </dt>
-                        <dd class="nokey">1</dd>
-                        <dd class="goods-pic">
-                            <a href=""><span class="thumb size60"><img
-                                    src="/shop/ecshop/Public/images/3f81874d594894d19150843c42fb1f8e.jpg_small.jpg"/></span></a>
-                        </dd>
-                        <dd class="goods-price"><em>398.00</em></dd>
-                    </dl>
-                </li>
-                <li class="top clearfix">
-                    <dl>
-                        <dt class="goods-name">
-                            <a href="">正品都市时尚女装假两件优雅针</a>
-                        </dt>
-                        <dd class="nokey">2</dd>
-                        <dd class="goods-pic">
-                            <a href=""><span class="thumb size60"><img
-                                    src="/shop/ecshop/Public/images/3f81874d594894d19150843c42fb1f8e.jpg_small.jpg"/></span></a>
-                        </dd>
-                        <dd class="goods-price"><em>398.00</em></dd>
-                    </dl>
-                </li>
-                <li class="top clearfix">
-                    <dl>
-                        <dt class="goods-name">
-                            <a href="">正品都市时尚女装假两件优雅针</a>
-                        </dt>
-                        <dd class="nokey">3</dd>
-                        <dd class="goods-pic">
-                            <a href=""><span class="thumb size60"><img
-                                    src="/shop/ecshop/Public/images/3f81874d594894d19150843c42fb1f8e.jpg_small.jpg"/></span></a>
-                        </dd>
-                        <dd class="goods-price"><em>398.00</em></dd>
-                    </dl>
-                </li>
+    <!-- 快报区域 start-->
+    <div class="coll_right fl ml10">
+        <div class="ad"><a href=""><img src="<?php echo (HOME_PUBLIC); ?>/images/ad.jpg" alt="" /></a></div>
 
-                <li class="normal">
-                    <i>4</i>
-                    <a href="">2011秋冬新款韩版大码毛领毛呢外套呢子大衣【演示数据】</a>
-                </li>
-                <li class="normal">
-                    <i>5</i>
-                    <a href="">2011秋冬新款韩版大码毛领毛呢外套呢子大衣【演示数据】</a>
-                </li>
-                <li class="normal">
-                    <i>6</i>
-                    <a href="">2011秋冬新款韩版大码毛领毛呢外套呢子大衣【演示数据】</a>
-                </li>
-                <li class="normal">
-                    <i>7</i>
-                    <a href="">2011秋冬新款韩版大码毛领毛呢外套呢子大衣【演示数据】</a>
-                </li>
-
-            </ol>
-            <div class="saletop-list_adv_pic"><a href=""><img
-                    src="/shop/ecshop/Public/images/web-3-38_ff9bd2d724f7138cec1b1937000f4feb.jpg"/></a></div>
-        </div>
-        <!-- 右边商品排行 -->
-
-        <!-- 品牌展示 -->
-        <div class="shop_bd_home_block_bottom">
-            <ul class="">
-                <li><a href=""><img src="/shop/ecshop/Public/images/354b80528d2fbeefbab33c563532517e.gif"/></a></li>
-                <li><a href=""><img src="/shop/ecshop/Public/images/1d2dfbead590510046a6522551db8139.gif"/></a></li>
-                <li><a href=""><img src="/shop/ecshop/Public/images/26247430b09daa1b441b46008bfb6e6e.gif"/></a></li>
-                <li><a href=""><img src="/shop/ecshop/Public/images/a0ac8c6d2d3dc1470d5876923182a8e2.gif"/></a></li>
-                <li><a href=""><img src="/shop/ecshop/Public/images/9c5dee77a6ecdafd9e152fed8c6a4e90.gif"/></a></li>
-                <li><a href=""><img src="/shop/ecshop/Public/images/b175883eba95e793affb1b1ebbbf85a5.gif"/></a></li>
-                <li><a href=""><img src="/shop/ecshop/Public/images/6e61a1c953e5bc8c5f1ffdac36862245.gif"/></a></li>
-                <li><a href=""><img src="/shop/ecshop/Public/images/209abd835cd2ce2208f2dc42ba10efb4.gif"/></a></li>
+        <div class="news mt10">
+            <h2><a href="">更多快报&nbsp;></a><strong>网站快报</strong></h2>
+            <ul>
+                <li class="odd"><a href="">电脑数码双11爆品抢不停</a></li>
+                <li><a href="">买茶叶送武夷山旅游大奖</a></li>
+                <li class="odd"><a href="">爆款手机最高直降1000</a></li>
+                <li><a href="">新鲜褚橙全面包邮开售！</a></li>
+                <li class="odd"><a href="">家具家装全场低至3折</a></li>
+                <li><a href="">买韩束，志玲邀您看电影</a></li>
+                <li class="odd"><a href="">美的先行惠双11快抢悦</a></li>
+                <li><a href="">享生活 疯狂周期购！</a></li>
             </ul>
+
         </div>
-        <!-- 品牌展示 End -->
+
+        <div class="service mt10">
+            <h2>
+                <span class="title1 on"><a href="">话费</a></span>
+                <span><a href="">旅行</a></span>
+                <span><a href="">彩票</a></span>
+                <span class="title4"><a href="">游戏</a></span>
+            </h2>
+            <div class="service_wrap">
+                <!-- 话费 start -->
+                <div class="fare">
+                    <form action="">
+                        <ul>
+                            <li>
+                                <label for="">手机号：</label>
+                                <input type="text" name="phone" value="请输入手机号" class="phone" />
+                                <p class="msg">支持移动、联通、电信</p>
+                            </li>
+                            <li>
+                                <label for="">面值：</label>
+                                <select name="" id="">
+                                    <option value="">10元</option>
+                                    <option value="">20元</option>
+                                    <option value="">30元</option>
+                                    <option value="">50元</option>
+                                    <option value="" selected>100元</option>
+                                    <option value="">200元</option>
+                                    <option value="">300元</option>
+                                    <option value="">400元</option>
+                                    <option value="">500元</option>
+                                </select>
+                                <strong>98.60-99.60</strong>
+                            </li>
+                            <li>
+                                <label for="">&nbsp;</label>
+                                <input type="submit" value="点击充值" class="fare_btn" /> <span><a href="">北京青春怒放独家套票</a></span>
+                            </li>
+                        </ul>
+                    </form>
+                </div>
+                <!-- 话费 start -->
+
+                <!-- 旅行 start -->
+                <div class="travel none">
+                    <ul>
+                        <li>
+                            <a href=""><img src="<?php echo (HOME_PUBLIC); ?>/images/holiday.jpg" alt="" /></a>
+                            <a href="" class="button">度假查询</a>
+                        </li>
+                        <li>
+                            <a href=""><img src="<?php echo (HOME_PUBLIC); ?>/images/scenic.jpg" alt="" /></a>
+                            <a href="" class="button">景点查询</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- 旅行 end -->
+
+                <!-- 彩票 start -->
+                <div class="lottery none">
+                    <p><img src="<?php echo (HOME_PUBLIC); ?>/images/lottery.jpg" alt="" /></p>
+                </div>
+                <!-- 彩票 end -->
+
+                <!-- 游戏 start -->
+                <div class="game none">
+                    <ul>
+                        <li><a href=""><img src="<?php echo (HOME_PUBLIC); ?>/images/sanguo.jpg" alt="" /></a></li>
+                        <li><a href=""><img src="<?php echo (HOME_PUBLIC); ?>/images/taohua.jpg" alt="" /></a></li>
+                        <li><a href=""><img src="<?php echo (HOME_PUBLIC); ?>/images/wulin.jpg" alt="" /></a></li>
+                    </ul>
+                </div>
+                <!-- 游戏 end -->
+            </div>
+        </div>
 
     </div>
-    <div clas="clear"></div>
-    <!-- 第三块区域 End -->
+    <!-- 快报区域 end-->
+</div>
+<!-- -综合区域 end -->
 
-    <!-- 第四块区域 男女服饰 -->
-    <div class="shop_bd_home_block clearfix">
+<div style="clear:both;"></div>
 
-        <!-- 左边 -->
-        <div class="shop_bd_home_block_left">
-            <div class="shop_bd_home_block_left_logo block_nvzhuang_logo"></div>
-            <div class="shop_hd_home_block_left_class clearfix">
-                <dl class="clearfix">
-                    <dt>女装</dt>
-                    <dd>
-                        <a href="">棉衣</a>
-                        <a href="">毛呢大衣</a>
-                        <a href="">风衣</a>
-                        <a href="">打底衫</a>
-                        <a href="">情侣装</a>
-                        <a href="">毛呢短裤</a>
-                        <a href="">牛仔裤</a>
-                        <a href="">加绒打...</a>
-                        <a href="">小脚裤</a>
-                        <a href="">半身裙</a>
-                    </dd>
-                </dl>
+<!-- 导购区域 start -->
+<div class="guide w1210 bc mt15">
+    <!-- 导购左边区域 start -->
+    <div class="guide_content fl">
+        <h2>
+            <span class="on">疯狂抢购</span>
+            <span>热卖商品</span>
+            <span>精品推荐</span>
+            <span>新品上架</span>
+            <span class="last">猜您喜欢</span>
+        </h2>
 
-                <dl class="clearfix">
-                    <dt>男装</dt>
-                    <dd>
-                        <a href="">羽绒服</a>
-                        <a href="">卫衣</a>
-                        <a href="">长袖T桖</a>
-                        <a href="">长袖衬衫</a>
-                        <a href="">风衣</a>
-                        <a href="">休闲西装</a>
-                        <a href="">棉衣</a>
-                        <a href="">休闲长裤</a>
-                        <a href="">内衣内裤</a>
-                    </dd>
-                </dl>
-
+        <div class="guide_wrap">
+            <!-- 疯狂抢购 start-->
+            <div class="crazy">
+                <ul>
+                    <?php foreach ($goodsLike as $k => $v): ?>
+                    <li>
+                        <dl>
+                            <dt><a href="<?php echo U('goods?id='.$v['id']); ?>"><img src="/shop/ecshop<?php echo ($v["goods_img"]); ?>" /></a></dt>
+                            <dd><a href="<?php echo U('goods?id='.$v['id']); ?>"><?php echo ($v["goods_name"]); ?></a></dd>
+                            <dd><span>售价：</span><strong> ￥<?php echo ($v["shop_price"]); ?>元</strong></dd>
+                        </dl>
+                    </li>
+                    <?php endforeach; ?>
+                </ul>
             </div>
-            <div class="shop_bd_home_block_left_pic">
-                <a href=""><img src="/shop/ecshop/Public/images/web-1-13_53bfbfc958cb55a435545033bd075bf3.png"/></a>
-            </div>
-        </div>
-        <!-- 左边 End -->
+            <!-- 疯狂抢购 end-->
 
-        <!-- 中间 -->
-        <div class="shop_bd_home_block_center">
-            <ul class="tabs-nav">
-                <li><a href="javascript:void(0);">男女服饰</a></li>
-            </ul>
-            <div class="tabs-panel">
+            <!-- 热卖商品 start -->
+            <div class="hot none">
+                <ul>
+                    <?php foreach ($goods2 as $k => $v): ?>
+                    <li>
+                        <dl>
+                            <dt><a href="<?php echo U('goods?id='.$v['id']); ?>"><?php showImage($v['sm_logo']); ?></a></dt>
+                            <dd><a href="<?php echo U('goods?id='.$v['id']); ?>"><?php echo ($v["goods_name"]); ?></a></dd>
+                            <dd><span>售价：</span><strong> ￥<?php echo ($v["shop_price"]); ?>元</strong></dd>
+                        </dl>
+                    </li>
+                    <?php endforeach; ?>
+                </ul>
+            </div>
+            <!-- 热卖商品 end -->
+
+            <!-- 推荐商品 atart -->
+            <div class="recommend none">
+                <ul>
+                    <?php foreach ($goods3 as $k => $v): ?>
+                    <li>
+                        <dl>
+                            <dt><a href="<?php echo U('goods?id='.$v['id']); ?>"><?php showImage($v['sm_logo']); ?></a></dt>
+                            <dd><a href="<?php echo U('goods?id='.$v['id']); ?>"><?php echo ($v["goods_name"]); ?></a></dd>
+                            <dd><span>售价：</span><strong> ￥<?php echo ($v["shop_price"]); ?>元</strong></dd>
+                        </dl>
+                    </li>
+                    <?php endforeach; ?>
+                </ul>
+            </div>
+            <!-- 推荐商品 end -->
+
+            <!-- 新品上架 start-->
+            <div class="new none">
+                <ul>
+                    <?php foreach ($goods4 as $k => $v): ?>
+                    <li>
+                        <dl>
+                            <dt><a href="<?php echo U('goods?id='.$v['id']); ?>"><?php showImage($v['sm_logo']); ?></a></dt>
+                            <dd><a href="<?php echo U('goods?id='.$v['id']); ?>"><?php echo ($v["goods_name"]); ?></a></dd>
+                            <dd><span>售价：</span><strong> ￥<?php echo ($v["shop_price"]); ?>元</strong></dd>
+                        </dl>
+                    </li>
+                    <?php endforeach; ?>
+                </ul>
+            </div>
+            <!-- 新品上架 end-->
+
+            <!-- 猜您喜欢 start -->
+            <div class="guess none">
                 <ul>
                     <li>
                         <dl>
-                            <dt><a href=""><img src="/shop/ecshop/Public/images/04fb225ea46bd1346f330400eedb7ef2.jpg_small.jpg"/></a>
-                            </dt>
-                            <dd><a href="">正品都市时尚女装假两件优雅针织衫</a></dd>
-                            <dd>商城价：<em>182.00</em>元</dd>
+                            <dt><a href=""><img src="<?php echo (HOME_PUBLIC); ?>/images/guess1.jpg" alt="" /></a></dt>
+                            <dd><a href="">Thinkpad USB光电鼠标</a></dd>
+                            <dd><span>售价：</span><strong> ￥39.00</strong></dd>
                         </dl>
                     </li>
-
                     <li>
                         <dl>
-                            <dt><a href=""><img src="/shop/ecshop/Public/images/04fb225ea46bd1346f330400eedb7ef2.jpg_small.jpg"/></a>
-                            </dt>
-                            <dd><a href="">正品都市时尚女装假两件优雅针织衫</a></dd>
-                            <dd>商城价：<em>182.00</em>元</dd>
+                            <dt><a href=""><img src="<?php echo (HOME_PUBLIC); ?>/images/guess2.jpg" alt="" /></a></dt>
+                            <dd><a href="">宜客莱（ECOLA）电脑散热器</a></dd>
+                            <dd><span>售价：</span><strong> ￥89.00</strong></dd>
                         </dl>
                     </li>
-
                     <li>
                         <dl>
-                            <dt><a href=""><img src="/shop/ecshop/Public/images/04fb225ea46bd1346f330400eedb7ef2.jpg_small.jpg"/></a>
-                            </dt>
-                            <dd><a href="">正品都市时尚女装假两件优雅针织衫</a></dd>
-                            <dd>商城价：<em>182.00</em>元</dd>
+                            <dt><a href=""><img src="<?php echo (HOME_PUBLIC); ?>/images/guess3.jpg" alt="" /></a></dt>
+                            <dd><a href="">巴黎欧莱雅男士洁面膏 100ml</a></dd>
+                            <dd><span>售价：</span><strong> ￥30.00</strong></dd>
                         </dl>
                     </li>
-
-                    <li>
-                        <dl>
-                            <dt><a href=""><img src="/shop/ecshop/Public/images/04fb225ea46bd1346f330400eedb7ef2.jpg_small.jpg"/></a>
-                            </dt>
-                            <dd><a href="">正品都市时尚女装假两件优雅针织衫</a></dd>
-                            <dd>商城价：<em>182.00</em>元</dd>
-                        </dl>
-                    </li>
-
-                    <li>
-                        <dl>
-                            <dt><a href=""><img src="/shop/ecshop/Public/images/04fb225ea46bd1346f330400eedb7ef2.jpg_small.jpg"/></a>
-                            </dt>
-                            <dd><a href="">正品都市时尚女装假两件优雅针织衫</a></dd>
-                            <dd>商城价：<em>182.00</em>元</dd>
-                        </dl>
-                    </li>
-
-                    <li>
-                        <dl>
-                            <dt><a href=""><img src="/shop/ecshop/Public/images/04fb225ea46bd1346f330400eedb7ef2.jpg_small.jpg"/></a>
-                            </dt>
-                            <dd><a href="">正品都市时尚女装假两件优雅针织衫</a></dd>
-                            <dd>商城价：<em>182.00</em>元</dd>
-                        </dl>
-                    </li>
-
                 </ul>
             </div>
+            <!-- 猜您喜欢 end -->
+
         </div>
-        <!-- 中间 End -->
-
-        <!-- 右边商品排行 -->
-        <div class="shop_bd_home_block_right">
-            <div class="title"><h3>商品排行</h3></div>
-            <ol class="saletop-list">
-                <li class="top clearfix">
-                    <dl>
-                        <dt class="goods-name">
-                            <a href="">正品都市时尚女装假两件优雅针</a>
-                        </dt>
-                        <dd class="nokey">1</dd>
-                        <dd class="goods-pic">
-                            <a href=""><span class="thumb size60"><img
-                                    src="/shop/ecshop/Public/images/3f81874d594894d19150843c42fb1f8e.jpg_small.jpg"/></span></a>
-                        </dd>
-                        <dd class="goods-price"><em>398.00</em></dd>
-                    </dl>
-                </li>
-                <li class="top clearfix">
-                    <dl>
-                        <dt class="goods-name">
-                            <a href="">正品都市时尚女装假两件优雅针</a>
-                        </dt>
-                        <dd class="nokey">2</dd>
-                        <dd class="goods-pic">
-                            <a href=""><span class="thumb size60"><img
-                                    src="/shop/ecshop/Public/images/3f81874d594894d19150843c42fb1f8e.jpg_small.jpg"/></span></a>
-                        </dd>
-                        <dd class="goods-price"><em>398.00</em></dd>
-                    </dl>
-                </li>
-                <li class="top clearfix">
-                    <dl>
-                        <dt class="goods-name">
-                            <a href="">正品都市时尚女装假两件优雅针</a>
-                        </dt>
-                        <dd class="nokey">3</dd>
-                        <dd class="goods-pic">
-                            <a href=""><span class="thumb size60"><img
-                                    src="/shop/ecshop/Public/images/3f81874d594894d19150843c42fb1f8e.jpg_small.jpg"/></span></a>
-                        </dd>
-                        <dd class="goods-price"><em>398.00</em></dd>
-                    </dl>
-                </li>
-
-                <li class="normal">
-                    <i>4</i>
-                    <a href="">2011秋冬新款韩版大码毛领毛呢外套呢子大衣【演示数据】</a>
-                </li>
-                <li class="normal">
-                    <i>5</i>
-                    <a href="">2011秋冬新款韩版大码毛领毛呢外套呢子大衣【演示数据】</a>
-                </li>
-                <li class="normal">
-                    <i>6</i>
-                    <a href="">2011秋冬新款韩版大码毛领毛呢外套呢子大衣【演示数据】</a>
-                </li>
-                <li class="normal">
-                    <i>7</i>
-                    <a href="">2011秋冬新款韩版大码毛领毛呢外套呢子大衣【演示数据】</a>
-                </li>
-
-            </ol>
-            <div class="saletop-list_adv_pic"><a href=""><img
-                    src="/shop/ecshop/Public/images/web-3-38_ff9bd2d724f7138cec1b1937000f4feb.jpg"/></a></div>
-        </div>
-        <!-- 右边商品排行 -->
-
-        <!-- 品牌展示 -->
-        <div class="shop_bd_home_block_bottom">
-            <ul class="">
-                <li><a href=""><img src="/shop/ecshop/Public/images/354b80528d2fbeefbab33c563532517e.gif"/></a></li>
-                <li><a href=""><img src="/shop/ecshop/Public/images/1d2dfbead590510046a6522551db8139.gif"/></a></li>
-                <li><a href=""><img src="/shop/ecshop/Public/images/26247430b09daa1b441b46008bfb6e6e.gif"/></a></li>
-                <li><a href=""><img src="/shop/ecshop/Public/images/a0ac8c6d2d3dc1470d5876923182a8e2.gif"/></a></li>
-                <li><a href=""><img src="/shop/ecshop/Public/images/9c5dee77a6ecdafd9e152fed8c6a4e90.gif"/></a></li>
-                <li><a href=""><img src="/shop/ecshop/Public/images/b175883eba95e793affb1b1ebbbf85a5.gif"/></a></li>
-                <li><a href=""><img src="/shop/ecshop/Public/images/6e61a1c953e5bc8c5f1ffdac36862245.gif"/></a></li>
-                <li><a href=""><img src="/shop/ecshop/Public/images/209abd835cd2ce2208f2dc42ba10efb4.gif"/></a></li>
-            </ul>
-        </div>
-        <!-- 品牌展示 End -->
 
     </div>
-    <div clas="clear"></div>
-    <!-- 第四块区域 End -->
+    <!-- 导购左边区域 end -->
 
-    <!-- 第五块区域 男女服饰 -->
-    <div class="shop_bd_home_block clearfix">
+    <!-- 侧栏 网站首发 start-->
+    <div class="sidebar fl ml10">
+        <h2><strong>网站首发</strong></h2>
+        <div class="sidebar_wrap">
+            <dl class="first">
+                <dt class="fl"><a href=""><img src="<?php echo (HOME_PUBLIC); ?>/images/viewsonic.jpg" alt="" /></a></dt>
+                <dd><strong><a href="">ViewSonic优派N710 </a></strong> <em>首发</em></dd>
+                <dd>苹果iphone 5免费送！攀高作为全球智能语音血压计领导品牌，新推出的黑金刚高端智能电子血压计，改变传统测量方式让血压测量迈入一体化时代。</dd>
+            </dl>
 
-        <!-- 左边 -->
-        <div class="shop_bd_home_block_left">
-            <div class="shop_bd_home_block_left_logo block_nvzhuang_logo"></div>
-            <div class="shop_hd_home_block_left_class clearfix">
-                <dl class="clearfix">
-                    <dt>女装</dt>
-                    <dd>
-                        <a href="">棉衣</a>
-                        <a href="">毛呢大衣</a>
-                        <a href="">风衣</a>
-                        <a href="">打底衫</a>
-                        <a href="">情侣装</a>
-                        <a href="">毛呢短裤</a>
-                        <a href="">牛仔裤</a>
-                        <a href="">加绒打...</a>
-                        <a href="">小脚裤</a>
-                        <a href="">半身裙</a>
-                    </dd>
-                </dl>
-
-                <dl class="clearfix">
-                    <dt>男装</dt>
-                    <dd>
-                        <a href="">羽绒服</a>
-                        <a href="">卫衣</a>
-                        <a href="">长袖T桖</a>
-                        <a href="">长袖衬衫</a>
-                        <a href="">风衣</a>
-                        <a href="">休闲西装</a>
-                        <a href="">棉衣</a>
-                        <a href="">休闲长裤</a>
-                        <a href="">内衣内裤</a>
-                    </dd>
-                </dl>
-
-            </div>
-            <div class="shop_bd_home_block_left_pic">
-                <a href=""><img src="/shop/ecshop/Public/images/web-1-13_53bfbfc958cb55a435545033bd075bf3.png"/></a>
-            </div>
+            <dl>
+                <dt class="fr"><a href=""><img src="<?php echo (HOME_PUBLIC); ?>/images/samsung.jpg" alt="" /></a></dt>
+                <dd><strong><a href="">Samsung三星Galaxy</a></strong> <em>首发</em></dd>
+                <dd>电视百科全书，360°无死角操控，感受智能新体验！双核CPU+双核GPU+MEMC运动防抖，58寸大屏打造全新视听盛宴！</dd>
+            </dl>
         </div>
-        <!-- 左边 End -->
 
-        <!-- 中间 -->
-        <div class="shop_bd_home_block_center">
-            <ul class="tabs-nav">
-                <li><a href="javascript:void(0);">男女服饰</a></li>
-            </ul>
-            <div class="tabs-panel">
+
+    </div>
+    <!-- 侧栏 网站首发 end -->
+
+</div>
+<!-- 导购区域 end -->
+
+<div style="clear:both;"></div>
+
+<!--1F 电脑办公 start -->
+<div class="floor1 floor w1210 bc mt10">
+    <!-- 1F 左侧 start -->
+    <div class="floor_left fl">
+        <!-- 商品分类信息 start-->
+        <div class="cate fl">
+            <h2>电脑、办公</h2>
+            <div class="cate_wrap">
                 <ul>
-                    <li>
-                        <dl>
-                            <dt><a href=""><img src="/shop/ecshop/Public/images/04fb225ea46bd1346f330400eedb7ef2.jpg_small.jpg"/></a>
-                            </dt>
-                            <dd><a href="">正品都市时尚女装假两件优雅针织衫</a></dd>
-                            <dd>商城价：<em>182.00</em>元</dd>
-                        </dl>
-                    </li>
+                    <li><a href=""><b>.</b>外设产品</a></li>
+                    <li><a href=""><b>.</b>鼠标</a></li>
+                    <li><a href=""><b>.</b>笔记本</a></li>
+                    <li><a href=""><b>.</b>超极本</a></li>
+                    <li><a href=""><b>.</b>平板电脑</a></li>
+                    <li><a href=""><b>.</b>主板</a></li>
+                    <li><a href=""><b>.</b>显卡</a></li>
+                    <li><a href=""><b>.</b>打印机</a></li>
+                    <li><a href=""><b>.</b>一体机</a></li>
+                    <li><a href=""><b>.</b>投影机</a></li>
+                    <li><a href=""><b>.</b>路由器</a></li>
+                    <li><a href=""><b>.</b>网卡</a></li>
+                    <li><a href=""><b>.</b>交换机</a></li>
+                </ul>
+                <p><a href=""><img src="<?php echo (HOME_PUBLIC); ?>/images/notebook.jpg" alt="" /></a></p>
+            </div>
 
-                    <li>
-                        <dl>
-                            <dt><a href=""><img src="/shop/ecshop/Public/images/04fb225ea46bd1346f330400eedb7ef2.jpg_small.jpg"/></a>
-                            </dt>
-                            <dd><a href="">正品都市时尚女装假两件优雅针织衫</a></dd>
-                            <dd>商城价：<em>182.00</em>元</dd>
-                        </dl>
-                    </li>
 
-                    <li>
-                        <dl>
-                            <dt><a href=""><img src="/shop/ecshop/Public/images/04fb225ea46bd1346f330400eedb7ef2.jpg_small.jpg"/></a>
-                            </dt>
-                            <dd><a href="">正品都市时尚女装假两件优雅针织衫</a></dd>
-                            <dd>商城价：<em>182.00</em>元</dd>
-                        </dl>
-                    </li>
+        </div>
+        <!-- 商品分类信息 end-->
 
-                    <li>
-                        <dl>
-                            <dt><a href=""><img src="/shop/ecshop/Public/images/04fb225ea46bd1346f330400eedb7ef2.jpg_small.jpg"/></a>
-                            </dt>
-                            <dd><a href="">正品都市时尚女装假两件优雅针织衫</a></dd>
-                            <dd>商城价：<em>182.00</em>元</dd>
-                        </dl>
-                    </li>
+        <!-- 商品列表信息 start-->
+        <div class="goodslist fl">
+            <h2>
+                <span class="on">推荐商品</span>
+                <span>电脑整机</span>
+                <span>电脑配件</span>
+                <span>办公打印</span>
+                <span>网络产品</span>
+            </h2>
+            <div class="goodslist_wrap">
+                <div>
+                    <ul>
+                        <li>
+                            <dl>
+                                <dt><a href=""><img src="<?php echo (HOME_PUBLIC); ?>/images/hpG4.jpg" alt="" /></a></dt>
+                                <dd><a href="">惠普G4-1332TX 14英寸笔</a></dd>
+                                <dd><span>售价：</span> <strong>￥2999.00</strong></dd>
+                            </dl>
+                        </li>
 
-                    <li>
-                        <dl>
-                            <dt><a href=""><img src="/shop/ecshop/Public/images/04fb225ea46bd1346f330400eedb7ef2.jpg_small.jpg"/></a>
-                            </dt>
-                            <dd><a href="">正品都市时尚女装假两件优雅针织衫</a></dd>
-                            <dd>商城价：<em>182.00</em>元</dd>
-                        </dl>
-                    </li>
+                        <li>
+                            <dl>
+                                <dt><a href=""><img src="<?php echo (HOME_PUBLIC); ?>/images/thinkpad e420.jpg" alt="" /></a></dt>
+                                <dd><a href="">ThinkPad E42014英寸笔..</a></dd>
+                                <dd><span>售价：</span> <strong>￥4199.00</strong></dd>
+                            </dl>
+                        </li>
 
-                    <li>
-                        <dl>
-                            <dt><a href=""><img src="/shop/ecshop/Public/images/04fb225ea46bd1346f330400eedb7ef2.jpg_small.jpg"/></a>
-                            </dt>
-                            <dd><a href="">正品都市时尚女装假两件优雅针织衫</a></dd>
-                            <dd>商城价：<em>182.00</em>元</dd>
-                        </dl>
-                    </li>
+                        <li>
+                            <dl>
+                                <dt><a href=""><img src="<?php echo (HOME_PUBLIC); ?>/images/acer4739.jpg" alt="" /></a></dt>
+                                <dd><a href="">宏碁AS4739-382G32Mnk</a></dd>
+                                <dd><span>售价：</span> <strong>￥2799.00</strong></dd>
+                            </dl>
+                        </li>
 
+                        <li>
+                            <dl>
+                                <dt><a href=""><img src="<?php echo (HOME_PUBLIC); ?>/images/samsung6800.jpg" alt="" /></a></dt>
+                                <dd><a href="">三星Galaxy Tab P6800.</a></dd>
+                                <dd><span>售价：</span> <strong>￥4699.00</strong></dd>
+                            </dl>
+                        </li>
+
+                        <li>
+                            <dl>
+                                <dt><a href=""><img src="<?php echo (HOME_PUBLIC); ?>/images/lh531.jpg" alt="" /></a></dt>
+                                <dd><a href="">富士通LH531 14.1英寸笔记</a></dd>
+                                <dd><span>售价：</span> <strong>￥2189.00</strong></dd>
+                            </dl>
+                        </li>
+
+                        <li>
+                            <dl>
+                                <dt><a href=""><img src="<?php echo (HOME_PUBLIC); ?>/images/qinghuax2.jpg" alt="" /></a></dt>
+                                <dd><a href="">清华同方精锐X2笔记本 </a></dd>
+                                <dd><span>售价：</span> <strong>￥2499.00</strong></dd>
+                            </dl>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="none">
+                    <ul>
+                        <li>
+                            <dl>
+                                <dt><a href=""><img src="<?php echo (HOME_PUBLIC); ?>/images/hpG4.jpg" alt="" /></a></dt>
+                                <dd><a href="">惠普G4-1332TX 14英寸笔</a></dd>
+                                <dd><span>售价：</span> <strong>￥2999.00</strong></dd>
+                            </dl>
+                        </li>
+
+                        <li>
+                            <dl>
+                                <dt><a href=""><img src="<?php echo (HOME_PUBLIC); ?>/images/qinghuax2.jpg" alt="" /></a></dt>
+                                <dd><a href="">清华同方精锐X2笔记本 </a></dd>
+                                <dd><span>售价：</span> <strong>￥2499.00</strong></dd>
+                            </dl>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <div class="none">
+                    <ul>
+                        <li>
+                            <dl>
+                                <dt><a href=""><img src="<?php echo (HOME_PUBLIC); ?>/images/thinkpad e420.jpg" alt="" /></a></dt>
+                                <dd><a href="">ThinkPad E42014英寸笔..</a></dd>
+                                <dd><span>售价：</span> <strong>￥4199.00</strong></dd>
+                            </dl>
+                        </li>
+
+                        <li>
+                            <dl>
+                                <dt><a href=""><img src="<?php echo (HOME_PUBLIC); ?>/images/acer4739.jpg" alt="" /></a></dt>
+                                <dd><a href="">宏碁AS4739-382G32Mnk</a></dd>
+                                <dd><span>售价：</span> <strong>￥2799.00</strong></dd>
+                            </dl>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="none">
+                    <ul>
+                        <li>
+                            <dl>
+                                <dt><a href=""><img src="<?php echo (HOME_PUBLIC); ?>/images/acer4739.jpg" alt="" /></a></dt>
+                                <dd><a href="">宏碁AS4739-382G32Mnk</a></dd>
+                                <dd><span>售价：</span> <strong>￥2799.00</strong></dd>
+                            </dl>
+                        </li>
+
+                        <li>
+                            <dl>
+                                <dt><a href=""><img src="<?php echo (HOME_PUBLIC); ?>/images/samsung6800.jpg" alt="" /></a></dt>
+                                <dd><a href="">三星Galaxy Tab P6800.</a></dd>
+                                <dd><span>售价：</span> <strong>￥4699.00</strong></dd>
+                            </dl>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="none">
+                    <ul>
+                        <li>
+                            <dl>
+                                <dt><a href=""><img src="<?php echo (HOME_PUBLIC); ?>/images/samsung6800.jpg" alt="" /></a></dt>
+                                <dd><a href="">三星Galaxy Tab P6800.</a></dd>
+                                <dd><span>售价：</span> <strong>￥4699.00</strong></dd>
+                            </dl>
+                        </li>
+
+                        <li>
+                            <dl>
+                                <dt><a href=""><img src="<?php echo (HOME_PUBLIC); ?>/images/lh531.jpg" alt="" /></a></dt>
+                                <dd><a href="">富士通LH531 14.1英寸笔记</a></dd>
+                                <dd><span>售价：</span> <strong>￥2189.00</strong></dd>
+                            </dl>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        <!-- 商品列表信息 end-->
+    </div>
+    <!-- 1F 左侧 end -->
+
+    <!-- 右侧 start -->
+    <div class="sidebar fl ml10">
+        <!-- 品牌旗舰店 start -->
+        <div class="brand">
+            <h2><a href="">更多品牌&nbsp;></a><strong>品牌旗舰店</strong></h2>
+            <div class="sidebar_wrap">
+                <ul>
+                    <li><a href=""><img src="<?php echo (HOME_PUBLIC); ?>/images/dell.gif" alt="" /></a></li>
+                    <li><a href=""><img src="<?php echo (HOME_PUBLIC); ?>/images/acer.gif" alt="" /></a></li>
+                    <li><a href=""><img src="<?php echo (HOME_PUBLIC); ?>/images/fujitsu.jpg" alt="" /></a></li>
+                    <li><a href=""><img src="<?php echo (HOME_PUBLIC); ?>/images/hp.jpg" alt="" /></a></li>
+                    <li><a href=""><img src="<?php echo (HOME_PUBLIC); ?>/images/lenove.jpg" alt="" /></a></li>
+                    <li><a href=""><img src="<?php echo (HOME_PUBLIC); ?>/images/samsung.gif" alt="" /></a></li>
+                    <li><a href=""><img src="<?php echo (HOME_PUBLIC); ?>/images/dlink.gif" alt="" /></a></li>
+                    <li><a href=""><img src="<?php echo (HOME_PUBLIC); ?>/images/seagate.jpg" alt="" /></a></li>
+                    <li><a href=""><img src="<?php echo (HOME_PUBLIC); ?>/images/intel.jpg" alt="" /></a></li>
                 </ul>
             </div>
         </div>
-        <!-- 中间 End -->
+        <!-- 品牌旗舰店 end -->
 
-        <!-- 右边商品排行 -->
-        <div class="shop_bd_home_block_right">
-            <div class="title"><h3>商品排行</h3></div>
-            <ol class="saletop-list">
-                <li class="top clearfix">
-                    <dl>
-                        <dt class="goods-name">
-                            <a href="">正品都市时尚女装假两件优雅针</a>
-                        </dt>
-                        <dd class="nokey">1</dd>
-                        <dd class="goods-pic">
-                            <a href=""><span class="thumb size60"><img
-                                    src="/shop/ecshop/Public/images/3f81874d594894d19150843c42fb1f8e.jpg_small.jpg"/></span></a>
-                        </dd>
-                        <dd class="goods-price"><em>398.00</em></dd>
-                    </dl>
-                </li>
-                <li class="top clearfix">
-                    <dl>
-                        <dt class="goods-name">
-                            <a href="">正品都市时尚女装假两件优雅针</a>
-                        </dt>
-                        <dd class="nokey">2</dd>
-                        <dd class="goods-pic">
-                            <a href=""><span class="thumb size60"><img
-                                    src="/shop/ecshop/Public/images/3f81874d594894d19150843c42fb1f8e.jpg_small.jpg"/></span></a>
-                        </dd>
-                        <dd class="goods-price"><em>398.00</em></dd>
-                    </dl>
-                </li>
-                <li class="top clearfix">
-                    <dl>
-                        <dt class="goods-name">
-                            <a href="">正品都市时尚女装假两件优雅针</a>
-                        </dt>
-                        <dd class="nokey">3</dd>
-                        <dd class="goods-pic">
-                            <a href=""><span class="thumb size60"><img
-                                    src="/shop/ecshop/Public/images/3f81874d594894d19150843c42fb1f8e.jpg_small.jpg"/></span></a>
-                        </dd>
-                        <dd class="goods-price"><em>398.00</em></dd>
-                    </dl>
-                </li>
+        <!-- 分类资讯 start -->
+        <div class="info mt10">
+            <h2><strong>分类资讯</strong></h2>
+            <div class="sidebar_wrap">
+                <ul>
+                    <li><a href=""><b>.</b>iphone 5s土豪金大量到货</a></li>
+                    <li><a href=""><b>.</b>三星note 3低价促销</a></li>
+                    <li><a href=""><b>.</b>thinkpad x240即将上市</a></li>
+                    <li><a href=""><b>.</b>双十一来临，众商家血拼</a></li>
+                </ul>
+            </div>
 
-                <li class="normal">
-                    <i>4</i>
-                    <a href="">2011秋冬新款韩版大码毛领毛呢外套呢子大衣【演示数据】</a>
-                </li>
-                <li class="normal">
-                    <i>5</i>
-                    <a href="">2011秋冬新款韩版大码毛领毛呢外套呢子大衣【演示数据】</a>
-                </li>
-                <li class="normal">
-                    <i>6</i>
-                    <a href="">2011秋冬新款韩版大码毛领毛呢外套呢子大衣【演示数据】</a>
-                </li>
-                <li class="normal">
-                    <i>7</i>
-                    <a href="">2011秋冬新款韩版大码毛领毛呢外套呢子大衣【演示数据】</a>
-                </li>
-
-            </ol>
-            <div class="saletop-list_adv_pic"><a href=""><img
-                    src="/shop/ecshop/Public/images/web-3-38_ff9bd2d724f7138cec1b1937000f4feb.jpg"/></a></div>
         </div>
-        <!-- 右边商品排行 -->
+        <!-- 分类资讯 end -->
 
-        <!-- 品牌展示 -->
-        <div class="shop_bd_home_block_bottom">
-            <ul class="">
-                <li><a href=""><img src="/shop/ecshop/Public/images/354b80528d2fbeefbab33c563532517e.gif"/></a></li>
-                <li><a href=""><img src="/shop/ecshop/Public/images/1d2dfbead590510046a6522551db8139.gif"/></a></li>
-                <li><a href=""><img src="/shop/ecshop/Public/images/26247430b09daa1b441b46008bfb6e6e.gif"/></a></li>
-                <li><a href=""><img src="/shop/ecshop/Public/images/a0ac8c6d2d3dc1470d5876923182a8e2.gif"/></a></li>
-                <li><a href=""><img src="/shop/ecshop/Public/images/9c5dee77a6ecdafd9e152fed8c6a4e90.gif"/></a></li>
-                <li><a href=""><img src="/shop/ecshop/Public/images/b175883eba95e793affb1b1ebbbf85a5.gif"/></a></li>
-                <li><a href=""><img src="/shop/ecshop/Public/images/6e61a1c953e5bc8c5f1ffdac36862245.gif"/></a></li>
-                <li><a href=""><img src="/shop/ecshop/Public/images/209abd835cd2ce2208f2dc42ba10efb4.gif"/></a></li>
-            </ul>
+        <!-- 广告 start -->
+        <div class="ads mt10">
+            <a href=""><img src="<?php echo (HOME_PUBLIC); ?>/images/canon.jpg" alt="" /></a>
         </div>
-        <!-- 品牌展示 End -->
-
+        <!-- 广告 end -->
     </div>
-    <div clas="clear"></div>
-    <!-- 第五块区域 End -->
+    <!-- 右侧 end -->
 
-    <div class="faq">
-        <dl>
-            <dt>帮助中心</dt>
-            <dd><a href=""><span>积分兑换说明</span></a></dd>
-            <dd><a href=""><span>积分明细</span></a></dd>
-            <dd><a href=""><span>查看已购买商</span></a></dd>
-            <dd><a href=""><span>我要买</span></a></dd>
-            <dd><a href=""><span>忘记密码</span></a></dd>
-        </dl>
-
-        <dl>
-            <dt>店主之家</dt>
-            <dd><a href=""><span>如何申请开店</span></a></dd>
-            <dd><a href=""><span>商城商品推荐</span></a></dd>
-            <dd><a href=""><span>如何发货</span></a></dd>
-            <dd><a href=""><span>查看已售商品</span></a></dd>
-            <dd><a href=""><span>如何管理店铺</span></a></dd>
-        </dl>
-
-        <dl>
-            <dt>支付方式</dt>
-            <dd><a href=""><span>公司转账</span></a></dd>
-            <dd><a href=""><span>邮局汇款</span></a></dd>
-            <dd><a href=""><span>分期付款</span></a></dd>
-            <dd><a href=""><span>在线支付</span></a></dd>
-            <dd><a href=""><span>如何注册支付</span></a></dd>
-        </dl>
-
-        <dl>
-            <dt>售后服务</dt>
-            <dd><a href=""><span>退款申请</span></a></dd>
-            <dd><a href=""><span>返修/退换货</span></a></dd>
-            <dd><a href=""><span>退换货流程</span></a></dd>
-            <dd><a href=""><span>退换货政策</span></a></dd>
-            <dd><a href=""><span>联系卖家</span></a></dd>
-        </dl>
-
-        <dl>
-            <dt>客服中心</dt>
-            <dd><a href=""><span>修改收货地址</span></a></dd>
-            <dd><a href=""><span>商品发布</span></a></dd>
-            <dd><a href=""><span>会员修改个人</span></a></dd>
-            <dd><a href=""><span>会员修改密码</span></a></dd>
-
-        </dl>
-
-        <dl>
-            <dt>关于我们</dt>
-            <dd><a href=""><span>合作及洽谈</span></a></dd>
-            <dd><a href=""><span>招聘英才</span></a></dd>
-            <dd><a href=""><span>联系我们</span></a></dd>
-            <dd><a href=""><span>关于Shop</span></a></dd>
-        </dl>
-
-
-    </div>
-    <div class="clear"></div>
 </div>
-<!-- Body End -->
+<!--1F 电脑办公 start -->
 
-<!-- Footer - wll - 2013/3/24 -->
-<div class="clear"></div>
-<div class="shop_footer">
-    <div class="shop_footer_link">
-        <p>
-            <a href="">首页</a>|
-            <a href="">招聘英才</a>|
-            <a href="">广告合作</a>|
-            <a href="">关于ShopCZ</a>|
-            <a href="">关于我们</a>
-        </p>
-    </div>
-    <div class="shop_footer_copy">
-        <p>Copyright 2004-2013 itcast Inc.,All rights reserved.</p>
-    </div>
+
+
+
+<div style="clear:both;"></div>
+
+	<!-- 底部导航 start -->
+	<div class="bottomnav w1210 bc mt10">
+		<div class="bnav1">
+			<h3><b></b> <em>购物指南</em></h3>
+			<ul>
+				<li><a href="">购物流程</a></li>
+				<li><a href="">会员介绍</a></li>
+				<li><a href="">团购/机票/充值/点卡</a></li>
+				<li><a href="">常见问题</a></li>
+				<li><a href="">大家电</a></li>
+				<li><a href="">联系客服</a></li>
+			</ul>
+		</div>
+		
+		<div class="bnav2">
+			<h3><b></b> <em>配送方式</em></h3>
+			<ul>
+				<li><a href="">上门自提</a></li>
+				<li><a href="">快速运输</a></li>
+				<li><a href="">特快专递（EMS）</a></li>
+				<li><a href="">如何送礼</a></li>
+				<li><a href="">海外购物</a></li>
+			</ul>
+		</div>
+
+		
+		<div class="bnav3">
+			<h3><b></b> <em>支付方式</em></h3>
+			<ul>
+				<li><a href="">货到付款</a></li>
+				<li><a href="">在线支付</a></li>
+				<li><a href="">分期付款</a></li>
+				<li><a href="">邮局汇款</a></li>
+				<li><a href="">公司转账</a></li>
+			</ul>
+		</div>
+
+		<div class="bnav4">
+			<h3><b></b> <em>售后服务</em></h3>
+			<ul>
+				<li><a href="">退换货政策</a></li>
+				<li><a href="">退换货流程</a></li>
+				<li><a href="">价格保护</a></li>
+				<li><a href="">退款说明</a></li>
+				<li><a href="">返修/退换货</a></li>
+				<li><a href="">退款申请</a></li>
+			</ul>
+		</div>
+
+		<div class="bnav5">
+			<h3><b></b> <em>特色服务</em></h3>
+			<ul>
+				<li><a href="">夺宝岛</a></li>
+				<li><a href="">DIY装机</a></li>
+				<li><a href="">延保服务</a></li>
+				<li><a href="">家电下乡</a></li>
+				<li><a href="">京东礼品卡</a></li>
+				<li><a href="">能效补贴</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- 底部导航 end -->
+<div style="clear:both;"></div>
+<!-- 底部版权 start -->
+<div class="footer w1210 bc mt10">
+    <p class="links">
+        <a href="">关于我们</a> |
+        <a href="">联系我们</a> |
+        <a href="">人才招聘</a> |
+        <a href="">商家入驻</a> |
+        <a href="">千寻网</a> |
+        <a href="">奢侈品网</a> |
+        <a href="">广告服务</a> |
+        <a href="">移动终端</a> |
+        <a href="">友情链接</a> |
+        <a href="">销售联盟</a> |
+        <a href="">京西论坛</a>
+    </p>
+    <p class="copyright">
+        © 2005-2013 京东网上商城 版权所有，并保留所有权利。  ICP备案证书号:京ICP证070359号
+    </p>
+    <p class="auth">
+        <a href=""><img src="<?php echo (HOME_PUBLIC); ?>/images/xin.png" alt="" /></a>
+        <a href=""><img src="<?php echo (HOME_PUBLIC); ?>/images/kexin.jpg" alt="" /></a>
+        <a href=""><img src="<?php echo (HOME_PUBLIC); ?>/images/police.jpg" alt="" /></a>
+        <a href=""><img src="<?php echo (HOME_PUBLIC); ?>/images/beian.gif" alt="" /></a>
+    </p>
 </div>
-<!-- Footer End -->
+<!-- 底部版权 end -->
+
 </body>
 </html>
+
+<script >
+$.ajax({
+    type : 'GET',
+    url: '/shop/ecshop/index.php/Home/Register/logInfoAjax',
+    dataType: 'Json',  //指定服务器返回json
+    success: function (data) {
+        var html;
+        if(data.ok == 1){
+            html = "您好<?php echo session('user_name') ?>，欢迎来到京西！[<a href='/shop/ecshop/index.php/Home/Register/logout'>退出</a>]";
+        }else{
+            html = "您好，欢迎来到京西！[<a href='/shop/ecshop/index.php/Home/Register/login'>登录</a>] [<a href='/shop/ecshop/index.php/Home/Register/register'>免费注册</a>]"
+        }
+
+        $('#logInfo').html(html);
+    }
+
+});
+</script>

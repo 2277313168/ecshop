@@ -26,7 +26,7 @@ define('APP_PATH','./Application/');
 
 define('SITE_URL','http://localhost:8/shop/ecshop');
 define('ADMIN_PUBLIC','http://localhost:8/shop/ecshop/Application/Admin/Public');
-
+define('HOME_PUBLIC','http://localhost:8/shop/ecshop/Application/HOME/Public');
 
 
 

@@ -1,10 +1,42 @@
 <?php
 
 
+
+//注意，含有$this的不能放在function.php中，只能放在BaseController中
+//因为$this不能存在于函数中，只能存在于类中
 function salt()
 {
     $str = 'ele@!$#$uw754%$&^%32';
     return substr(str_shuffle($str), 0, 8);
+}
+
+//发送邮件
+function sendMail($to, $title, $content)
+{
+    require_once('./Public/PHPMailer_v5.1/class.phpmailer.php');
+    $mail = new PHPMailer();
+    // 设置为要发邮件
+    $mail->IsSMTP();
+    // 是否允许发送HTML代码做为邮件的内容
+    $mail->IsHTML(TRUE);
+    // 是否需要身份验证
+    $mail->SMTPAuth=TRUE;
+    $mail->CharSet='UTF-8';
+    /*  邮件服务器上的账号是什么 */
+    $mail->From=C('MAIL_ADDRESS');
+    $mail->FromName=C('MAIL_FROM');
+    $mail->Host=C('MAIL_SMTP');
+    $mail->Username=C('MAIL_LOGINNAME');
+    $mail->Password=C('MAIL_PASSWORD');
+    // 发邮件端口号默认25
+    $mail->Port = 25;
+    // 收件人
+    $mail->AddAddress($to);
+    // 邮件标题
+    $mail->Subject=$title;
+    // 邮件内容
+    $mail->Body=$content;
+    return($mail->Send());
 }
 
 
@@ -30,64 +62,66 @@ function removeXSS($val)
 
 //  上传图片并生成缩略图
 //  用法：
-//  $res = uploadOne('logo', 'Goods', array(
-//  array(600, 600),
-//  array(300, 300),
-//  array(100, 100),
-//  ));
-//  返回值：
-//  if($res['ok'] == 1)
-//  {
-//  $res['images'][0];   // 原图地址
-//  $res['images'][1];   // 第一个缩略图地址
-//  $res['images'][2];   // 第二个缩略图地址
-//  $res['images'][3];   // 第三个缩略图地址
-//  }
-//  else
-//  {
-//  $this->error = $res['error'];
-//  return FALSE;
-//  }
+//$res = uploadOne('logo', 'Brand', array(
+//    array(600, 600),
+//    array(300, 300),
+//    array(100, 100),
+//));
+//返回值：
+//if ($res['status'] == 1) {
+//    $data['logo'] = $res['images'][0];
+//    $data['thumb_logo1'] = $res['images'][1];
+//    $data['thumb_logo2'] = $res['images'][2];
+//    $data['thumb_logo3'] = $res['images'][3];
+//} else {
+//    $this->error("图片添加失败", U('Brand/brandAdd'), 1);
+//}
+//出错可能是因为.html文件中是name=img[]数组，而不是name=img
 
 
 function uploadOne($imgName, $dirName, $thumb = array())
 {
+    // 上传LOGO
 
     if (isset($_FILES[$imgName]) && $_FILES[$imgName]['error'] == 0) {
 
+        $rootPath = './Uploads/'; // 设置附件上传根目录
         $upload = new \Think\Upload();// 实例化上传类
-        $upload->maxSize = C('maxSize');// 设置附件上传大小
-        $upload->exts = C('exts');// 设置附件上传类型
-        $upload->rootPath = C('rootPath'); // 设置附件上传根目录
+        $upload->maxSize = 3145728;// 设置附件上传大小
+        $upload->exts = array('jpg', 'gif', 'png', 'jpeg');// 设置附件上传类型
+        //$upload->rootPath = './Uploads/'; // 设置附件上传根目录
         $upload->savePath = $dirName . '/'; // 设置附件上传（子）目录
-        // 上传文件
+        //$upload->saveName = array('date','Y-m-d');         // 采用时间戳命名
+        $upload->saveName = 'time';
+        $upload->autoSub = false;            // 关闭子目录保存，否则会有一个以日期命名的子目录
+
+
+        // 上传文件 
+        // 上传时指定一个要上传的图片的名称，否则会把表单中所有的图片都处理，之后再想其他图片时就再找不到图片了
         $info = $upload->upload(array($imgName => $_FILES[$imgName]));
-
-
         if (!$info) {
-
-            $res['status'] = 0;
-            $res['error'] = $upload->getError();
-            return $res;
+            return array(
+                'status' => 0,
+                'error' => ($upload->getError()),
+            );
         } else {
             $res['status'] = 1;
-            $res['images'][0] = $info[$imgName]['savepath'] . $info[$imgName]['savename'];
-
-            //是否生成缩略图
+            $res['images'][0] = $logoName = $rootPath . $info[$imgName]['savepath'] . $info[$imgName]['savename'];
+            // 判断是否生成缩略图
             if ($thumb) {
-                $image = new\Think\Image();
-                //循环生成缩略图
+                $image = new \Think\Image();
+                // 循环生成缩略图
                 foreach ($thumb as $k => $v) {
-
-                    $image->open(C('rootPath') . $res['images'][0]);// 打开要处理的图片
-                    $res['images'][$k + 1] = $info[$imgName]['savepath'] . 'thumb_' . $k . '_' . $info[$imgName]['savename'];
-                    $image->thumb($v[0], $v[1])->save(C('rootPath') . $res['images'][$k + 1]);
+                    $res['images'][$k + 1] = $rootPath . $info[$imgName]['savepath'] . 'thumb_' . $k . '_' . $info[$imgName]['savename'];
+                    // 打开要处理的图片
+                    $image->open( $logoName);
+                    $image->thumb($v[0], $v[1])->save($res['images'][$k + 1]);
                 }
             }
-
             return $res;
         }
-
     }
+
+
 }
 

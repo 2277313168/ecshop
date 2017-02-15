@@ -17,13 +17,5 @@ class BrandModel extends Model
         array('brand_name', '', '该品牌已存在', 0, 'unique', 1) // 在新增的时候验证name字段是否唯一
     );
 
-    protected function _before_delete($option)
-    {
-        $logo = $this->field('logo')->find($option['where']['brand_id']);
-        $path = './Uploads'. $logo['logo'] ;
-
-        unlink($path);//删除图片
-    }
-
 
 }

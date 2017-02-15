@@ -15,15 +15,15 @@ class GoodsController extends BaseController
     public function goodsIndex()
     {
         $keyword = I('keyword');
-        $condition['goods_name'] = array('like',"%$keyword%");
+        $condition['goods_name'] = array('like', "%$keyword%");
 
 
         $goodsList = M('goods')->where($condition)->select();
-        $this->assign('goodsList',$goodsList);
+        $this->assign('goodsList', $goodsList);
         $brandList = M('brand')->select();
-        $this->assign('brandList',$brandList);
-        $catList =D('category')->catTree();
-        $this->assign('catList',$catList);
+        $this->assign('brandList', $brandList);
+        $catList = D('category')->catTree();
+        $this->assign('catList', $catList);
         $this->display('Goods/goods_index');
         return;
     }
@@ -43,7 +43,7 @@ class GoodsController extends BaseController
             $data['promote_start_time'] = I('promote_start_time', 0, 'strtotime');
             $data['promote_end_time'] = I('promote_end_time', 0, 'strtotime');
             //$data['goods_img'] = I('goods_img');
-            $data['goods_thumb'] = I('goods_thumb');
+            //$data['goods_thumb'] = I('goods_thumb');
             $data['goods_number'] = I('goods_number');
             $data['click_count'] = I('click_count');
             $data['type_id'] = I('type_id');
@@ -53,45 +53,14 @@ class GoodsController extends BaseController
             $data['is_onsale'] = I('is_onsale');
             $data['add_time'] = time();
 
+            $res = uploadOne('goods_img', 'Goods',array(array(300, 300)) );
+            if($res['status'] == 1){
+                $data['goods_img'] = $res['images'][0];
+                $data['goods_thumb'] = $res['images'][1];
+            }else{
+                $this->error( "图片添加失败" , U('Goods/goodsAdd'),1);
+            }
 
-
-                $upload = new \Think\Upload();// 实例化上传类
-                $upload->maxSize   =    C('maxSize') ;// 设置附件上传大小
-                $upload->exts      =     C('exts');// 设置附件上传类型
-                $upload->rootPath  =     C('rootPath'); // 设置附件上传根目录
-                $upload->savePath  =     C('savePath'); // 设置附件上传（子）目录
-                // 上传文件
-
-
-                $info   =   $upload->upload();
-                if($info) {//上传成功，生成缩略图
-                    //var_dump($info);
-                    $openName = C('rootPath').$info[0]['savepath'].$info[0]['savename']; //savepath,savename而非savePath,saveName
-                    $thumbName = C('rootPath').$info[0]['savepath'].'thumb_'.$info[0]['savename'];
-                    $data['goods_img'] = $openName;
-                    $data['goods_thumb'] = $thumbName;
-
-                    $image = new \Think\Image();
-                    $image->open($openName);
-                    $image->thumb(50, 50)->save($thumbName);// 按照原图的比例生成一个最大为150*150的缩略图并保存为thumb.jpg
-
-                }
-
-
-
-
-//            $upload = new \Think\Upload();// 实例化上传类
-//            $upload->maxSize   =     3145728 ;// 设置附件上传大小
-//            $upload->exts      =     array('jpg', 'gif', 'png', 'jpeg');// 设置附件上传类型
-//            $upload->rootPath  =     './Uploads/'; // 设置附件上传根目录
-//            $upload->savePath  =     './'; // 设置附件上传（子）目录
-//            // 上传文件
-//            $info   =   $upload->uploadOne($_FILES['goods_img']);
-//
-//            if($info) {// 上传错误提示错误信息
-//                $data['goods_img']= $info['savepath'].$info['savename'];
-//
-//            }
 
 
             $goods = D('goods');
@@ -138,10 +107,19 @@ class GoodsController extends BaseController
 
     public function goodsEdit()
     {
+        $data['goods_id'] = I('id');
         if (IS_POST) {
 
             return;
         }
+        $goods = M('goods')->find(I('id'));
+        $this->assign('goods',$goods);
+        $typeList = M('goods_type')->select();
+        $catList = D('category')->catTree();
+        $brandList = M('brand')->select();
+        $this->assign('typeList', $typeList);
+        $this->assign('catList', $catList);
+        $this->assign('brandList', $brandList);
         $this->display('Goods/goods_edit');
         return;
     }
