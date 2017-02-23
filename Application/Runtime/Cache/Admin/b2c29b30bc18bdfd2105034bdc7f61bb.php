@@ -26,7 +26,7 @@
       <tr>
         <td class="label">所属商品类型：</td>
         <td>
-          <select name="cat_id" onchange="onChangeGoodsType(this.value)">
+          <select name="type_id" onchange="onChangeGoodsType(this.value)">
           <option value="0">请选择...</option>
               <?php if(is_array($typeList)): $i = 0; $__LIST__ = $typeList;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><option value="<?php echo ($vo["type_id"]); ?>"><?php echo ($vo["type_name"]); ?></option><?php endforeach; endif; else: echo "" ;endif; ?>
             <!--<option value="1">书</option><option value="2">音乐</option><option value="3">电影</option><option value="4">手机</option><option value="5">笔记本电脑</option><option value="6">数码相机</option><option value="7">数码摄像机</option><option value="8">化妆品</option><option value="9">精品手机</option><option value="10">我的商品</option>          </select> <span class="require-field">*</span>        </td>-->

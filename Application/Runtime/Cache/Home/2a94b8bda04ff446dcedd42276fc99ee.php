@@ -16,6 +16,31 @@
     <link rel="stylesheet" href="<?php echo (HOME_PUBLIC); ?>/style/footer.css" type="text/css">
     <script type="text/javascript" src="<?php echo (HOME_PUBLIC); ?>/js/jquery-1.8.3.min.js"></script>
     <script type="text/javascript" src="<?php echo (HOME_PUBLIC); ?>/js/header.js"></script>
+    <script type="text/javascript" src="<?php echo (HOME_PUBLIC); ?>/js/index.js"></script>
+    <?php foreach ($page_js as $k => $v): ?>
+    <script type="text/javascript" src="<?php echo (HOME_PUBLIC); ?>/js/<?php echo ($v); ?>.js"></script>
+    <?php endforeach; ?>
+</head>
+<body>
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title><?php echo ($page_title); ?></title>
+    <meta name="keywords" content="<?php echo ($page_keywords); ?>" />
+    <meta name="description" content="<?php echo ($page_description); ?>" />
+    <link rel="stylesheet" href="<?php echo (HOME_PUBLIC); ?>/style/base.css" type="text/css">
+    <link rel="stylesheet" href="<?php echo (HOME_PUBLIC); ?>/style/global.css" type="text/css">
+    <link rel="stylesheet" href="<?php echo (HOME_PUBLIC); ?>/style/header.css" type="text/css">
+    <?php foreach ($page_css as $k => $v): ?>
+    <link rel="stylesheet" href="<?php echo (HOME_PUBLIC); ?>/style/<?php echo ($v); ?>.css" type="text/css">
+    <?php endforeach; ?>
+    <link rel="stylesheet" href="<?php echo (HOME_PUBLIC); ?>/style/bottomnav.css" type="text/css">
+    <link rel="stylesheet" href="<?php echo (HOME_PUBLIC); ?>/style/footer.css" type="text/css">
+    <script type="text/javascript" src="<?php echo (HOME_PUBLIC); ?>/js/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="<?php echo (HOME_PUBLIC); ?>/js/header.js"></script>
     <?php foreach ($page_js as $k => $v): ?>
     <script type="text/javascript" src="<?php echo (HOME_PUBLIC); ?>/js/<?php echo ($v); ?>.js"></script>
     <?php endforeach; ?>
@@ -30,7 +55,6 @@
         <div class="topnav_right fr">
             <ul>
                 <li id="logInfo"></li>
-
                 <li class="line">|</li>
                 <li>我的订单</li>
                 <li class="line">|</li>
@@ -43,11 +67,36 @@
 <!-- 顶部导航 end -->
 <div style="clear:both;"></div>
 
+
+<script >
+    $.ajax({
+        type : 'GET',
+        url: "/shop/ecshop/index.php/Home/Register/logInfoAjax",
+        dataType: 'json',  //指定服务器返回json
+        success: function (data) {
+            var html;
+            if(data.ok == 1){
+                //html = "您好<?php echo session('user_name') ?>，欢迎来到京西！[<a href='/shop/ecshop/index.php/Home/Register/logout'>退出</a>]";
+                html = data.userName+"您好，欢迎来到京西！[<a href='/shop/ecshop/index.php/Home/Register/logout'>退出</a>]";
+
+            }else{
+                html = '您好，欢迎来到京西！[<a href="/shop/ecshop/index.php/Home/Register/login">登录</a>] [<a href="/shop/ecshop/index.php/Home/Register/register">免费注册</a>]' ;
+            }
+
+            $('#logInfo').html(html);
+        }
+
+    });
+</script>
+
+<div style="clear:both;"></div>
+
+
 <!-- 头部 start -->
 	<div class="header w1210 bc mt15">
 		<!-- 头部上半部分 start 包括 logo、搜索、用户中心和购物车结算 -->
 		<div class="logo w1210">
-			<h1 class="fl"><a href="index.html"><img src="<?php echo (HOME_PUBLIC); ?>/images/logo.png" alt="京西商城"></a></h1>
+			<h1 class="fl"><a href="/shop/ecshop/index.php/Home/Index/index"><img src="<?php echo (HOME_PUBLIC); ?>/images/logo.png" alt="京西商城"></a></h1>
 			<!-- 头部搜索 start -->
 			<div class="search fl">
 				<div class="search_form">
@@ -101,10 +150,10 @@
 						<div style="clear:both;"></div>
 						<div class="viewlist mt10">
 							<h3>最近浏览的商品：</h3>
-							<ul>
-								<li><a href=""><img src="<?php echo (HOME_PUBLIC); ?>/images/view_list1.jpg" alt="" /></a></li>
-								<li><a href=""><img src="<?php echo (HOME_PUBLIC); ?>/images/view_list2.jpg" alt="" /></a></li>
-								<li><a href=""><img src="<?php echo (HOME_PUBLIC); ?>/images/view_list3.jpg" alt="" /></a></li>
+							<ul id="history">
+								<!--<li><a href=""><img src="<?php echo (HOME_PUBLIC); ?>/images/view_list1.jpg" alt="" /></a></li>-->
+								<!--<li><a href=""><img src="<?php echo (HOME_PUBLIC); ?>/images/view_list2.jpg" alt="" /></a></li>-->
+								<!--<li><a href=""><img src="<?php echo (HOME_PUBLIC); ?>/images/view_list3.jpg" alt="" /></a></li>-->
 							</ul>
 						</div>
 					</dd>
@@ -173,7 +222,7 @@
 
 			<div class="navitems fl">
 				<ul class="fl">
-					<li class="current"><a href="">首页</a></li>
+					<li class="current"><a href="/shop/ecshop/index.php/Home/Index/index">首页</a></li>
 					<li><a href="">电脑频道</a></li>
 					<li><a href="">家用电器</a></li>
 					<li><a href="">品牌大全</a></li>
@@ -189,6 +238,31 @@
 	<!-- 头部 end-->
 	
 	<div style="clear:both;"></div>
+
+
+<script >
+
+	$.ajax({
+		type : 'GET',
+		url : "/shop/ecshop/index.php/Home/Index/ajaxHistory",
+		dataType : 'json',
+		success : function (data) {
+			var html = '';
+			$(data).each(function (k,v) {
+
+				html += '<li><a href="/shop/ecshop/index.php/Home/Index/goods/id/'+v.goods_id+'"><img src="/shop/ecshop'+v.goods_img+'" alt="" /></a></li>';
+
+			})
+
+
+			$('#history').html(html);
+
+
+		}
+	})
+
+
+</script>
 
 
 
@@ -340,8 +414,8 @@
                     <?php foreach ($goodsLike as $k => $v): ?>
                     <li>
                         <dl>
-                            <dt><a href="<?php echo U('goods?id='.$v['id']); ?>"><img src="/shop/ecshop<?php echo ($v["goods_img"]); ?>" /></a></dt>
-                            <dd><a href="<?php echo U('goods?id='.$v['id']); ?>"><?php echo ($v["goods_name"]); ?></a></dd>
+                            <dt><a href="/shop/ecshop/index.php/Home/Index/goods/id/<?php echo ($v["goods_id"]); ?>" ><img src="/shop/ecshop<?php echo ($v["goods_img"]); ?>" /></a></dt>
+                            <dd><a href="/shop/ecshop/index.php/Home/Index/goods/id/<?php echo ($v["goods_id"]); ?>" ><?php echo ($v["goods_name"]); ?></a></dd>
                             <dd><span>售价：</span><strong> ￥<?php echo ($v["shop_price"]); ?>元</strong></dd>
                         </dl>
                     </li>
@@ -353,11 +427,11 @@
             <!-- 热卖商品 start -->
             <div class="hot none">
                 <ul>
-                    <?php foreach ($goods2 as $k => $v): ?>
+                    <?php foreach ($goodsHot as $k => $v): ?>
                     <li>
                         <dl>
-                            <dt><a href="<?php echo U('goods?id='.$v['id']); ?>"><?php showImage($v['sm_logo']); ?></a></dt>
-                            <dd><a href="<?php echo U('goods?id='.$v['id']); ?>"><?php echo ($v["goods_name"]); ?></a></dd>
+                            <dt><a href="/shop/ecshop/index.php/Home/Index/goods/id/<?php echo ($v["goods_id"]); ?>" ><img src="/shop/ecshop<?php echo ($v["goods_img"]); ?>" /></a></dt>
+                            <dd><a href="/shop/ecshop/index.php/Home/Index/goods/id/<?php echo ($v["goods_id"]); ?>" ><?php echo ($v["goods_name"]); ?></a></dd>
                             <dd><span>售价：</span><strong> ￥<?php echo ($v["shop_price"]); ?>元</strong></dd>
                         </dl>
                     </li>
@@ -780,22 +854,3 @@
 
 </body>
 </html>
-
-<script >
-$.ajax({
-    type : 'GET',
-    url: '/shop/ecshop/index.php/Home/Register/logInfoAjax',
-    dataType: 'Json',  //指定服务器返回json
-    success: function (data) {
-        var html;
-        if(data.ok == 1){
-            html = "您好<?php echo session('user_name') ?>，欢迎来到京西！[<a href='/shop/ecshop/index.php/Home/Register/logout'>退出</a>]";
-        }else{
-            html = "您好，欢迎来到京西！[<a href='/shop/ecshop/index.php/Home/Register/login'>登录</a>] [<a href='/shop/ecshop/index.php/Home/Register/register'>免费注册</a>]"
-        }
-
-        $('#logInfo').html(html);
-    }
-
-});
-</script>

@@ -28,7 +28,7 @@
         </div>
         <div class="topnav_right fr">
             <ul>
-                <li>您好，欢迎来到京西！[<a href="login.html">登录</a>] [<a href="register.html">免费注册</a>] </li>
+                <li id="logInfo"></li>
                 <li class="line">|</li>
                 <li>我的订单</li>
                 <li class="line">|</li>
@@ -40,3 +40,25 @@
 </div>
 <!-- 顶部导航 end -->
 <div style="clear:both;"></div>
+
+
+<script >
+    $.ajax({
+        type : 'GET',
+        url: "__MODULE__/Register/logInfoAjax",
+        dataType: 'json',  //指定服务器返回json
+        success: function (data) {
+            var html;
+            if(data.ok == 1){
+                //html = "您好<?php echo session('user_name') ?>，欢迎来到京西！[<a href='__MODULE__/Register/logout'>退出</a>]";
+                html = data.userName+"您好，欢迎来到京西！[<a href='__MODULE__/Register/logout'>退出</a>]";
+
+            }else{
+                html = '您好，欢迎来到京西！[<a href="__MODULE__/Register/login">登录</a>] [<a href="__MODULE__/Register/register">免费注册</a>]' ;
+            }
+
+            $('#logInfo').html(html);
+        }
+
+    });
+</script>

@@ -42,7 +42,7 @@ class GoodsController extends BaseController
             $data['promote_price'] = I('promote_price');
             $data['promote_start_time'] = I('promote_start_time', 0, 'strtotime');
             $data['promote_end_time'] = I('promote_end_time', 0, 'strtotime');
-            //$data['goods_img'] = I('goods_img');
+            $data['goods_img'] = I('goods_img');
             //$data['goods_thumb'] = I('goods_thumb');
             $data['goods_number'] = I('goods_number');
             $data['click_count'] = I('click_count');
@@ -53,14 +53,19 @@ class GoodsController extends BaseController
             $data['is_onsale'] = I('is_onsale');
             $data['add_time'] = time();
 
-            $res = uploadOne('goods_img', 'Goods',array(array(300, 300)) );
-            if($res['status'] == 1){
+
+            $data['attr_id'] = I('attr_id');
+            $data['attr_value'] = I('attr_value');
+
+
+
+            $res = uploadOne('goods_img', 'Goods', array(array(60, 60)));
+            if ($res['status'] == 1) {
                 $data['goods_img'] = $res['images'][0];
                 $data['goods_thumb'] = $res['images'][1];
-            }else{
-                $this->error( "图片添加失败" , U('Goods/goodsAdd'),1);
+            } else {
+                $this->error("图片添加失败", U('Goods/goodsAdd'), 1);
             }
-
 
 
             $goods = D('goods');
@@ -74,7 +79,7 @@ class GoodsController extends BaseController
                         foreach ($attrIds as $k => $v) {
                             $goodsAttrs[] = array(
                                 'goods_id' => $goodsId,
-                                'attr_id' => $k,
+                                'attr_id' => $v,
                                 'attr_value' => $attrValues[$k],
                                 'attr_price' => $attrPrices[$k]
                             );
@@ -84,13 +89,55 @@ class GoodsController extends BaseController
 
                     M('goods_attr')->addAll($goodsAttrs);
 
+
+                    //=========添加图片================
+                    // var_dump($_FILES);
+                    //把$_FILES转化为二维数组
+                    $imgs = array();
+
+                    foreach ($_FILES['goods_album']['name'] as $k => $v) {
+                        // var_dump($v);
+                        if ($_FILES['goods_album']['error'][$k] == 0) {
+                            $imgs[] = array(
+                                'name' => $v,
+                                'type' => $_FILES['goods_album']['type'][$k],
+                                'tmp_name' => $_FILES['goods_album']['tmp_name'][$k],
+                                'error' => $_FILES['goods_album']['error'][$k],
+                                'size' => $_FILES['goods_album']['size'][$k],
+                            );
+                        }
+
+                    }
+
+                    $_FILES = $imgs;
+
+
+                    $imgsModel = M('goods_imgs');
+
+                    foreach ($imgs as $k => $v) {
+                        $res = uploadOne($k, 'GoodsAlbum', array(array(60, 60)));
+
+                        if ($res['status'] == 1) {
+                            $data_imgs['img'] = $res['images'][0];
+                            $data_imgs['thumb'] = $res['images'][1];
+                            $data_imgs['goods_id'] = $goodsId;
+                            $imgsModel->add($data_imgs);
+
+                        } else {
+//                            var_dump($res);
+//                            die;
+                            $this->error("图片添加失败", U('Goods/goodsAdd'), 1);
+                        }
+                    }
+
+
                     $this->success('添加商品成功', U('Goods/goodsAdd'), 1);
                 } else {
                     $this->error('添加商品失败', U('Goods/goodsAdd'), 1);
                 }
 
             } else {
-                $this->error(getError(), U('Goods/goodsAdd'), 1);
+                $this->error($goods->getError(), U('Goods/goodsAdd'), 1);
             }
 
             return;
@@ -113,7 +160,7 @@ class GoodsController extends BaseController
             return;
         }
         $goods = M('goods')->find(I('id'));
-        $this->assign('goods',$goods);
+        $this->assign('goods', $goods);
         $typeList = M('goods_type')->select();
         $catList = D('category')->catTree();
         $brandList = M('brand')->select();

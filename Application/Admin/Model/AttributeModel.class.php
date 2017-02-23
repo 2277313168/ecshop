@@ -55,7 +55,7 @@ class AttributeModel extends RelationModel{
                 $res .= '</select>';
 
             }else{
-                $res .= '<textarea rows="5" cols="6">{$vo.attr_value}</textarea>';
+                $res .= "<textarea rows='5' cols='6'>{$vo['attr_value']}</textarea>";
 
             }
             $res .= '</td>';

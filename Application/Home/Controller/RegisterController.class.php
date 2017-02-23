@@ -97,7 +97,13 @@ HTML;
                 session('user_id',$user['user_id']);
                 session('user_name',$user['user_name']);
 
-                $this->success('登陆成功',U('Index/index'),1);
+                if(session('url')){
+                    redirect(session('url'));
+                    session('url',null);
+                }else{
+                    $this->success('登陆成功',U('Index/index'),1);
+                }
+
             }else{
                 $this->error('密码错误，请重新登录', U('Register/login'), 1);
             }
@@ -144,13 +150,14 @@ HTML;
         if(session('user_id')){
             $arr = array(
                 'ok' => 1,
-                //'userName'=> session('user_name'),
+                'userName'=> session('user_name'),
             );
         }else{
             $arr = array(
                 'ok'=> 0,
             );
         }
+
 
         echo json_encode($arr); //不能是return
 

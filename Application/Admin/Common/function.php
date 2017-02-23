@@ -92,12 +92,13 @@ function uploadOne($imgName, $dirName, $thumb = array())
         //$upload->rootPath = './Uploads/'; // 设置附件上传根目录
         $upload->savePath = $dirName . '/'; // 设置附件上传（子）目录
         //$upload->saveName = array('date','Y-m-d');         // 采用时间戳命名
-        $upload->saveName = 'time';
+       // $upload->saveName = 'time';
+        $upload->saveName = time().'_'.mt_rand();
         $upload->autoSub = false;            // 关闭子目录保存，否则会有一个以日期命名的子目录
 
 
         // 上传文件 
-        // 上传时指定一个要上传的图片的名称，否则会把表单中所有的图片都处理，之后再想其他图片时就再找不到图片了
+        // 上传时指定一个要上传的图片的名称，否则会把表单中所有的图片都处理，之后再想要其他图片时就再找不到图片了
         $info = $upload->upload(array($imgName => $_FILES[$imgName]));
         if (!$info) {
             return array(

@@ -42,7 +42,7 @@
 		</tr>
         <?php if(is_array($brandList)): $i = 0; $__LIST__ = $brandList;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
 
-			<td class="first-cell"><span style="float:right"><a href=<?php echo ($vo["brand_logo"]); ?> target="_brank"><img src="/shop/ecshop<?php echo ($vo["logo"]); ?>" width="20" height="20" border="0" alt="品牌LOGO"></a></span>
+			<td class="first-cell"><span style="float:right"><a href=<?php echo ($vo["brand_logo"]); ?> target="_brank"><img src="/shop/ecshop<?php echo ($vo["logo"]); ?>" width="20" height="20" border="0" alt="品牌LOGO" /></a></span>
 			<span onclick="javascript:listTable.edit(this, 'edit_brand_name', 1)" title="点击修改内容" style=""><?php echo ($vo["brand_name"]); ?></span>
 			</td>
 			<td><a href="<?php echo ($vo["url"]); ?>" target="_brank"><?php echo ($vo["url"]); ?></a></td>

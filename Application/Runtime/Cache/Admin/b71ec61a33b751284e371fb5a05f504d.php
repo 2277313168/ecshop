@@ -40,7 +40,7 @@
 			<tbody>
 				<tr>
 					<td class="label">商品名称：</td>
-					<td><input type="text" name="goods_name" value="诺基亚N85" size="30"><span class="require-field">*</span></td>
+					<td><input type="text" name="goods_name" value="" size="30"><span class="require-field">*</span></td>
 				</tr>
 				<tr>
 					<td class="label">商品货号： </td>
@@ -507,7 +507,7 @@
               <a href="javascript:;" onclick="addImg(this)">[+]</a>
               图片描述 <input type="text" name="img_desc[]" size="20">
               <!--上传文件 <input type="file" name="goods_img[]">-->
-               上传文件 <input type="file" name="goods_img">
+               上传文件 <input type="file" name="goods_album[]">
               <input type="text" size="40" value="或者输入外部图片链接地址" style="color:#aaa;" onfocus="if (this.value == '或者输入外部图片链接地址'){this.value='http://';this.style.color='#000';}" name="img_file[]">
             </td>
           </tr>
