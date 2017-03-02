@@ -170,12 +170,12 @@
 			<div class="cart fl">
 				<dl>
 					<dt>
-						<a href="">去购物车结算</a>
+						<a href="/shop/ecshop/index.php/Home/Cart/index">去购物车结算</a>
 						<b></b>
 					</dt>
 					<dd>
 						<div class="prompt">
-							购物车中还没有商品，赶紧选购吧！
+							<!--购物车中还没有商品，赶紧选购吧！-->
 						</div>
 					</dd>
 				</dl>
@@ -468,7 +468,8 @@
                     <li class="star"><span>商品评分：</span> <strong></strong><a href="">(已有21人评价)</a></li>
                     <!-- 此处的星级切换css即可 默认为5星 star4 表示4星 star3 表示3星 star2表示2星 star1表示1星 -->
                 </ul>
-                <form action="" method="post" class="choose">
+                <form action="/shop/ecshop/index.php/Home/Cart/add" method="post" class="choose">
+                    <input type="hidden" name="goods_id" value="<?php echo ($goods["goods_id"]); ?>" />
                     <ul>
                         <?php foreach ($gaData1 as $k => $v): ?>
                         <li class="product">
@@ -490,7 +491,7 @@
                                 <dt>购买数量：</dt>
                                 <dd>
                                     <a href="javascript:;" id="reduce_num"></a>
-                                    <input type="text" name="amount" value="1" class="amount"/>
+                                    <input type="text" name="goods_num" value="1" class="amount"/>
                                     <a href="javascript:;" id="add_num"></a>
                                 </dd>
                             </dl>
@@ -752,6 +753,7 @@
 <script>
     var goodsId = $('#inputGoodsId').val();
     var pending = 0 ; // 当前是否正在发请求
+    //如果不加pending控制，则一次拖动会同时出发几个ajax请求
 
     // ajax获取商品的评论
     $.ajax({

@@ -165,12 +165,12 @@
 			<div class="cart fl">
 				<dl>
 					<dt>
-						<a href="">去购物车结算</a>
+						<a href="/shop/ecshop/index.php/Home/Cart/index">去购物车结算</a>
 						<b></b>
 					</dt>
 					<dd>
 						<div class="prompt">
-							购物车中还没有商品，赶紧选购吧！
+							<!--购物车中还没有商品，赶紧选购吧！-->
 						</div>
 					</dd>
 				</dl>

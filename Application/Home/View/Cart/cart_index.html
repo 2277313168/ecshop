@@ -1,0 +1,146 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>购物车</title>
+    <meta name="keywords" content="{$page_keywords}"/>
+    <meta name="description" content="{$page_description}"/>
+    <link rel="stylesheet" href="{$Think.const.HOME_PUBLIC}/style/base.css" type="text/css">
+    <link rel="stylesheet" href="{$Think.const.HOME_PUBLIC}/style/global.css" type="text/css">
+    <link rel="stylesheet" href="{$Think.const.HOME_PUBLIC}/style/header.css" type="text/css">
+
+
+    <link rel="stylesheet" href="{$Think.const.HOME_PUBLIC}/style/index.css" type="text/css">
+    <link rel="stylesheet" href="{$Think.const.HOME_PUBLIC}/style/cart.css" type="text/css">
+    <link rel="stylesheet" href="{$Think.const.HOME_PUBLIC}/style/common.css" type="text/css">
+    <link rel="stylesheet" href="{$Think.const.HOME_PUBLIC}/style/jqzoom.css" type="text/css">
+
+    <link rel="stylesheet" href="{$Think.const.HOME_PUBLIC}/style/bottomnav.css" type="text/css">
+    <link rel="stylesheet" href="{$Think.const.HOME_PUBLIC}/style/footer.css" type="text/css">
+    <script type="text/javascript" src="{$Think.const.HOME_PUBLIC}/js/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="{$Think.const.HOME_PUBLIC}/js/header.js"></script>
+    <script type="text/javascript" src="{$Think.const.HOME_PUBLIC}/js/index.js"></script>
+    <script type="text/javascript" src="{$Think.const.HOME_PUBLIC}/js/cart1.js"></script>
+    <script type="text/javascript" src="{$Think.const.HOME_PUBLIC}/js/jqzoom-core.js"></script>
+
+
+</head>
+<body>
+
+
+<include file="Common/layout_top"/>
+<include file="Common/header"/>
+
+<!-- 页面头部 start -->
+<div class="header w990 bc mt15">
+    <div class="logo w990">
+        <h2 class="fl"><a href="__MODULE__/Index/index"><img src="{$Think.const.HOME_PUBLIC}/images/logo.png"
+                                                             alt="京西商城"></a></h2>
+        <div class="flow fr">
+            <ul>
+                <li class="cur">1.我的购物车</li>
+                <li>2.填写核对订单信息</li>
+                <li>3.成功提交订单</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- 页面头部 end -->
+<div style="clear:both;"></div>
+<!-- 主体部分 start -->
+<div class="mycart w990 mt10 bc">
+    <h2><span>我的购物车</span></h2>
+
+
+    <table>
+        <thead>
+        <tr>
+            <!--<td></td>-->
+            <th class="col1">商品名称</th>
+            <!--<th class="col2">商品信息</th>-->
+            <th class="col3">单价</th>
+            <th class="col4">数量</th>
+            <th class="col5">小计</th>
+            <th class="col6">操作</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        <?php
+				$tp = 0; // 总价
+				foreach ($cartList as $k => $v): ?>
+
+        <tr id="updateInfo" goods_id="{$v.goods_id}" goods_attr_id="{$v.goods_attr_id}">
+            <!--<td><input type="checkbox" name="checkBox[]" value="{$v.goods_id}"> </td>-->
+            <td class="col1"><a href=""><img src="__ROOT__/{$v.goods_img}"/></a> <strong><a
+                    href="">{$v.goods_name}</a></strong></td>
+            <!--<td class="col2"> {$v.goods_attr_str} </td>-->
+            <td class="col3">￥<span>{$v.shop_price}</span>元</td>
+            <td class="col4">
+
+                <a href="javascript:;" class="reduce_num"></a>
+                <input id="inputNum" type="text" name="amount" value="{$v.goods_num}" class="amount"/>
+                <a href="javascript:;" class="add_num"></a>
+
+               (库存：{$v.goods_kucun}件)
+            </td>
+            <td class="col5">￥<span><?php $xj = $v['goods_num'] * $v['shop_price']; $tp+=$xj; echo $xj; ?></span>元
+            </td>
+            <td class="col6"><a href="javascript:void(0);">删除</a></td>
+        </tr>
+        <?php endforeach; ?>
+        </tbody>
+
+        <tfoot>
+        <tr>
+            <td colspan="6">购物金额总计： <strong>￥ <span id="total">{$tp}</span>元</strong></td>
+        </tr>
+        </tfoot>
+    </table>
+
+        <div class="cart_btn w990 bc mt10">
+            <a href="__MODULE__/Index/index" class="continue">继续购物</a>
+            <a href="__MODULE__/Cart/order" onclick="isLack();" class="checkout">结 算</a>
+
+        </div>
+
+</div>
+<!-- 主体部分 end -->
+
+
+<include file="Common/footer"/>
+<include file="Common/layout_bottom"/>
+
+
+<script>
+    function isLack() {
+//        alert(1);
+    }
+
+
+    function ajaxUpdateCart(goodsId, goodsNum) {
+        //不能向下面那样写，不然每次只能执行一个商品的修改
+//	var goodsId = $('#updateInfo').attr('goods_id') ;
+//	var goodsNum = $('#inputNum').val();
+        $.ajax({
+            type: 'GET',
+            url: "__MODULE__/Cart/ajaxUpdate/id/" + goodsId + "/num/" + goodsNum,
+            dataType: 'json',
+            success: function (data) {
+
+            }
+        })
+
+    }
+
+    //$.ajax({
+    //	type: 'GET',
+    //	url : "__MODULE__/Cart/ajaxKucun/"+goodsId+"/num/"+goodsNum ,
+    //	dataType : "json",
+    //	success : function (data) {
+    //
+    //	}
+    //})
+
+</script>

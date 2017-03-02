@@ -13,9 +13,9 @@
 .mycart tbody td{border-bottom: 1px solid #E7E3E7;}
 .mycart td{text-align: center;}
 .mycart .col1{width: 40%;}
-.mycart .col2{width: 20%;}
+/*.mycart .col2{width: 20%;}*/
 .mycart .col3{width: 10%;}
-.mycart .col4{width: 10%;}
+.mycart .col4{width: 30%;}
 .mycart .col5{width: 10%;}
 .mycart .col6{width: 10%;}
 .mycart tbody img{width: 80px; height: 80px;border: 1px solid #eee; vertical-align: middle; float: left; display: inline; margin-right: 10px;}
@@ -23,7 +23,7 @@
 .mycart td.col1 strong{display: inline-block; float: left; width: 280px; margin-top: 25px; }
 .mycart td.col2{text-align: left; padding-left: 60px;}
 
-.mycart td.col4{padding-left: 10px;}
+.mycart td.col4{padding-left: 100px;}
 .mycart .amount{float:left; display: inline; width: 30px; height: 16px; padding: 2px; border: 1px solid #ccc; text-align: center; margin: 0 5px; }
 
 .reduce_num{float: left; display: inline; width: 15px; height: 15px; border: 0; padding: 0; margin:0; background: url("../images/newicon.png") -216px -190px;position: relative; top:4px; }

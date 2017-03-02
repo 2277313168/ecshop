@@ -101,6 +101,7 @@ HTML;
                     redirect(session('url'));
                     session('url',null);
                 }else{
+                    D('Cart')->addToDb(); //把cookie中的购物车移到数据库中
                     $this->success('登陆成功',U('Index/index'),1);
                 }
 
